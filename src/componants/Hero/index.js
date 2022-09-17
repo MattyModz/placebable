@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+
+import { RoughNotation } from "react-rough-notation";
 function Hero() {
   return (
     <>
@@ -44,7 +44,7 @@ function Hero() {
             <div className="w-1/2"></div>
             <div className="w-1/2 text-5xl py-8 font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
               But Recruiters?
-              <br /> They're
+              <br /> They&apos;re
               <span>
                 {" "}
                 <RoughNotation
@@ -63,7 +63,7 @@ function Hero() {
             <div className="w-1/2"></div>
             <div className="w-1/2  text-2xl   max-w-xl lg:text-right text-[#FFF6E9]">
               <p>
-                Unless You're{" "}
+                Unless You&apos;re{" "}
                 <span>
                   {" "}
                   <RoughNotation
@@ -77,7 +77,7 @@ function Hero() {
                   </RoughNotation>
                 </span>{" "}
                 how can you trust
-                <br /> they'll find what you're really after?
+                <br /> they&apos;ll find what you&apos;re really after?
               </p>
             </div>
           </div>

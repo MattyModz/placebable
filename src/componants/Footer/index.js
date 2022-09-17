@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import Contact from "./contact";
 const Footer = () => {
   return (
@@ -8,8 +7,8 @@ const Footer = () => {
         <div className="lg:w-1/2">
           <div className="font-bold text-7xl mb-8">Get In Touch</div>
           <div className="text-4xl">
-            To Reach Us, Fill Out The Contact Form And We'll Get Right Back To
-            You.
+            To Reach Us, Fill Out The Contact Form And We&apos;ll Get Right Back
+            To You.
           </div>
         </div>
 

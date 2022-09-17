@@ -1,5 +1,5 @@
 import React from "react";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
     <div className="bg-hero bg-cover text-[#FFF6E9] lg:px-4 ">
