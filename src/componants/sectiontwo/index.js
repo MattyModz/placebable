@@ -14,7 +14,7 @@ function Sectiontwo() {
                 show={true}
                 color="#C096D6"
                 padding={"-6px"}
-                strokeWidth={"14px"}
+                strokeWidth={"10px"}
               >
                 broken,{" "}
               </RoughNotation>

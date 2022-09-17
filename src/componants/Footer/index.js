@@ -58,7 +58,7 @@ const Footer = () => {
               <div className="mr-4">
                 {" "}
                 <Link href={""} passHref>
-                  Privacy Policy
+                  Privacy
                 </Link>
               </div>
               <div>
