@@ -3,7 +3,7 @@ import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
     <div className="bg-hero bg-cover container text-[#FFF6E9] lg:px-4 ">
-      <div className="h-full container ">
+      <div className="h-full ">
         <div className="max-w-6xl">
           <div className="text-9xl font-bold text-[#FFF6E9] px-4">
             If its{" "}

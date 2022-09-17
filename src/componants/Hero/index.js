@@ -4,7 +4,7 @@ import { RoughNotation } from "react-rough-notation";
 function Hero() {
   return (
     <>
-      <div className="bg-[#898989] p-4 ">
+      <div className="bg-[#898989] p-6 ">
         <section className="h-full container py-16 bg-[#898989] ">
           <div className="flex ">
             <div className="text-6xl font-bold">Recruitment 2.0</div>
@@ -42,7 +42,7 @@ function Hero() {
           </div>
           <div className="  py-8  flex -mt-12 justify-end">
             <div className="w-1/2"></div>
-            <div className="w-1/2 text-5xl py-8 font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
+            <div className="w-1/2 text-5xl py-8  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
               But Recruiters?
               <br /> They&apos;re
               <span>
