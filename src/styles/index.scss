@@ -1,0 +1,33 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+// @font-face {
+//   font-family: "Britti";
+
+//   src: url("/public/fonts/BrittiReg.otf");
+// }
+
+// @font-face {
+//   font-family: "Britti";
+//   src: local("BrittiReg"), url("../fonts/BrittiReg.otf") format("otf");
+// }
+
+@layer base {
+  html {
+    font-family: Britti, system-ui, sans-serif;
+  }
+}
+
+@font-face {
+  font-family: "Britti";
+  src: url("../fonts/BrittiReg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Britti";
+  font-weight: bold;
+  src: url("../fonts/BrittiBold.otf") format("opentype");
+}
