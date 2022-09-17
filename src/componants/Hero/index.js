@@ -40,9 +40,9 @@ function Hero() {
             </div>
             <div className=""></div>
           </div>
-          <div className="  py-8  flex -mt-12 justify-end">
-            <div className="w-1/2"></div>
-            <div className="w-1/2 text-5xl py-8  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
+          <div className="  p-8  flex -mt-12 justify-end">
+            <div className="lg:w-1/2"></div>
+            <div className="lg:w-1/2 text-5xl py-8  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
               But Recruiters?
               <br /> They&apos;re
               <span>
@@ -82,7 +82,7 @@ function Hero() {
             </div>
           </div>
           <div className="lg:flex ">
-            <div className="w-1/3">
+            <div className="lg:w-1/3">
               {" "}
               <div className="">
                 {" "}
@@ -95,7 +95,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className="w-1/3  justify-center">
+            <div className="lg:w-1/3  justify-center">
               <div className="flex justify-center">
                 {" "}
                 <img src={"./S1play.svg"} width={50} height={50} />
@@ -105,7 +105,7 @@ function Hero() {
                 Watch the full video
               </div>
             </div>
-            <div className="w-1/3"></div>
+            <div className="lg:w-1/3"></div>
           </div>
         </section>
       </div>
