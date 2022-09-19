@@ -41,3 +41,8 @@ function Sectionone() {
 }
 
 export default Sectionone;
+
+//  <video autoplay loop muted>
+//    <source src="Landing page.mp4" type="video/mp4" />
+//    Your browser does not support the video tag.
+//  </video>;

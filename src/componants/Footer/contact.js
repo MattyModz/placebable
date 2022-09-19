@@ -49,7 +49,7 @@ function Contact() {
         </div>
 
         <div class="flex items-center justify-end sm:col-span-2">
-          <button class="inline-block rounded-l px-8 py-3 text-sm  text-center text-white transition duration-100 bg-black ">
+          <button class="inline-block rounded-l px-8 py-3 text-sm  text-center text-white transition duration-100 bg-[#C096D6] ">
             Submit
           </button>
         </div>

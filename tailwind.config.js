@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('../../public/home1.jpg')",
+        candidate: "url('../../public/Candidate.jpg')",
+        clients: "url('../../public/Clients.jpg')",
+        join: "url('../../public/Join Us.jpg')",
       },
       padding: { "fluid-video": "56.25%" },
       colors: {

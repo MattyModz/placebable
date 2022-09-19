@@ -16,7 +16,7 @@ export default function Nav() {
               <img src={"/Logo.svg"} height={150} width={200} />
             </div>
           </a>
-          <div className=" w-1/2">
+          <div className=" w-1/2 hidden lg:block">
             <nav class=" pt-3 font-bold pb-5 mb-4 text-base border-gray-200 md:pt-0 md:mb-0 md:border-b-0 md:pr-3 md:mr-3  md:pb-0 flex justify-between">
               <a
                 href="#_"
