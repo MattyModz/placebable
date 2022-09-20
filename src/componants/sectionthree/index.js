@@ -2,11 +2,11 @@ import React from "react";
 import { RoughNotation } from "react-rough-notation";
 function Sectionthree() {
   return (
-    <div className=" bg-[#303030] m">
-      <div className="h-screen lg:flex container py-16 pb-16  ">
-        <div className="lg:w-1/5 grid-cols-1  h-full grid font-bold text-2xl text-white text-left ">
-          <div className=" bg-gray-50 bg-clients bg-cover  mt-2 grid items-center text-3xl ">
-            <div className="ml-16"> Client</div>
+    <div className=" bg-[#303030] h-full container">
+      <div className="lg:h-screen lg:flex container py-16 pb-16  ">
+        <div className="lg:w-1/5 lg:grid-cols-1 grid-cols-reverse h-full grid font-bold text-2xl text-white text-left ">
+          <div className=" bg-gray-50 h-full bg-clients bg-cover  mt-2 grid items-center text-3xl ">
+            <div className="ml-16 "> Client</div>
           </div>
           <div
             className=" bg-gray-50 bg-candidate
@@ -18,10 +18,10 @@ function Sectionthree() {
             <div className="ml-16"> Join us</div>
           </div>
         </div>
-        <div className="lg:w-4/5 font-bold text-9xl text-white ">
+        <div className="lg:w-4/5 container font-bold text-6xl lg:text-9xl text-white h-full ">
           <div className="grid items-center h-full">
             <div className="flex justify-end ">
-              <h2 className="text-right ">
+              <h2 className="text-right p-4 ">
                 How <br />{" "}
                 <span>
                   {" "}
