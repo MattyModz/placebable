@@ -32,12 +32,12 @@ function Sectionfour() {
             {" "}
             <div className="bg-[#8CD87C] p-8 m-4">
               <p>
-                “We are huge Placeable fans at Multiverse; they're a joy to
-                partner with, and we've made more Go To Market hires with them
-                over the last year than through any other source. We have found
-                their ways of working to be refreshing; they are thorough and
-                reliable; candidates love and trust them; and they aren't afraid
-                to challenge us in the right moments.”
+                “We are huge Placeable fans at Multiverse; they&apos;re a joy to
+                partner with, and we&apos;ve made more Go To Market hires with
+                them over the last year than through any other source. We have
+                found their ways of working to be refreshing; they are thorough
+                and reliable; candidates love and trust them; and they
+                aren&apos;t afraid to challenge us in the right moments.”
               </p>
               <h3 className="py-4 text-2xl font-bold">
                 Reginoal director at Multiverse | <br />
@@ -53,12 +53,12 @@ function Sectionfour() {
           <div className="lg:w-1/3">
             <div className="bg-[#C096D6] p-8 lg:-mt-24 m-4">
               <p>
-                “We are huge Placeable fans at Multiverse; they're a joy to
-                partner with, and we've made more Go To Market hires with them
-                over the last year than through any other source. We have found
-                their ways of working to be refreshing; they are thorough and
-                reliable; candidates love and trust them; and they aren't afraid
-                to challenge us in the right moments.”
+                “We are huge Placeable fans at Multiverse; they&apos;re a joy to
+                partner with, and we&apos;ve made more Go To Market hires with
+                them over the last year than through any other source. We have
+                found their ways of working to be refreshing; they are thorough
+                and reliable; candidates love and trust them; and they
+                aren&apos;t afraid to challenge us in the right moments.”
               </p>
               <h3 className="py-4 text-2xl font-bold">
                 Reginal director at Multiverse | <br />

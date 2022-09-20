@@ -11,8 +11,8 @@ function indexclient() {
         <div className="  py-8 lg:w-1/2 justify-start flex">
           <div className="">
             <p>
-              Dragging searches, irrelevant metrics, ghost candidates…  It’s
-              everything you shouldn’t have to expect when turning to a
+              Dragging searches, irrelevant metrics, ghost candidates… It’s
+              everything you shouldn&apos;t have to expect when turning to a
               recruiter to help fill your roles. So don’t.
             </p>
           </div>

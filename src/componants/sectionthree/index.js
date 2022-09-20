@@ -4,8 +4,8 @@ function Sectionthree() {
   return (
     <div className="bg-[#303030]">
       <div className=" bg-[#303030] h-full container">
-        <div className="lg:h-screen lg:flex container py-16 pb-16  ">
-          <div className="lg:w-1/5 lg:grid-cols-1 grid-cols-reverse h-full grid font-bold text-2xl text-white text-left ">
+        <div className="lg:h-screen lg:flex grid grid grid-cols-1 grid-cols-reverse container py-16 pb-16  ">
+          <div className="lg:w-1/5  h-full grid font-bold text-2xl text-white text-left ">
             <div className=" bg-gray-50  bg-clients bg-cover  mt-2 grid items-center text-3xl ">
               <div className="ml-16 "> Client</div>
             </div>
