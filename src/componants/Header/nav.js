@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Nav() {
   // const router = useRouter;
 
@@ -13,17 +15,19 @@ export default function Nav() {
             class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none"
           >
             <div className="flex lg:justify-center sm:justify-start">
-              <img src={"/Logo.svg"} height={150} width={200} />
+              <Link href={"/"} passHref>
+                <img src={"/Logo.svg"} height={150} width={200} />
+              </Link>
             </div>
           </a>
           <div className=" w-1/2 hidden lg:block">
             <nav class=" pt-3 font-bold pb-5 mb-4 text-base border-gray-200 md:pt-0 md:mb-0 md:border-b-0 md:pr-3 md:mr-3  md:pb-0 flex justify-between">
-              <a
-                href="#_"
+              <Link
+                href="/clients"
                 class="mr-6 font-bold text-xl leading-6 text-[#FFF6E9] hover:text-gray-900"
               >
                 Client
-              </a>
+              </Link>
               <a
                 href="#_"
                 class="mr-6 font-bold text-xl leading-6 text-[#FFF6E9] hover:text-gray-900"
