@@ -2,10 +2,10 @@ import React from "react";
 
 function indexclient() {
   return (
-    <div className="bg-[#898989] p-6 h-screen ">
+    <div className="bg-[#898989] p-6 h-screen border">
       <section className="h-full container py-16 bg-[#898989] ">
         <div className="flex ">
-          <div className="text-6xl font-bold">Clients</div>
+          <div className="text-6xl font-bold ">Clients</div>
           <div className=""></div>
         </div>
         <div className="  py-8 lg:w-1/2 justify-start flex">
@@ -18,7 +18,7 @@ function indexclient() {
           </div>
         </div>
 
-        <div className="lg:flex ">
+        <div className="lg:flex border grid items-end">
           <div className="lg:w-1/3">
             {" "}
             <div className="">

@@ -1,55 +1,113 @@
+import { useState } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Nav() {
   // const router = useRouter;
 
+  const [Menu, showMenu] = useState(false);
   return (
-    <>
-      <div className="bg-[#898989] ">
-        <div
-          class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row l tails-selected-element "
-          contenteditable="true"
-        >
+    <nav className="bg-[#898989] w-full select-none shadow-sm">
+      <div className="flex items-center justify-between h-20 px-8 py-2 mx-auto max-w-7xl md:h-24 sm:box-content">
+        <div className="flex items-center w-64">
           <a
             href="#_"
-            class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none"
+            className="flex items-center order-first font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center"
           >
-            <div className="flex lg:justify-center sm:justify-start">
+            <span className=" pt-2 text-xl font-black leading-none text-gray-900 select-none logo">
               <Link href={"/"} passHref>
-                <img src={"/Logo.svg"} height={150} width={200} />
+                <div className="">
+                  <Image
+                    src={"/Logo.svg"}
+                    width={150}
+                    height={200}
+                    alt="Logo"
+                  />
+                </div>
               </Link>
-            </div>
+            </span>
           </a>
-          <div className=" w-1/2 hidden lg:block">
-            <nav class=" pt-3 font-bold pb-5 mb-4 text-base border-gray-200 md:pt-0 md:mb-0 md:border-b-0 md:pr-3 md:mr-3  md:pb-0 flex justify-between">
-              <Link
-                href="/clients"
-                class="mr-6 font-bold text-xl leading-6 text-[#FFF6E9] hover:text-gray-900"
+        </div>
+        <div>
+          <div className="py-2 text-white font-bold cursor-pointer sm:block md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+            <svg
+              onClick={() => showMenu((state) => !Menu)}
+              aria-haspopup="true"
+              aria-label="Main Menu"
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-8 h-8 "
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="white"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z"></path>
+              <line x1="4" y1="8" x2="20" y2="8"></line>
+              <line x1="4" y1="16" x2="20" y2="16"></line>
+            </svg>
+          </div>
+          <div className={`${Menu ? "" : "hidden md:block lg:block "}`}>
+            <div className="fixed  top-0 z-30 block text-gray-500 cursor-pointer pt-7 sm:pt-8 md:hidden lg:hidden hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+              <svg
+                onClick={() => showMenu((state) => !Menu)}
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-8 h-8"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="white"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                Client
-              </Link>
-              <a
-                href="#_"
-                class="mr-6 font-bold text-xl leading-6 text-[#FFF6E9] hover:text-gray-900"
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </div>
+            <ul className="bg-[#898989]  fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
+              <li
+                className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
+                onClick={() => showMenu((state) => !Menu)}
               >
-                Candidate
-              </a>
-              <a
-                href="#_"
-                class="mr-6 font-bold text-xl leading-6 text-[#FFF6E9] hover:text-gray-900"
+                <Link href={"/"} passHref>
+                  Home
+                </Link>
+              </li>
+
+              <li
+                className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
+                onClick={() => showMenu((state) => !Menu)}
               >
-                Join Us
-              </a>
-              <a
-                href="#_"
-                class="font-bold text-xl leading-6 text-[#FFF6E9] md:mr-6 hover:text-gray-900"
+                <Link
+                  href={
+                    "https://www.youtube.com/channel/UCoTNdJ9rrEhQuAhbXo35oNw"
+                  }
+                  passHref
+                >
+                  Podcasts
+                </Link>
+              </li>
+              <li
+                className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
+                onClick={() => showMenu((state) => !Menu)}
               >
-                Contact
-              </a>
-            </nav>
+                <Link href={"/contact"} passHref>
+                  Contact
+                </Link>
+              </li>
+              <li
+                className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
+                onClick={() => showMenu((state) => !Menu)}
+              >
+                <Link href={"/blog"} passHref>
+                  Blog
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </>
+    </nav>
   );
 }

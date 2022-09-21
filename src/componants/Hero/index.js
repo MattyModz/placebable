@@ -4,7 +4,7 @@ import { RoughNotation } from "react-rough-notation";
 function Hero() {
   return (
     <>
-      <div className="bg-[#898989] p-6 ">
+      <div className="bg-[#898989] lg:h-screen p-6 ">
         <section className="h-full container py-16 bg-[#898989] ">
           <div className="flex ">
             <div className="text-6xl font-bold">Recruitment 2.0</div>
