@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Header/nav";
+// import Nav from "../Header/nav";
 import { RoughNotation } from "react-rough-notation";
 function Hero() {
   return (

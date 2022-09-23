@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./card";
-import Image from "next/image";
+// import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 import Card2 from "./cardpurp";
 function Sectionsix({}) {
