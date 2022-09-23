@@ -5,7 +5,7 @@ import { RoughNotation } from "react-rough-notation";
 import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E] py-8 h-full ">
+    <div className="bg-[#1E1E1E] py-8 h-full p-4 ">
       <div className="  lg:bg-p2btmbg bg-no-repeat relative h-full lg:h-screen container">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">

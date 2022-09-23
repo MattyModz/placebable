@@ -2,7 +2,7 @@ import Link from "next/link";
 import Contact from "./contact";
 const Footer = () => {
   return (
-    <div className="bg-[#303030] h-full text-[#FFF6E9]">
+    <div className="bg-[#303030] h-full text-[#FFF6E9] p-4">
       <section class=" py-8  container px-4 lg:px-0">
         <div className="flex">
           <div className="lg:w-1/2">
