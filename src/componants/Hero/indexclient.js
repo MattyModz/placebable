@@ -57,7 +57,7 @@ function indexclient() {
         </div>
         <video
           autoPlay
-          poster="https://via.placeholder.com/250&text=I%20am%20Poster"
+          poster="/Logo.svg"
           loop
           muted
           class="absolute z-10 w-auto min-w-full min-h-full
