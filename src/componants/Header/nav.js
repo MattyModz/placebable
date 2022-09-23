@@ -6,7 +6,7 @@ export default function Nav() {
 
   const [Menu, showMenu] = useState(false);
   return (
-    <nav className="bg-[#898989] w-full select-none shadow-sm">
+    <nav className=" w-full select-none shadow-sm">
       <div className="flex items-center justify-between h-20 px-8 py-2 mx-auto max-w-7xl md:h-24 sm:box-content">
         <div className="flex items-center w-64">
           <a

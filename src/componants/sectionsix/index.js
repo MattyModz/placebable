@@ -1,18 +1,111 @@
 import React from "react";
-
-function Sectionsix() {
+import Card from "./card";
+import Image from "next/image";
+import { RoughNotation } from "react-rough-notation";
+import Card2 from "./cardpurp";
+function Sectionsix({}) {
   return (
-    <div className="h-screen bg-[#1E1E1E]">
-      <div className="container">
-        <div className="flex border">
-          <div className="w-1/3 border"></div>
-          <div className="w-2/3 border">
-            <p className="text-9xl text-right text-white font-bold">
-              How it
-              <br />
-              <span>works</span>
-            </p>
+    <div className="bg-[#1E1E1E] py-8 h-full ">
+      <div className="  lg:bg-p2btmbg bg-no-repeat relative h-screen container">
+        <div className="">
+          <div className="lg:flex ">
+            <div className="lg:w-2/3  text-7xl  h-screen text-white">
+              <div className="grid h-full items-stretch">
+                {" "}
+                <div className="lg:flex">
+                  <div className="lg:w-1/3"></div>
+                  <div className="lg:w-1/3 ">
+                    <div className="lg:flex ">
+                      <Card
+                        title={"The Brief"}
+                        src={"/p2/How It Works Icons/Brief.svg"}
+                        description={
+                          "We’ll work together to make  sure we understand exactly what you’re looking for."
+                        }
+                        no={"1"}
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:w-1/3"></div>
+                </div>
+                <div className="lg:flex">
+                  <div className="w-1/2 p-8 mt-8">
+                    {" "}
+                    <Card2
+                      title={"The Search"}
+                      src={"/p2/How It Works Icons/Search.svg"}
+                      description={
+                        "We’ll draw on our extensive database to identify a first set of compatible candidates."
+                      }
+                      no={"2"}
+                    />
+                  </div>
+                  <div className="w-1/2 p-12 -mt-4">
+                    {" "}
+                    <Card2
+                      title={"The Brief"}
+                      src={"/p2/How It Works Icons/Science.svg"}
+                      description={
+                        "We’ll begin our unrivalled, data-led vetting process to determine the final shortlist."
+                      }
+                      no={"3"}
+                    />
+                  </div>
+                </div>
+                <div className="lg:flex ">
+                  <div className="w-1/2"></div>
+                  <div className="w-1/2 ">
+                    {" "}
+                    <Card2
+                      title={"The Interviews"}
+                      src={"/p2/How It Works Icons/Interviews.svg"}
+                      description={
+                        "We’ll guide applicants during your interview process through to offer, and make sure they’re set-up for success."
+                      }
+                      no={"4"}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/3  grid items-stretch ">
+              <p className="text-9xl text-right text-white font-bold">
+                How it
+                <br />
+                <span>
+                  {" "}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#8CD87C"
+                    padding={"-6px"}
+                    strokeWidth={"30px"}
+                  >
+                    works
+                  </RoughNotation>
+                </span>
+              </p>
+              <div className="p-8">
+                <Card
+                  title={"The Feedback"}
+                  src={"/p2/How It Works Icons/Feedback.svg"}
+                  description={
+                    "We’ll guide applicants during your interview process through to offer, and make sure they’re set-up for success."
+                  }
+                  no={"5"}
+                />
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        {" "}
+        <div>{/* <Image src={"/"} /> */}</div>
+        <div className="underline font-medium text-[#FFF6E9]">
+          Schedule your
+          <br />
+          discovery call
         </div>
       </div>
     </div>
@@ -25,22 +118,22 @@ export default Sectionsix;
 //    <div className=" bg-[#8CD87C]">
 //      <div className="flex">
 //        <div className="w-1/2">
-//          step 1 <br />
+//          no 1 <br />
 //          <span>The Brief</span>
 //        </div>
 //        <div className="w-1/2"></div>
 //      </div>
 //      <div className="flex justify-center">
-//        <div className="w-1/3"></div>
-//        <div className="w-1/3">
+//        <div className="lg:w-1/3"></div>
+//        <div className="lg:w-1/3">
 //          {" "}
-//          <p className="w-1/3">
+//          <p className="lg:w-1/3">
 //            We’ll work together to make sure we understand exactly what you’re
 //            looking for.
 //          </p>
 //        </div>
 
-//        <div className="w-1/3"></div>
+//        <div className="lg:w-1/3"></div>
 //      </div>
 //    </div>
 //  </div>;

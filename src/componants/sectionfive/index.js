@@ -31,14 +31,14 @@ function Sectionfive() {
                   {" "}
                   <img src={"/icons/S3icon1.svg"} height={50} width={50} />
                 </div>
-                <div className="text-2xl font-bold py-4">Crystal Clarity</div>
+                <div className="text-2xl font-bold py-4">
+                  Reduced time (& cost)
+                </div>
 
                 <div>
                   <p className="py-4 text-xl">
-                    First thing’s first: we listen. We’ll work with you to
-                    understand what you need from us, as well as what we need
-                    from you. This way we’ll not only get the best result, we’ll
-                    get to it quickly.
+                    An in-depth, upfront brief means we’re able to identify
+                    high-quality candidates for you, quicker.
                   </p>
                 </div>
               </div>
@@ -49,14 +49,12 @@ function Sectionfive() {
                   <img src={"/icons/S3icon2.svg"} height={50} width={50} />
                 </div>
                 <div className="text-2xl font-bold py-4">
-                  Uncompromising Quality
+                  Superior compatibility
                 </div>
                 <div>
                   <p className="py-4 text-xl">
-                    Throw mud at the wall and see what sticks? Not a chance. We
-                    don’t make concessions when it comes to people’s futures. We
-                    hone our data and our process to deliver outstanding results
-                    – every time.
+                    With pre-defined quality gates in place, you’ll see only the
+                    best-suited candidates advance through the process.
                   </p>
                 </div>
               </div>
@@ -67,14 +65,12 @@ function Sectionfive() {
                   <img src={"/icons/S3icon3.svg"} height={50} width={50} />
                 </div>
                 <div className="text-2xl font-bold py-4">
-                  Wholehearted honesty
+                  Inclusion at the forefront
                 </div>
                 <div>
                   <p className="py-4 text-xl">
-                    Doing what’s right for you is incredibly important to us.
-                    That’s why you can count on us to give honest and open
-                    advice throughout the process if you ever need our help to
-                    reach a decision.
+                    We have a duty to reach everyone. That’s why our search
+                    strategy targets talent pools as diverse as possible.
                   </p>
                 </div>
               </div>
@@ -90,14 +86,14 @@ function Sectionfive() {
                   {" "}
                   <img src={"/icons/S3icon1.svg"} height={50} width={50} />
                 </div>
-                <div className="text-2xl font-bold py-4">Crystal Clarity</div>
+                <div className="text-2xl font-bold py-4">
+                  Real-time search insights{" "}
+                </div>
 
                 <div>
                   <p className="py-4 text-xl">
-                    First thing’s first: we listen. We’ll work with you to
-                    understand what you need from us, as well as what we need
-                    from you. This way we’ll not only get the best result, we’ll
-                    get to it quickly.
+                    What’s ours is yours: by sharing our search data trends you
+                    can always stay one step ahead of the market.
                   </p>
                 </div>
               </div>
@@ -107,33 +103,11 @@ function Sectionfive() {
                   {" "}
                   <img src={"/icons/S3icon2.svg"} height={50} width={50} />
                 </div>
-                <div className="text-2xl font-bold py-4">
-                  Uncompromising Quality
-                </div>
+                <div className="text-2xl font-bold py-4">A personal touch</div>
                 <div>
                   <p className="py-4 text-xl">
-                    Throw mud at the wall and see what sticks? Not a chance. We
-                    don’t make concessions when it comes to people’s futures. We
-                    hone our data and our process to deliver outstanding results
-                    – every time.
-                  </p>
-                </div>
-              </div>
-              <div className="p-4">
-                {" "}
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon3.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold py-4">
-                  Wholehearted honesty
-                </div>
-                <div>
-                  <p className="py-4 text-xl">
-                    Doing what’s right for you is incredibly important to us.
-                    That’s why you can count on us to give honest and open
-                    advice throughout the process if you ever need our help to
-                    reach a decision.
+                    You’ll benefit from a dedicated account manager – from the
+                    initial brief through to post-hire support.
                   </p>
                 </div>
               </div>

@@ -1,4 +1,3 @@
-import Nav from "./nav";
 import React from "react";
 const Header = () => {
   return (
@@ -14,7 +13,6 @@ const Header = () => {
           async
         ></script>
       </head>
-      <Nav />
     </>
   );
 };

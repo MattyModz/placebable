@@ -1,24 +1,29 @@
 import React from "react";
-
+import Nav from "../Header/nav";
 function indexclient() {
   return (
-    <div className="bg-[#898989] p-6 h-screen border">
-      <section className="h-full container py-16 bg-[#898989] ">
-        <div className="flex ">
-          <div className="text-6xl font-bold ">Clients</div>
-          <div className=""></div>
-        </div>
-        <div className="  py-8 lg:w-1/2 justify-start flex">
-          <div className="">
-            <p>
-              Dragging searches, irrelevant metrics, ghost candidates… It’s
-              everything you shouldn&apos;t have to expect when turning to a
-              recruiter to help fill your roles. So don’t.
-            </p>
+    <div className="bg-[#898989]  lg:h-screen   ">
+      <Nav />
+      <section className="  grid items-stretch h-full container  bg-[#898989] ">
+        <div>
+          <div className="flex ">
+            <div className="text-6xl font-bold ">Clients</div>
+          </div>
+          <div className="  py-8 lg:w-1/2 justify-start flex">
+            <div className="">
+              <p className="text-3xl text-[#FFF6E9]">
+                Dragging searches, irrelevant metrics, ghost candidates… <br />
+                It’s everything you shouldn&apos;t have to expect when turning
+                <br />
+                to a recruiter to help fill your roles. So don’t.
+              </p>
+              <div className="text-3xl font-bold py-8">
+                <p>So don&apos;t</p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="lg:flex border grid items-end">
+        <div className="lg:flex  ">
           <div className="lg:w-1/3">
             {" "}
             <div className="">
