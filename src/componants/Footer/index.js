@@ -39,19 +39,19 @@ const Footer = () => {
               <div className="flex justify-between">
                 <div>
                   {" "}
-                  <Link href={""} passHref>
+                  <Link href={"/client"} passHref>
                     Client
                   </Link>
                 </div>
                 <div>
                   {" "}
-                  <Link href={""} passHref>
+                  <Link href={"/candidate"} passHref>
                     Candidate
                   </Link>
                 </div>
                 <div>
                   {" "}
-                  <Link href={""} passHref>
+                  <Link href={"/joinus"} passHref>
                     Join Us
                   </Link>
                 </div>
@@ -61,13 +61,18 @@ const Footer = () => {
               <div className="flex justify-end px-8">
                 <div className="mr-4">
                   {" "}
-                  <Link href={""} passHref>
+                  <Link href={"/privacy"} passHref>
                     Privacy
                   </Link>
                 </div>
                 <div>
                   {" "}
-                  <Link href={""} passHref>
+                  <Link
+                    href={
+                      "https://www.linkedin.com/company/placeableconsulting"
+                    }
+                    passHref
+                  >
                     IN
                   </Link>
                 </div>
