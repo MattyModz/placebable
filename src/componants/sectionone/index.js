@@ -2,11 +2,11 @@ import React from "react";
 
 function Sectionone() {
   return (
-    <div className="h-screen bg-[#FFF6E9] grid items-center p-4">
+    <div className="lg:h-screen h-full bg-[#FFF6E9] grid items-center ">
       <div className="flex ">
         <div className="lg:w-1/3"></div>
         <div className="lg:w-1/3  ">
-          <div className="text-center lg:p-24 ">
+          <div className="text-center  ">
             <div className="font-bold text-3xl">Joey and Toby</div>
             <div className="font-bold text-3xl">Placeable, Co-Founders</div>
             <br></br>
