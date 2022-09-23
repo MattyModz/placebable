@@ -7,7 +7,5 @@ module.exports = {
     includePaths: [path.join(__dirname, "styles")],
   },
 
-  images: {
-    domains: [allowedImageWordPressDomain, "via.placeholder.com"],
-  },
+  images: {},
 };
