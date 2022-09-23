@@ -14,7 +14,7 @@ function Card2({ src, title, description, no }) {
           <Image src={src} height={"80"} width={"80"} />
         </div>
       </div>
-      <div className="text-left md:block hidden text-xl py-4 text-black container">
+      <div className="text-left  text-xl py-4 text-black container">
         {description}
       </div>
     </div>

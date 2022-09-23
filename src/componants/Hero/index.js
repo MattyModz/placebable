@@ -1,11 +1,12 @@
 import React from "react";
-// import Nav from "../Header/nav";
+import Nav from "../Header/nav";
 import { RoughNotation } from "react-rough-notation";
 function Hero() {
   return (
     <>
       <header className="relative flex items-center justify-center  h-full  overflow-hidden">
         <div className="relative w-full z-30  lg:h-screen p-6 ">
+          <Nav />
           <section className="h-full container py-16  ">
             <div className=" ">
               <div className="text-6xl font-bold text-white">
@@ -23,6 +24,7 @@ function Hero() {
                     color="#F98D2B"
                     padding={"2px"}
                     strokeWidth={"10px"}
+                    order={"1"}
                   >
                     evolved.{" "}
                   </RoughNotation>
@@ -36,6 +38,7 @@ function Hero() {
                     color="#8CD87C"
                     padding={"2px"}
                     strokeWidth={"10px"}
+                    order={"2"}
                   >
                     changed.{" "}
                   </RoughNotation>
@@ -56,6 +59,7 @@ function Hero() {
                     color="#F98D2B"
                     padding={"2px"}
                     strokeWidth={"10px"}
+                    order={"3"}
                   >
                     still the same.{" "}
                   </RoughNotation>
@@ -75,6 +79,7 @@ function Hero() {
                       color="#E3CCE1"
                       padding={"-px"}
                       strokeWidth={"5px"}
+                      order={"4"}
                     >
                       one step ahead{" "}
                     </RoughNotation>

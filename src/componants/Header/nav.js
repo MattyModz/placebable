@@ -7,8 +7,8 @@ export default function Nav() {
   const [Menu, showMenu] = useState(false);
   return (
     <nav className=" w-full select-none shadow-sm">
-      <div className="flex items-center justify-between h-20 px-8 py-2 mx-auto max-w-7xl md:h-24 sm:box-content">
-        <div className="flex items-center w-64">
+      <div className="flex items-center justify-between h-20  py-2 container md:h-24 sm:box-content">
+        <div className="flex items-center ">
           <a
             href="#_"
             className="flex items-center order-first font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center"
@@ -65,13 +65,13 @@ export default function Nav() {
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>
             </div>
-            <ul className="bg-[#898989]  fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
+            <ul className="bg-[#898989] lg:bg-[#000] fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
               <li
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}
               >
-                <Link href={"/"} passHref>
-                  Home
+                <Link href={"/clients"} passHref>
+                  Client
                 </Link>
               </li>
 
@@ -79,13 +79,8 @@ export default function Nav() {
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}
               >
-                <Link
-                  href={
-                    "https://www.youtube.com/channel/UCoTNdJ9rrEhQuAhbXo35oNw"
-                  }
-                  passHref
-                >
-                  Podcasts
+                <Link href={"/candidates"} passHref>
+                  Candidate
                 </Link>
               </li>
               <li
@@ -93,7 +88,7 @@ export default function Nav() {
                 onClick={() => showMenu((state) => !Menu)}
               >
                 <Link href={"/contact"} passHref>
-                  Contact
+                  Join us
                 </Link>
               </li>
               <li
@@ -101,7 +96,7 @@ export default function Nav() {
                 onClick={() => showMenu((state) => !Menu)}
               >
                 <Link href={"/blog"} passHref>
-                  Blog
+                  Contact
                 </Link>
               </li>
             </ul>
