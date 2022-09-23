@@ -5,7 +5,7 @@ function Sectiontwo() {
     <div className="bg-hero bg-cover  text-[#FFF6E9] lg:px-4 p-4 ">
       <div className="h-full container overflow-hidden ">
         <div className="max-w-6xl">
-          <div className="lg:text-9xl text-6xl font-bold text-[#FFF6E9] ">
+          <div className="lg:text-9xl md:text-8xl text-6xl font-bold text-[#FFF6E9] ">
             If its{" "}
             <span className="p-4">
               {" "}

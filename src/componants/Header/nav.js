@@ -65,7 +65,7 @@ export default function Nav() {
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>
             </div>
-            <ul className="bg-gray-500 lg:bg-gray-50/0 fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
+            <ul className="bg-gray-500 lg:bg-gray-50/0 md:bg-gray-50/0 fixed top-0 bottom-0 left-0 right-0 z-20 flex flex-col items-center justify-center py-8 space-y-8 text-3xl md:space-y-0 md:bg-none md:text-base md:flex md:flex-row md:relative">
               <li
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}

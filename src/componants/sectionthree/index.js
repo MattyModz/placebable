@@ -45,10 +45,10 @@ function Sectionthree() {
               <div className="ml-16 "> Client</div>
             </div>
             <div
-              className=" bg-gray-50 lg:p-0 p-24 bg-candidate
+              className=" bg-gray-50 lg:p-0 p-24 bg-candidate 
           bg-cover  mt-2 grid items-center text-3xl"
             >
-              <div className="ml-16"> Candiate</div>
+              <div className="ml-16 text-white"> Candiate</div>
             </div>
             <div className=" bg-gray-50 bg-join  lg:p-0 p-24 bg-cover mt-2 grid items-center text-3xl ">
               <div className="ml-16"> Join us</div>
