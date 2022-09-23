@@ -57,9 +57,11 @@ function indexclient() {
         </div>
         <video
           autoPlay
+          poster="https://via.placeholder.com/250&text=I%20am%20Poster"
           loop
           muted
-          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          class="absolute z-10 w-auto min-w-full min-h-full
+          max-w-none"
         >
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
