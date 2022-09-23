@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <header className="relative flex items-center justify-center  h-full  overflow-hidden">
-        <div className="relative w-full z-30  lg:h-screen p-6 ">
+        <div className="relative w-full z-30  h-full p-6 ">
           <Nav />
           <section className="h-full container py-16  ">
             <div className=" ">
