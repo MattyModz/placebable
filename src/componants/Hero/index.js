@@ -118,7 +118,6 @@ function Hero() {
           </section>
         </div>
         <video
-          poster="/Logo.svg"
           autoPlay
           loop
           muted

@@ -3,9 +3,9 @@ const Header = () => {
   return (
     <>
       <head className="">
-        <title>Web Placements</title>
+        <title>Placeable</title>
         <link rel="stylesheet" href="../src/styles/index.scss" />
-        <link rel="icon" href="./logo.png"></link>
+        <link rel="icon" href="./Logo.svg"></link>
 
         <script
           type="text/javascript"

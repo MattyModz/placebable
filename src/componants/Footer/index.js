@@ -32,7 +32,9 @@ const Footer = () => {
 
         <div>
           <div className="font-bold mb-8 text-[#D9D9D9] text-2xl">
-            Recruitment 2.0
+            <Link href={"/"} passHref>
+              Recruitment 2.0
+            </Link>
           </div>
           <div className="flex">
             <div className="w-1/2">

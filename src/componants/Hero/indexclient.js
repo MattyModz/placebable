@@ -8,10 +8,10 @@ function indexclient() {
           <Nav />
           <section className="  grid items-stretch h-full container   ">
             <div>
-              <div className="flex ">
-                <div className="text-6xl font-bold text-white ">Clients</div>
+              <div className="flex py-12">
+                <div className="text-6xl  font-bold text-white ">Clients</div>
               </div>
-              <div className="  py-8 lg:w-1/2 justify-start flex">
+              <div className="   lg:w-1/2 justify-start flex">
                 <div className="">
                   <p className="text-3xl text-[#FFF6E9]">
                     Dragging searches, irrelevant metrics, ghost candidates…{" "}
@@ -57,11 +57,10 @@ function indexclient() {
         </div>
         <video
           autoPlay
-          poster="/Logo.svg"
+          poster=""
           loop
           muted
-          class="absolute z-10 w-auto min-w-full min-h-full
-          max-w-none"
+          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         >
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
