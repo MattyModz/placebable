@@ -2,14 +2,14 @@ import React from "react";
 import { RoughNotation } from "react-rough-notation";
 function Sectionfour() {
   return (
-    <div className="bg-[#FFF6E9] lg:h-screen h-full container">
+    <div className="bg-[#FFF6E9] lg:h-screen h-full overflow-hidden">
       <div className=" relative h-full container  lg:bg-p2topbg bg-no-repeat bg-[#FFF6E9] ">
         <div className="container  p-4">
           <div className="lg:flex  container">
             <div className="lg:w-1/2"></div>
 
-            <div className="lg:w-1/2  text-right text-5xl py-4">
-              <div className="text-9xl font-bold">
+            <div className="lg:w-1/2  text-right text-7xl py-4">
+              <div className="lg:text-9xl font-bold">
                 What our <br />
                 <span>
                   {" "}
@@ -28,7 +28,7 @@ function Sectionfour() {
               </div>
             </div>
           </div>
-          <div className="flex  justify-center max-w-8xl lg:-mt-48">
+          <div className="lg:flex  justify-center max-w-8xl lg:-mt-48">
             <div className="lg:w-1/3">
               {" "}
               <div className="bg-[#8CD87C] p-8 m-4 rounded-xl">
