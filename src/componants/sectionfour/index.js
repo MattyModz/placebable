@@ -2,7 +2,7 @@ import React from "react";
 import { RoughNotation } from "react-rough-notation";
 function Sectionfour() {
   return (
-    <div className="bg-[#FFF6E9] lg:h-screen">
+    <div className="bg-[#FFF6E9] lg:h-screen h-full container">
       <div className=" relative h-full container  lg:bg-p2topbg bg-no-repeat bg-[#FFF6E9] ">
         <div className="container  p-4">
           <div className="lg:flex  container">
