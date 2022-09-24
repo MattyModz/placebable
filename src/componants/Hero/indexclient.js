@@ -1,9 +1,12 @@
 import React from "react";
 import Nav from "../Header/nav";
+import Modal from "../Modal/Modal";
+import { useState } from "react";
 function indexclient() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center  h-full  overflow-hidden">
+      <header className="relative flex items-center justify-center  h-full  ">
         <div className=" relative w-full z-30  lg:h-screen p-6  ">
           <Nav />
           <section className="  grid items-stretch h-full container   ">
@@ -46,7 +49,12 @@ function indexclient() {
                   {" "}
                   <img src={"./S1play.svg"} width={50} height={50} />
                 </div>
-                <div className="flex underline justify-center text-xl py-6 text-[#FFF6E9]">
+                <div
+                  className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
+                  onClick={() => {
+                    setShowModal(true);
+                  }}
+                >
                   {" "}
                   Watch the full video
                 </div>
@@ -66,6 +74,7 @@ function indexclient() {
           Your browser does not support the video tag.
         </video>
       </header>
+      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
     </>
   );
 }

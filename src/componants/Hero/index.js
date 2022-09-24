@@ -1,7 +1,11 @@
 import React from "react";
 import Nav from "../Header/nav";
+
+import Modal from "../Modal/Modal";
+import { useState } from "react";
 import { RoughNotation } from "react-rough-notation";
 function Hero() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <header className="relative flex items-center justify-center  h-full  overflow-hidden">
@@ -108,7 +112,12 @@ function Hero() {
                   {" "}
                   <img src={"./S1play.svg"} width={50} height={50} />
                 </div>
-                <div className="flex underline justify-center text-xl py-6 text-[#FFF6E9]">
+                <div
+                  className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
+                  onClick={() => {
+                    setShowModal(true);
+                  }}
+                >
                   {" "}
                   Watch the full video
                 </div>
@@ -127,6 +136,9 @@ function Hero() {
           Your browser does not support the video tag.
         </video>
       </header>
+      <Modal open={showModal} onClose={() => setShowModal(false)}>
+        s
+      </Modal>
     </>
   );
 }

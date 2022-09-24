@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./card";
-// import Image from "next/image";
+import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
     <div className="bg-[#1E1E1E] py-8 h-full p-4 ">
-      <div className="  lg:bg-p2btmbg bg-no-repeat relative h-full lg:h-screen container">
+      <div className="  lg:bg-p2btmbg bg-no-repeat relative  container p-4">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">
             <div className="lg:w-2/3    text-7xl  h-screen text-white">
@@ -101,8 +101,10 @@ function Sectionsix({}) {
       </div>
       <div className="container">
         {" "}
-        <div>{/* <Image src={"/"} /> */}</div>
-        <div className="underline font-medium text-[#FFF6E9]">
+        <div>
+          <Image src={"/Phone.svg"} height={50} width={50} />{" "}
+        </div>
+        <div className="underline  font-medium text-[#FFF6E9]">
           Schedule your
           <br />
           discovery call

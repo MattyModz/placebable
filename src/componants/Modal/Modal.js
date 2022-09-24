@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
 
-import Applicationform from "./Applicationform";
 const MODAL_STYLES = {
   position: "fixed",
   top: "50%",
@@ -23,11 +22,8 @@ const OVERLAY_STYLES = {
 
 export default function Modal({
   open,
-  children,
+
   onClose,
-  type,
-  location,
-  salary,
 }) {
   if (!open) return null;
 
@@ -36,19 +32,13 @@ export default function Modal({
       <div className="" style={OVERLAY_STYLES} />
       <div
         style={MODAL_STYLES}
-        className="bg-royal rounded-xl fixed w-full h-full text-white"
+        className="bg-black/50 rounded-xl fixed w-full h-full text-white"
       >
         <div className="justify-end p-4 mt-2">
           <button className="" onClick={onClose}>
             X
           </button>
-
-          <Applicationform
-            props={children}
-            type={type}
-            location={location}
-            salary={salary}
-          />
+          <div></div>
         </div>
       </div>
     </>,

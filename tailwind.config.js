@@ -11,6 +11,7 @@ module.exports = {
         clients: "url('../../public/Clients.jpg')",
         join: "url('../../public/Join Us.jpg')",
         p2topbg: "url('../../public/p2/Top Background.svg')",
+        p2topbgmd: "url('../../public/p2/Top Backgroundmd.svg')",
         p2btmbg: "url('../../public/p2/Bottom Background.svg')",
       },
       padding: { "fluid-video": "56.25%" },
