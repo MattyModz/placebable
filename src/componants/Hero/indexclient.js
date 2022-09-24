@@ -1,9 +1,7 @@
 import React from "react";
 import Nav from "../Header/nav";
-import Modal from "../Modal/Modal";
-import { useState } from "react";
+// import Modal from "../Modal/Modal";
 
-const [showModal, setShowModal] = useState(false);
 function indexclient() {
   return (
     <>
@@ -52,9 +50,9 @@ function indexclient() {
                 </div>
                 <div
                   className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
-                  onClick={() => {
-                    setShowModal(true);
-                  }}
+                  // onClick={() => {
+                  //   setShowModal(true);
+                  // }}
                 >
                   {" "}
                   Watch the full video
@@ -75,7 +73,7 @@ function indexclient() {
           Your browser does not support the video tag.
         </video>
       </header>
-      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
+      {/* <Modal open={showModal} onClose={() => setShowModal(false)}></Modal> */}
     </>
   );
 }
