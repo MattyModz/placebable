@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
-
+import { useState } from "react";
 function indexclient() {
   const [showModal, setShowModal] = useState(false);
   return (
