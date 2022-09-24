@@ -5,7 +5,7 @@ import Nav from "../Header/nav";
 function indexclient() {
   return (
     <>
-      <header className="relative flex items-center justify-center  h-full  ">
+      <header className="relative bg-black flex items-center justify-center  h-full  ">
         <div className=" relative w-full z-30  lg:h-screen p-6  ">
           <Nav />
           <section className="  grid items-stretch h-full container   ">
@@ -62,16 +62,16 @@ function indexclient() {
             </div>
           </section>
         </div>
-        <video
+        {/* <video
           autoPlay
           poster=""
           loop
           muted
-          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          class="absolute z-10 w-auto min-w-full  max-w-none"
         >
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
       </header>
       {/* <Modal open={showModal} onClose={() => setShowModal(false)}></Modal> */}
     </>
