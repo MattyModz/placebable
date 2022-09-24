@@ -2,8 +2,9 @@ import React from "react";
 import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
 import { useState } from "react";
+
+const [showModal, setShowModal] = useState(false);
 function indexclient() {
-  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <header className="relative flex items-center justify-center  h-full  ">
