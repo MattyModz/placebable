@@ -5,8 +5,8 @@ import Nav from "../Header/nav";
 function indexclient() {
   return (
     <>
-      <header className="relative bg-black flex items-center justify-center  h-full  ">
-        <div className=" relative w-full z-30  lg:h-screen p-6  ">
+      <header className="relative bg-black flex items-center justify-center    ">
+        <div className=" relative w-full z-30   p-6  ">
           <Nav />
           <section className="  grid items-stretch h-full container   ">
             <div>

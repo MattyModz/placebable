@@ -7,8 +7,8 @@ function Sectionfour() {
       <div className="bg-[#FFF6E9] container  h-full ">
         <div className="lg:bg-p2topbg bg-no-repeat  bg-contain">
           <div className="lg:flex">
-            <div className="lg:w-1/3 border lg:h-screen">
-              <div className="flex items-start h-screen">
+            <div className="lg:w-1/3  lg:h-screen">
+              <div className="flex lg:items-start h-screen">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
@@ -16,9 +16,9 @@ function Sectionfour() {
                 />
               </div>
             </div>
-            <div className="lg:w-1/3 border">
+            <div className="lg:w-1/3 ">
               {" "}
-              <div className="flex items-end h-screen">
+              <div className="flex lg:items-end h-screen">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
@@ -27,7 +27,7 @@ function Sectionfour() {
               </div>
             </div>
 
-            <div className="lg:w-1/3 border overflow">
+            <div className="lg:w-1/3  overflow">
               <div className="lg:text-8xl text-right font-bold ">
                 What our <br />
                 <span>
