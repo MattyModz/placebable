@@ -34,7 +34,7 @@ function Sectionone() {
                 </div>
                 <div>
                   <p className="underline text-center text-xl font-bold cursor">
-                    Find out how we're doing
+                    Find out how we&apos;re doing
                     <br /> things differently
                   </p>
                 </div>
