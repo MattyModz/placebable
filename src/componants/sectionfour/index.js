@@ -16,12 +16,14 @@ function Sectionfour() {
                   className="border-8 "
                 />
               </div>
-              <div className="2xl:w-1/2  2xl:block xl:hidden hidden border-8 border-yellow-400    ">
+              <div className="2xl:w-1/2  2xl:block xl:hidden hidden h-screen border-8 border-yellow-400 flex items-stretch  ">
                 {" "}
-                <Card
-                  role={"Founder & MD at Thirdfort"}
-                  name={"Olly Thornton-Berry"}
-                />
+                <div className="self-end border-8 h-full flex items-end ">
+                  <Card
+                    role={"Founder & MD at Thirdfort"}
+                    name={"Olly Thornton-Berry"}
+                  />
+                </div>
                 ;
               </div>
             </div>
