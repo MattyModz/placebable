@@ -5,20 +5,20 @@ function Sectionfour() {
   return (
     <section className="bg-[#FFF6E9] h-full ">
       <div className="2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat 2xl:bg-contain xl:bg-cover bg-center  container  ">
-        <div className="xl:flex lg:h-full xl:h-screen 2xl:h-screen border">
-          <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 border">
+        <div className="xl:flex lg:h-full xl:h-screen 2xl:h-screen ">
+          <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
-              <div className="2xl:w-1/2 border-8 border-red-400 ">
+              <div className="2xl:w-1/2  ">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
                   name={"Olly Thornton-Berry"}
-                  className="border-8 "
+                  className="-8 "
                 />
               </div>
-              <div className="2xl:w-1/2  2xl:block xl:hidden hidden h-screen border-8 border-yellow-400 flex items-stretch  ">
+              <div className="2xl:w-1/2  2xl:block xl:hidden hidden h-screen  flex items-stretch  ">
                 {" "}
-                <div className="self-end border-8 h-full flex items-end ">
+                <div className="self-end  h-full flex items-end ">
                   <Card
                     role={"Founder & MD at Thirdfort"}
                     name={"Olly Thornton-Berry"}
@@ -28,8 +28,8 @@ function Sectionfour() {
               </div>
             </div>
           </div>
-          <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  border">
-            <div className="2xl:hidden lg:visible border-8 border-green-400 ">
+          <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  ">
+            <div className="2xl:hidden lg:visible  ">
               <Card
                 role={"Founder & MD at Thirdfort"}
                 name={"Olly Thornton-Berry"}

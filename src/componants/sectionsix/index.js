@@ -6,15 +6,15 @@ import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
     <div className="bg-[#1E1E1E] py-8 h-full p-4 ">
-      <div className="  lg:bg-p2btmbg bg-no-repeat relative  container p-4">
+      <div className="  lg:bg-p2btmbg bg-no-repeat relative h-full container p-4">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">
-            <div className="lg:w-2/3    text-7xl  h-screen text-white">
+            <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 border  text-7xl  h-full text-white">
               <div className="grid h-full items-stretch">
                 {" "}
                 <div className="lg:flex ">
-                  <div className="lg:w-1/3"></div>
-                  <div className="lg:w-1/3  ">
+                  <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
+                    {" "}
                     <div className="lg:flex ">
                       <Card
                         title={"The Brief"}
@@ -26,10 +26,10 @@ function Sectionsix({}) {
                       />
                     </div>
                   </div>
-                  <div className="lg:w-1/3"></div>
+                  <div className="lg:w-1/2  "></div>
                 </div>
                 <div className="lg:flex">
-                  <div className="lg:w-1/2 ">
+                  <div className="lg:w-1/2 lg:p-10 ">
                     {" "}
                     <Card2
                       title={"The Search"}
@@ -40,7 +40,7 @@ function Sectionsix({}) {
                       no={"2"}
                     />
                   </div>
-                  <div className="lg:w-1/2  ">
+                  <div className="lg:w-1/2 lg:p-10 ">
                     {" "}
                     <Card2
                       title={"The Brief"}
@@ -54,7 +54,7 @@ function Sectionsix({}) {
                 </div>
                 <div className="lg:flex ">
                   <div className="lg:w-1/2"></div>
-                  <div className="lg:w-1/2 ">
+                  <div className="lg:w-1/2 lg:p-10">
                     {" "}
                     <Card2
                       title={"The Interviews"}
@@ -68,8 +68,8 @@ function Sectionsix({}) {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 grid-cols-reverse grid items-stretch   ">
-              <p className="text-9xl hidden text-right text-white font-bold">
+            <div className="2xl:w-1/3 xl:w-1/3 lg:block hidden grid-cols-reverse grid  border ">
+              <p className="text-9xl  text-right text-white font-bold border">
                 How it
                 <br />
                 <span>
@@ -85,12 +85,12 @@ function Sectionsix({}) {
                   </RoughNotation>
                 </span>
               </p>
-              <div className=" sm:block hidden">
+              <div className=" sm:block  lg:p-10 ml-8 flex justify-end ">
                 <Card
                   title={"The Feedback"}
                   src={"/p2/How It Works Icons/Feedback.svg"}
                   description={
-                    "We’ll guide applicants during your interview process through to offer, and make sure they’re set-up for success."
+                    "We'll provide you with real-time and post-hire insights to support your next recruitment drive"
                   }
                   no={"5"}
                 />
