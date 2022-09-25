@@ -1,11 +1,11 @@
 import React from "react";
-// import { RoughNotation } from "react-rough-notation";
+//import { RoughNotation } from "react-rough-notation";
 import Card from "./card";
 function Sectionfour() {
   return (
     <section className="bg-[#FFF6E9] h-full ">
       <div className="container 2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat xl:bg-contain 2xl:bg-cover   ">
-        <div className="xl:flex h-screen border">
+        <div className="xl:flex lg:h-screen xl:h-screen 2xl:h-screen border">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 border">
             <div className="2xl:flex   ">
               <div className="2xl:w-1/2 border-8 border-red-400 ">
