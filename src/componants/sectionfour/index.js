@@ -3,65 +3,47 @@ import { RoughNotation } from "react-rough-notation";
 import Card from "./card";
 function Sectionfour() {
   return (
-    <section className="bg-[#FFF6E9] p-8">
-      <div className="bg-[#FFF6E9] px-16  h-full ">
-        <div className="lg:bg-p2topbg bg-no-repeat  bg-contain">
-          <div className="lg:flex">
-            <div className="lg:w-1/3 lg:h-screen">
-              <div className="lg:flex lg:items-start h-screen">
+    <section className="bg-[#FFF6E9] h-full ">
+      <div className="container 2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat xl:bg-contain 2xl:bg-cover   ">
+        <div className="xl:flex h-screen border">
+          <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 border">
+            <div className="2xl:flex   ">
+              <div className="2xl:w-1/2 border-8 border-red-400 ">
+                {" "}
+                <Card
+                  role={"Founder & MD at Thirdfort"}
+                  name={"Olly Thornton-Berry"}
+                  className="border-8 "
+                />
+              </div>
+              <div className="2xl:w-1/2  2xl:block xl:hidden hidden border-8 border-yellow-400    ">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
                   name={"Olly Thornton-Berry"}
                 />
+                ;
               </div>
             </div>
-            <div className="lg:w-1/3 md:w-1/2">
-              {" "}
-              <div className="lg:flex lg:items-end h-screen">
-                {" "}
-                <Card
-                  role={"Founder & MD at Thirdfort"}
-                  name={"Olly Thornton-Berry"}
-                />
-              </div>
-            </div>
-
-            <div className="lg:w-1/3 lg:block hidden overflow">
-              <div className="lg:text-8xl text-right font-bold ">
-                What our <br />
-                <span>
-                  {" "}
-                  <RoughNotation
-                    type="underline"
-                    show={true}
-                    color="#C096D6"
-                    padding={"-px"}
-                    strokeWidth={"25px"}
-                  >
-                    clients
-                  </RoughNotation>
-                </span>{" "}
-                <br />
-                say
-              </div>
+          </div>
+          <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  border">
+            <div className="2xl:hidden lg:visible border-8 border-green-400 ">
+              <Card
+                role={"Founder & MD at Thirdfort"}
+                name={"Olly Thornton-Berry"}
+              />
             </div>
           </div>
         </div>
+      </div>{" "}
+      <div className="px-4">
+        {" "}
+        <img src={"./S1Arrow.svg"} width={50} height={50} />
       </div>
-      <div className="lg:flex pb-8 ">
-        <div className="lg:w-1/3">
+      <div className="  text-xl">
+        <div className="lg:w-1/2 px-4 text-black underline">
           {" "}
-          <div className="px-4">
-            {" "}
-            <img src={"./S1Arrow.svg"} width={50} height={50} />
-          </div>
-          <div className="  text-xl">
-            <div className="lg:w-1/2 px-4 text-black underline">
-              {" "}
-              Explore our fundamentals
-            </div>
-          </div>
+          Explore our fundamentals
         </div>
       </div>
     </section>
@@ -93,4 +75,22 @@ export default Sectionfour;
 //      Founder & MD at Thirdfort | <br />
 //      <span>Olly Thornton-Berry</span>
 //    </h3>
+//  </div>;
+
+//  <div className="lg:text-8xl text-right font-bold ">
+//    What our <br />
+//    <span>
+//      {" "}
+//      <RoughNotation
+//        type="underline"
+//        show={true}
+//        color="#C096D6"
+//        padding={"-px"}
+//        strokeWidth={"25px"}
+//      >
+//        clients
+//      </RoughNotation>
+//    </span>{" "}
+//    <br />
+//    say
 //  </div>;
