@@ -3,12 +3,12 @@ import { RoughNotation } from "react-rough-notation";
 import Card from "./card";
 function Sectionfour() {
   return (
-    <section className="bg-[#FFF6E9] ">
-      <div className="bg-[#FFF6E9] container  h-full ">
+    <section className="bg-[#FFF6E9] p-8">
+      <div className="bg-[#FFF6E9] px-16  h-full ">
         <div className="lg:bg-p2topbg bg-no-repeat  bg-contain">
           <div className="lg:flex">
-            <div className="lg:w-1/3  lg:h-screen">
-              <div className="flex lg:items-start h-screen">
+            <div className="lg:w-1/3 lg:h-screen">
+              <div className="lg:flex lg:items-start h-screen">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
@@ -16,9 +16,9 @@ function Sectionfour() {
                 />
               </div>
             </div>
-            <div className="lg:w-1/3 ">
+            <div className="lg:w-1/3 md:w-1/2">
               {" "}
-              <div className="flex lg:items-end h-screen">
+              <div className="lg:flex lg:items-end h-screen">
                 {" "}
                 <Card
                   role={"Founder & MD at Thirdfort"}
@@ -27,7 +27,7 @@ function Sectionfour() {
               </div>
             </div>
 
-            <div className="lg:w-1/3  overflow">
+            <div className="lg:w-1/3 lg:block hidden overflow">
               <div className="lg:text-8xl text-right font-bold ">
                 What our <br />
                 <span>

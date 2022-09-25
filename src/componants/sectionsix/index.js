@@ -29,7 +29,7 @@ function Sectionsix({}) {
                   <div className="lg:w-1/3"></div>
                 </div>
                 <div className="lg:flex">
-                  <div className="lg:w-1/2 lg:p-8 lg:mt-8">
+                  <div className="lg:w-1/2 ">
                     {" "}
                     <Card2
                       title={"The Search"}
@@ -40,7 +40,7 @@ function Sectionsix({}) {
                       no={"2"}
                     />
                   </div>
-                  <div className="lg:w-1/2 lg:p-12 py-12 ">
+                  <div className="lg:w-1/2  ">
                     {" "}
                     <Card2
                       title={"The Brief"}
@@ -68,8 +68,8 @@ function Sectionsix({}) {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 grid-cols-reverse grid items-stretch ">
-              <p className="text-9xl text-right text-white font-bold">
+            <div className="lg:w-1/3 grid-cols-reverse grid items-stretch   ">
+              <p className="text-9xl hidden text-right text-white font-bold">
                 How it
                 <br />
                 <span>
@@ -85,7 +85,7 @@ function Sectionsix({}) {
                   </RoughNotation>
                 </span>
               </p>
-              <div className="p-8 sm:block hidden">
+              <div className=" sm:block hidden">
                 <Card
                   title={"The Feedback"}
                   src={"/p2/How It Works Icons/Feedback.svg"}
