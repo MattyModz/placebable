@@ -9,13 +9,31 @@ function Sectionsix({}) {
       <div className="  lg:bg-p2btmbg bg-no-repeat relative h-full container p-4">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">
-            <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 border  text-7xl  h-full text-white">
+            <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  h-full text-white">
               <div className="grid h-full items-stretch">
                 {" "}
+                <div className="lg:hidden block mb-12">
+                  <p className="text-9xl  text-right text-white font-bold ">
+                    How it
+                    <br />
+                    <span>
+                      {" "}
+                      <RoughNotation
+                        type="underline"
+                        show={true}
+                        color="#C096D6"
+                        padding={"-6px"}
+                        strokeWidth={"30px"}
+                      >
+                        works
+                      </RoughNotation>
+                    </span>
+                  </p>
+                </div>
                 <div className="lg:flex ">
                   <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
                     {" "}
-                    <div className="lg:flex ">
+                    <div className="lg:flex lg:mb-0 mb-4">
                       <Card
                         title={"The Brief"}
                         src={"/p2/How It Works Icons/Brief.svg"}
@@ -29,7 +47,7 @@ function Sectionsix({}) {
                   <div className="lg:w-1/2  "></div>
                 </div>
                 <div className="lg:flex">
-                  <div className="lg:w-1/2 lg:p-10 ">
+                  <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
                     {" "}
                     <Card2
                       title={"The Search"}
@@ -40,7 +58,7 @@ function Sectionsix({}) {
                       no={"2"}
                     />
                   </div>
-                  <div className="lg:w-1/2 lg:p-10 ">
+                  <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
                     {" "}
                     <Card2
                       title={"The Brief"}
@@ -54,7 +72,7 @@ function Sectionsix({}) {
                 </div>
                 <div className="lg:flex ">
                   <div className="lg:w-1/2"></div>
-                  <div className="lg:w-1/2 lg:p-10">
+                  <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
                     {" "}
                     <Card2
                       title={"The Interviews"}
@@ -64,12 +82,22 @@ function Sectionsix({}) {
                       }
                       no={"4"}
                     />
+                    <div className="lg:hidden block lg:mb-0 mt-4">
+                      <Card
+                        title={"The Feedback"}
+                        src={"/p2/How It Works Icons/Feedback.svg"}
+                        description={
+                          "We'll provide you with real-time and post-hire insights to support your next recruitment drive"
+                        }
+                        no={"5"}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="2xl:w-1/3 xl:w-1/3 lg:block hidden grid-cols-reverse grid  border ">
-              <p className="text-9xl  text-right text-white font-bold border">
+            <div className="2xl:w-1/3 xl:w-1/3 lg:block hidden grid-cols-reverse grid ">
+              <p className="text-9xl  text-right text-white font-bold ">
                 How it
                 <br />
                 <span>
@@ -85,7 +113,7 @@ function Sectionsix({}) {
                   </RoughNotation>
                 </span>
               </p>
-              <div className=" sm:block  lg:p-10 ml-8 flex justify-end ">
+              <div className=" sm:block  lg:p-10 ml-8 s  ">
                 <Card
                   title={"The Feedback"}
                   src={"/p2/How It Works Icons/Feedback.svg"}

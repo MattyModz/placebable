@@ -1,6 +1,7 @@
 import React from "react";
-// import { RoughNotation } from "react-rough-notation";
+import { RoughNotation } from "react-rough-notation";
 import Card from "./card";
+import Cardpurp from "./cardpurple";
 function Sectionfour() {
   return (
     <section className="bg-[#FFF6E9] h-full ">
@@ -8,6 +9,23 @@ function Sectionfour() {
         <div className="xl:flex lg:h-full xl:h-screen 2xl:h-screen ">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
+              <div className="text-8xl text-right font-bold lg:hidden block ">
+                What our <br />
+                <span>
+                  {" "}
+                  <RoughNotation
+                    type="underline"
+                    show={true}
+                    color="#C096D6"
+                    padding={"-px"}
+                    strokeWidth={"25px"}
+                  >
+                    clients
+                  </RoughNotation>
+                </span>{" "}
+                <br />
+                say
+              </div>
               <div className="2xl:w-1/2  ">
                 {" "}
                 <Card
@@ -19,7 +37,7 @@ function Sectionfour() {
               <div className="2xl:w-1/2  2xl:block xl:hidden hidden h-screen  flex items-stretch  ">
                 {" "}
                 <div className="self-end  h-full flex items-end ">
-                  <Card
+                  <Cardpurp
                     role={"Founder & MD at Thirdfort"}
                     name={"Olly Thornton-Berry"}
                   />
@@ -29,25 +47,45 @@ function Sectionfour() {
             </div>
           </div>
           <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  ">
+            <div className="lg:text-8xl text-right font-bold lg:block hidden ">
+              What our <br />
+              <span>
+                {" "}
+                <RoughNotation
+                  type="underline"
+                  show={true}
+                  color="#C096D6"
+                  padding={"-px"}
+                  strokeWidth={"25px"}
+                >
+                  clients
+                </RoughNotation>
+              </span>{" "}
+              <br />
+              say
+            </div>
+            ;
             <div className="2xl:hidden lg:visible  ">
-              <Card
+              <Cardpurp
                 role={"Founder & MD at Thirdfort"}
                 name={"Olly Thornton-Berry"}
               />
             </div>
           </div>
         </div>
-      </div>{" "}
-      <div className="px-4">
-        {" "}
-        <img src={"./S1Arrow.svg"} width={50} height={50} />
-      </div>
-      <div className="  text-xl">
-        <div className="lg:w-1/2 px-4 text-black underline">
-          {" "}
-          Explore our fundamentals
+        <div className="container font-bold">
+          <div className="px-4">
+            {" "}
+            <img src={"./S1Arrow.svg"} width={50} height={50} />
+          </div>
+          <div className="  text-xl">
+            <div className="lg:w-1/2 px-4 text-black underline">
+              {" "}
+              Explore our fundamentals
+            </div>
+          </div>
         </div>
-      </div>
+      </div>{" "}
     </section>
   );
 }
@@ -77,22 +115,4 @@ export default Sectionfour;
 //      Founder & MD at Thirdfort | <br />
 //      <span>Olly Thornton-Berry</span>
 //    </h3>
-//  </div>;
-
-//  <div className="lg:text-8xl text-right font-bold ">
-//    What our <br />
-//    <span>
-//      {" "}
-//      <RoughNotation
-//        type="underline"
-//        show={true}
-//        color="#C096D6"
-//        padding={"-px"}
-//        strokeWidth={"25px"}
-//      >
-//        clients
-//      </RoughNotation>
-//    </span>{" "}
-//    <br />
-//    say
 //  </div>;

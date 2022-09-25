@@ -13,6 +13,7 @@ module.exports = {
         p2topbg: "url('../../public/p2/Top Background.svg')",
         p2topbgmd: "url('../../public/p2/Top Backgroundmd.svg')",
         p2btmbg: "url('../../public/p2/Bottom Background.svg')",
+        JT: "url('../../public/JT.png')",
       },
       padding: { "fluid-video": "56.25%" },
       colors: {

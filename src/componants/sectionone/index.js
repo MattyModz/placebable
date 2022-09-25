@@ -5,14 +5,14 @@ function Sectionone() {
     <div className="bg-[#FFF6E9] h-screen">
       <div className="lg:h-screen h-full bg-[#FFF6E9] grid items-center container ">
         <div className="flex ">
-          <div className="lg:w-1/3"></div>
-          <div className="lg:w-1/3  ">
-            <div className="text-center  ">
+          <div className="lg:w-1/4"></div>
+          <div className="lg:w-1/2  ">
+            <div className="text-center bg-JT p-12 bg-center bg-cover ">
               <div className="font-bold text-3xl">Joey and Toby</div>
               <div className="font-bold text-3xl">Placeable, Co-Founders</div>
               <br></br>
               <br></br>
-              <div className="text-center text-xl">
+              <div className="text-center text-xl ">
                 “You can’t. Businesses and candidates are people, not numbers.
                 Great recruitment can never be a transaction.
                 <br />
@@ -29,14 +29,26 @@ function Sectionone() {
                 team or joining one, good enough shouldn’t ever cut it.
                 <br />
                 <br />
+                <div className="flex justify-center">
+                  <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                </div>
+                <div>
+                  <p className="underline text-center text-xl font-bold cursor">
+                    Find out how we're doing
+                    <br /> things differently
+                  </p>
+                </div>
               </div>
+
               {/* <div className="text-center">
               Find out how we're doing things differently
             </div> */}
             </div>
           </div>
-          <div className="lg:w-1/3"></div>
+
+          <div className="lg:w-1/4"></div>
         </div>
+        <div></div>
       </div>
     </div>
   );

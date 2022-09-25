@@ -7,7 +7,7 @@ function Card({ src, title, description, no }) {
         <div className="w-1/2 text-2xl  flex justify-start">
           <div className="block lg:p-0 p-4">
             <div>Step {no}</div>
-            <div className="font-bold text-3xl">{title}</div>
+            <div className="font-bold text-2xl">{title}</div>
           </div>
         </div>
         <div className="w-1/2 flex justify-end lg:p-0 p-4">
