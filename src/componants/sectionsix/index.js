@@ -96,8 +96,8 @@ function Sectionsix({}) {
                 </div>
               </div>
             </div>
-            <div className="2xl:w-1/3 xl:w-1/3 lg:block hidden grid-cols-reverse grid ">
-              <p className="text-9xl  text-right text-white font-bold ">
+            <div className="2xl:w-1/3 xl:w-1/3  hidden xl:block 2xl:block grid-cols-reverse  ">
+              <p className="text-9xl  text-right text-white font-bold grid align">
                 How it
                 <br />
                 <span>
@@ -113,15 +113,17 @@ function Sectionsix({}) {
                   </RoughNotation>
                 </span>
               </p>
-              <div className=" sm:block  lg:p-10 ml-8 s  ">
-                <Card
-                  title={"The Feedback"}
-                  src={"/p2/How It Works Icons/Feedback.svg"}
-                  description={
-                    "We'll provide you with real-time and post-hire insights to support your next recruitment drive"
-                  }
-                  no={"5"}
-                />
+              <div className=" sm:block  lg:p-10 ml-8 flex  items-stretch ">
+                <div className="flex items-center h-screen">
+                  <Card
+                    title={"The Feedback"}
+                    src={"/p2/How It Works Icons/Feedback.svg"}
+                    description={
+                      "We'll provide you with real-time and post-hire insights to support your next recruitment drive"
+                    }
+                    no={"5"}
+                  />
+                </div>
               </div>
             </div>
           </div>
