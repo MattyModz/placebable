@@ -16,11 +16,12 @@ function Indexcandid() {
               <div className="   lg:w-1/2 justify-start flex">
                 <div className="">
                   <p className="text-3xl text-[#FFF6E9]">
-                    "Recruiters? They just don&apos;t listen. They&apos;ll blag.
+                    &quot;Recruiters?&quot; They just don&apos;t listen.
+                    They&apos;ll blag.
                     <br />
                     They&apos;ll send you roles that have nothing to do
                     <br />
-                    with what you actually wanted" sound familiar?
+                    with what you actually wanted, sound familiar?
                   </p>
                   <div className="text-3xl text-white font-bold py-8">
                     <p>It shouldn&apos;t have to.</p>
