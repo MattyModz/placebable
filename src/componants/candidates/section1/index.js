@@ -9,7 +9,7 @@ function Sectionone() {
         <div className="xl:flex lg:h-full xl:h-screen 2xl:h-screen ">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
-              <div className="text-8xl text-right font-bold lg:hidden block ">
+              <div className="text-8xl text-right font-bold xl:hidden 2xl:hidden block ">
                 What our <br />
                 <span>
                   {" "}
@@ -47,7 +47,7 @@ function Sectionone() {
             </div>
           </div>
           <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  ">
-            <div className="lg:text-8xl text-right font-bold lg:block hidden ">
+            <div className="lg:text-8xl text-right font-bold 2xl:block xl:block hidden ">
               What our <br />
               <span>
                 {" "}
