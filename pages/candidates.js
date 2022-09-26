@@ -1,13 +1,13 @@
 import React from "react";
-import Indexclient from "../src/componants/Hero/indexclient";
-import Sectionfour from "../src/componants/sectionfour";
-import Sectionfive from "../src/componants/sectionfive";
-import Sectionsix from "../src/componants/sectionsix";
+import Indexcandid from "../src/componants/Hero/indexcandid";
+import Sectionone from "../src/componants/candidates/section1";
+import Sectionfive from "../src/componants/clients/sectionfive";
+import Sectionsix from "../src/componants/clients/sectionsix";
 function Candidates() {
   return (
     <div>
-      <Indexclient />
-      <Sectionfour />
+      <Indexcandid />
+      <Sectionone />
       <Sectionfive />
       <Sectionsix />
     </div>
