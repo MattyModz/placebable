@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 function Cardgreen({ role, name }) {
   return (
     <div className="bg-[#8CD87C] p-8 m-4 rounded-xl">
@@ -12,8 +12,8 @@ function Cardgreen({ role, name }) {
         preparation but also as an emotional support, which every candidate
         could do with when they really love the idea of a role. I can't
         recommend Joey and Toby enough from start to finish they have gone above
-        and beyond. It’s the first time I've ever felt like a recruiter truly
-        has my best interest at heart.”
+        and beyond. It&quot;s the first time I&quot;ve ever felt like a
+        recruiter truly has my best interest at heart.”
       </p>
       <h3 className="py-4 text-2xl font-bold">
         {role} | <br />
