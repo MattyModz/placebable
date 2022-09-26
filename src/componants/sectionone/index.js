@@ -2,7 +2,7 @@ import React from "react";
 
 function Sectionone() {
   return (
-    <div className="bg-[#FFF6E9] h-screen">
+    <div className="bg-[#FFF6E9] h-full ">
       <div className="lg:h-screen h-full bg-[#FFF6E9] grid items-center container ">
         <div className="flex ">
           <div className="lg:w-1/4"></div>
