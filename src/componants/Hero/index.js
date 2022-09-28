@@ -10,14 +10,12 @@ function Hero() {
       <header className="relative flex items-center justify-center  xl:h-screen 2xl:h-screen lg:h-screen  overflow-hidden">
         <div className="relative w-full z-30  h-full p-6 ">
           <section className="h-full container py-16  ">
-            <div className=" ">
-              <div className="text-6xl font-bold text-white">
-                Recruitment 2.0
-              </div>
+            <div className=" 2xl:text-6xl xl:text-6xl lg:5xl">
+              <div className=" font-bold text-white">Recruitment 2.0</div>
               <div className=""></div>
             </div>
             <div className="  py-8 lg:w-1/2 justify-start flex">
-              <div className="text-6xl font-bold max-w-xl text-[#FFF6E9]">
+              <div className="text-6xl xl:text-6xl lg:5xl font-bold max-w-xl text-[#FFF6E9]">
                 The Job market has{" "}
                 <span>
                   <RoughNotation
