@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../Header/nav";
 
 import Modal from "../Modal/Modal";
 import { useState } from "react";
@@ -8,9 +7,8 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center  h-full  overflow-hidden">
+      <header className="relative flex items-center justify-center  xl:h-screen 2xl:h-screen lg:h-screen  overflow-hidden">
         <div className="relative w-full z-30  h-full p-6 ">
-          <Nav />
           <section className="h-full container py-16  ">
             <div className=" ">
               <div className="text-6xl font-bold text-white">
