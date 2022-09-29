@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "../Header/nav";
+// import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
 import Image from "next/image";
 import { useState } from "react";
-import { RoughNotation } from "react-rough-notation";
+// import { RoughNotation } from "react-rough-notation";
 function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
