@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./nav";
-
+// import Script from "next/script";
 const Header = () => {
   return (
     <>
@@ -14,8 +14,8 @@ const Header = () => {
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
           async
         ></script>
-        <Nav />
       </head>
+      <Nav />
     </>
   );
 };
