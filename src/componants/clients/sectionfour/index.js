@@ -6,11 +6,11 @@ import Image from "next/image";
 function Sectionfour() {
   return (
     <section className="bg-[#FFF6E9] 2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat 2xl:bg-contain xl:bg-cover bg-center ">
-      <div className="flex justify-end  container">
+      <div className="flex justify-end border container">
         {" "}
-        <Image src={"/icons/clients/sub.svg"} width={400} height={400} />
+        <Image src={"/icons/clients/sub.svg"} width={400} height={300} />
       </div>
-      <div className="   container  ">
+      <div className=" border  container  ">
         <div className="xl:flex  ">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
