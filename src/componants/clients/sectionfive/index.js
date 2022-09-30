@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Sectionfive() {
   return (
-    <div className="bg-cfund bg-cover  text-[#FFF6E9] lg:px-4 p-4  xl:flex lg:h-full xl:h-screen 2xl:h-screen">
-      <div className="h-full container overflow-hidden ">
+    <div className="bg-cfund bg-cover  text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
+      <div className=" container overflow-hidden ">
         <div className="">
           <Image src={"/icons/clients/fund.svg"} width={1000} height={300} />
         </div>
@@ -82,6 +82,20 @@ function Sectionfive() {
                 </div>
               </div>
               <div className="p-4">
+                {" "}
+                <div>
+                  {" "}
+                  <img src={"/icons/S3icon2.svg"} height={50} width={50} />
+                </div>
+                <div className="text-2xl font-bold ">A personal touch</div>
+                <div>
+                  <p className=" text-xl">
+                    You’ll benefit from a dedicated account manager – from the
+                    initial brief through to post-hire support.
+                  </p>
+                </div>
+              </div>
+              <div className="">
                 {" "}
                 <div>
                   {" "}

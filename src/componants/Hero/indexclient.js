@@ -5,7 +5,7 @@ import Image from "next/image";
 function indexclient() {
   return (
     <>
-      <header className="relative bg-black flex items-center justify-center lg:h-screen 2xl:h-screen xl:h-screen   ">
+      <header className="relative bg-black flex items-center justify-center   ">
         <div className=" relative w-full z-30   p-6  ">
           <Nav />
 

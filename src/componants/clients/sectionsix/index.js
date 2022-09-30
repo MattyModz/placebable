@@ -5,12 +5,12 @@ import { RoughNotation } from "react-rough-notation";
 import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E] py-8 h-full p-4 ">
-      <div className="  lg:bg-p2btmbg bg-no-repeat relative h-full container p-4">
+    <div className="bg-[#1E1E1E] py-8  p-4 ">
+      <div className="  lg:bg-p2btmbg bg-no-repeat relative  container p-4">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">
-            <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  h-full text-white">
-              <div className="grid h-full items-stretch">
+            <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  text-white">
+              <div className="grid  items-stretch">
                 {" "}
                 <div className="lg:hidden block mb-12">
                   <p className="text-9xl  text-right text-white font-bold ">
@@ -114,7 +114,7 @@ function Sectionsix({}) {
                 </span>
               </p>
               <div className=" sm:block  lg:p-10 ml-8 flex  items-stretch ">
-                <div className="flex items-center h-screen">
+                <div className="flex items-center ">
                   <Card
                     title={"The Feedback"}
                     src={"/p2/How It Works Icons/Feedback.svg"}
