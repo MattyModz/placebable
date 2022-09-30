@@ -1,56 +1,14 @@
 import React from "react";
+import Image from "next/image";
 import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
     <div className="bg-hero bg-cover lg:h-screen xl:h-screen 2xl:h-screen text-[#FFF6E9] lg:px-4 p-4 ">
       <div className="h-full container overflow-hidden ">
         <div className="max-w-6xl">
-          <div className="lg:text-9xl md:text-8xl text-6xl font-bold text-[#FFF6E9] ">
-            If its{" "}
-            <span className="p-4">
-              {" "}
-              <RoughNotation
-                type="underline"
-                show={true}
-                color="#C096D6"
-                padding={"-6px"}
-                strokeWidth={"10px"}
-              >
-                broken,{" "}
-              </RoughNotation>
-            </span>
-            <br />
-            <span>
-              {" "}
-              <RoughNotation
-                type="circle"
-                show={true}
-                color="#8CD87C"
-                padding={"0px"}
-                strokeWidth={"16px"}
-              >
-                fix{" "}
-              </RoughNotation>
-            </span>{" "}
-            it.
-          </div>
-          <p className="text-4xl p-4">
-            Why{" "}
-            <span>
-              {" "}
-              <RoughNotation
-                type="underline"
-                show={true}
-                color="#8CD87C"
-                padding={"-6px"}
-                strokeWidth={"14px"}
-              >
-                Placeable{" "}
-              </RoughNotation>
-            </span>
-          </p>
+          <Image src={"/lines/index/broken.svg"} width={800} height={350} />
         </div>
-        <div className="lg:flex lg:items-center py-16">
+        <div className="lg:flex lg:items-center ">
           <div className="lg:w-1/4"></div>
           <div className="lg:w-3/4">
             <div className="lg:flex justify-between">
@@ -128,3 +86,50 @@ function Sectiontwo() {
 }
 
 export default Sectiontwo;
+
+{
+  /* <div className="lg:text-9xl md:text-8xl text-6xl font-bold text-[#FFF6E9] ">
+            If its{" "}
+            <span className="p-4">
+              {" "}
+              <RoughNotation
+                type="underline"
+                show={true}
+                color="#C096D6"
+                padding={"-6px"}
+                strokeWidth={"10px"}
+              >
+                broken,{" "}
+              </RoughNotation>
+            </span>
+            <br />
+            <span>
+              {" "}
+              <RoughNotation
+                type="circle"
+                show={true}
+                color="#8CD87C"
+                padding={"0px"}
+                strokeWidth={"16px"}
+              >
+                fix{" "}
+              </RoughNotation>
+            </span>{" "}
+            it.
+          </div>
+          <p className="text-4xl p-4">
+            Why{" "}
+            <span>
+              {" "}
+              <RoughNotation
+                type="underline"
+                show={true}
+                color="#8CD87C"
+                padding={"-6px"}
+                strokeWidth={"14px"}
+              >
+                Placeable{" "}
+              </RoughNotation>
+            </span>
+          </p> */
+}
