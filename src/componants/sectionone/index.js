@@ -4,9 +4,9 @@ function Sectionone() {
   return (
     <div className="bg-[#FFF6E9] h-full lg:h-screen xl:h-screen 2xl:h-screen grid content-center">
       <div className="lg:h-screen h-full bg-[#FFF6E9] ">
-        <div className="flex ">
+        <div className="flex h-full ">
           <div className="lg:w-1/3"></div>
-          <div className="lg:w-1/3  lg:h-screen xl:h-screen 2xl:h-screen grid items-center">
+          <div className="lg:w-1/3   grid items-center">
             <div className="text-center bg-JT p-12 bg-center bg-cover ">
               <div className="font-bold text-3xl">Joey and Toby</div>
               <div className="font-bold text-3xl">Placeable, Co-Founders</div>
