@@ -1,5 +1,5 @@
 import React from "react";
-// import Nav from "../Header/nav";
+import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
 import Image from "next/image";
 import { useState } from "react";
@@ -8,12 +8,15 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center  xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden">
+      <header className="relative flex items-center justify-center  xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
+          <Nav />
           <section className="h-full container   ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className=" font-bold text-white">Recruitment 2.0</div>
-              <div className="py-8">
+              <div className="border font-bold text-white ml-5">
+                Recruitment 2.0
+              </div>
+              <div className="py-8 border">
                 <Image
                   src={"/lines/index/thejob.svg"}
                   width={500}
@@ -24,12 +27,12 @@ function Hero() {
             <div className="  lg:w-1/2 justify-start flex"></div>
             <div className="    flex  justify-end">
               <div className="lg:w-1/2"></div>
-              <div className="lg:w-1/2 text-5xl   font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
+              <div className="lg:w-1/2 text-5xl border  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
                 <div className="">
                   <Image
                     src={"/lines/index/sub.svg"}
                     width={500}
-                    height={350}
+                    height={200}
                   />
                 </div>
               </div>
@@ -54,7 +57,7 @@ function Hero() {
                   <img src={"./S1play.svg"} width={50} height={50} />
                 </div>
                 <div
-                  className="flex underline justify-center text-xl  text-[#FFF6E9]"
+                  className="flex underline justify-center text-xl pb-4 text-[#FFF6E9]"
                   onClick={() => {
                     setShowModal(true);
                   }}

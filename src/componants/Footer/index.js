@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#303030] px-4 ">
+    <div className="bg-[#303030] px-4 py-8 lg:py-0 ">
       <div className="font-bold container  mb-8 text-[#D9D9D9] text-2xl">
         <Link href={"/"} passHref>
           Recruitment 2.0
