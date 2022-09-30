@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { RoughNotation } from "react-rough-notation";
+// import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
     <div className="bg-hero bg-cover lg:h-screen xl:h-screen 2xl:h-screen text-[#FFF6E9] lg:px-4 p-4 ">

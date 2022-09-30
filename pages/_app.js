@@ -1,6 +1,6 @@
 import "../src/styles/index.scss";
 import { AnimatePresence } from "framer-motion";
-import Index from "../src/componants/Footer/index";
+// import Index from "../src/componants/Footer/index";
 import Header from "../src/componants/Header/header";
 import Footer from "../src/componants/Footer/index";
 function MyApp({ Component, pageProps, router }) {
