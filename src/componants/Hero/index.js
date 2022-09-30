@@ -24,9 +24,11 @@ function Hero() {
                 />
               </div>
             </div>
-            <div className="  lg:w-1/2 justify-start flex"></div>
-            <div className="    flex  justify-end">
-              <div className="lg:w-1/2"></div>
+
+            <div className="    flex  border justify-end">
+              <div className="lg:w-1/2 ">
+                <div className="grid place-items--center">d</div>
+              </div>
               <div className="lg:w-1/2 text-5xl border  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
                 <div className="">
                   <Image

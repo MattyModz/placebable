@@ -2,6 +2,7 @@ import React from "react";
 import { RoughNotation } from "react-rough-notation";
 import Card from "./card";
 import Cardpurp from "./cardpurple";
+import Image from "next/image";
 function Sectionfour() {
   return (
     <section className="bg-[#FFF6E9] h-full ">
@@ -10,21 +11,9 @@ function Sectionfour() {
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
               <div className="text-8xl text-right font-bold xl:hidden 2xl:hidden block ">
-                What our <br />
-                <span>
-                  {" "}
-                  <RoughNotation
-                    type="underline"
-                    show={true}
-                    color="#C096D6"
-                    padding={"-px"}
-                    strokeWidth={"25px"}
-                  >
-                    clients
-                  </RoughNotation>
-                </span>{" "}
-                <br />
-                say
+                <div className="py-8 border">
+                  <Image src={"/p2/head.svg"} width={500} height={250} />
+                </div>
               </div>
               <div className="2xl:w-1/2  ">
                 {" "}
@@ -47,24 +36,6 @@ function Sectionfour() {
             </div>
           </div>
           <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  ">
-            <div className="lg:text-8xl text-right font-bold 2xl:block xl:block hidden ">
-              What our <br />
-              <span>
-                {" "}
-                <RoughNotation
-                  type="underline"
-                  show={true}
-                  color="#C096D6"
-                  padding={"-px"}
-                  strokeWidth={"25px"}
-                >
-                  clients
-                </RoughNotation>
-              </span>{" "}
-              <br />
-              say
-            </div>
-            ;
             <div className="2xl:hidden lg:visible  ">
               <Cardpurp
                 role={"Founder & MD at Thirdfort"}
@@ -116,3 +87,21 @@ export default Sectionfour;
 //      <span>Olly Thornton-Berry</span>
 //    </h3>
 //  </div>;
+
+// <div className="lg:text-8xl text-right font-bold 2xl:block xl:block hidden ">
+//   What our <br />
+//   <span>
+//     {" "}
+//     <RoughNotation
+//       type="underline"
+//       show={true}
+//       color="#C096D6"
+//       padding={"-px"}
+//       strokeWidth={"25px"}
+//     >
+//       clients
+//     </RoughNotation>
+//   </span>{" "}
+//   <br />
+//   say
+// </div>
