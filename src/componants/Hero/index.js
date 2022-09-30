@@ -22,51 +22,16 @@ function Hero() {
                 />
               </div>
             </div>
-
-            <div className="    flex   justify-end">
-              <div className="lg:w-1/2 ">
-                <div className="grid place-items--center">d</div>
-              </div>
-              <div className="lg:w-1/2 text-5xl   font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
-                <div className="">
-                  <Image
-                    src={"/lines/index/sub.svg"}
-                    width={500}
-                    height={200}
-                  />
-                </div>
-              </div>
+            <div className="flex justify-end">
+              {" "}
+              <Image src={"/lines/index/sub.svg"} width={500} height={250} />
             </div>
-            <div className="lg:flex ">
-              <div className="lg:w-1/3">
-                {" "}
-                <div className="">
-                  {" "}
-                  <img src={"./S1Arrow.svg"} width={50} height={50} />
-                </div>
-                <div className="  text-xl">
-                  <div className="w-1/2  text-[#FFF6E9] underline">
-                    {" "}
-                    Discover what Placeable can offer instead
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-1/3  justify-center">
-                <div className="flex justify-center">
-                  {" "}
-                  <img src={"./S1play.svg"} width={50} height={50} />
-                </div>
-                <div
-                  className="flex underline justify-center text-xl pb-4 text-[#FFF6E9]"
-                  onClick={() => {
-                    setShowModal(true);
-                  }}
-                >
-                  {" "}
-                  Watch the full video
-                </div>
-              </div>
-              <div className="lg:w-1/3"></div>
+          </section>
+
+          <section className="container">
+            <div className="lg:flex">
+              <div className="lg:w-1/2">test</div>
+              <div className="lg:w-1/2"> </div>
             </div>
           </section>
         </div>
