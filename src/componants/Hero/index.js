@@ -8,15 +8,13 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center  xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4">
+      <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
           <section className="h-full container   ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className="border font-bold text-white ml-5">
-                Recruitment 2.0
-              </div>
-              <div className="py-8 border">
+              <div className=" font-bold text-white ml-5">Recruitment 2.0</div>
+              <div className="py-8 ">
                 <Image
                   src={"/lines/index/thejob.svg"}
                   width={500}
@@ -25,11 +23,11 @@ function Hero() {
               </div>
             </div>
 
-            <div className="    flex  border justify-end">
+            <div className="    flex   justify-end">
               <div className="lg:w-1/2 ">
                 <div className="grid place-items--center">d</div>
               </div>
-              <div className="lg:w-1/2 text-5xl border  font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
+              <div className="lg:w-1/2 text-5xl   font-bold max-w-xl lg:text-right  text-[#FFF6E9]">
                 <div className="">
                   <Image
                     src={"/lines/index/sub.svg"}
@@ -72,19 +70,12 @@ function Hero() {
             </div>
           </section>
         </div>
-        <video
-          autoPlay
-          loop
-          muted
-          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-        >
+        <video autoPlay loop muted class="absolute z-10  ">
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </header>
-      <Modal open={showModal} onClose={() => setShowModal(false)}>
-        s
-      </Modal>
+      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
     </>
   );
 }
@@ -100,7 +91,7 @@ export default Hero;
 //                 color="#F98D2B"
 //                 padding={"2px"}
 //                 strokeWidth={"10px"}
-//                 order={"1"}
+//                ={"1"}
 //               >
 //                 evolved.{" "}
 //               </RoughNotation>
@@ -114,7 +105,7 @@ export default Hero;
 //                 color="#8CD87C"
 //                 padding={"2px"}
 //                 strokeWidth={"10px"}
-//                 order={"2"}
+//                ={"2"}
 //               >
 //                 changed.{" "}
 //               </RoughNotation>
@@ -132,7 +123,7 @@ export default Hero;
 //                     color="#F98D2B"
 //                     padding={"2px"}
 //                     strokeWidth={"10px"}
-//                     order={"3"}
+//                    ={"3"}
 //                   >
 //                     still the same.{" "}
 //                   </RoughNotation>
@@ -152,7 +143,7 @@ export default Hero;
 //                       color="#E3CCE1"
 //                       padding={"-px"}
 //                       strokeWidth={"5px"}
-//                       order={"4"}
+//                      ={"4"}
 //                     >
 //                       one step ahead{" "}
 //                     </RoughNotation>

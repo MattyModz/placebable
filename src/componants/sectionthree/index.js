@@ -4,10 +4,10 @@ import Image from "next/image";
 function Sectionthree() {
   return (
     <div className="bg-[#303030] px-4">
-      <div className=" bg-[#303030] h-full container">
-        <div className="lg:h-screen lg:flex flex-row-reverse container py-16 pb-16  ">
+      <div className=" bg-[#303030] container">
+        <div className=" lg:flex flex-row-reverse container py-16 pb-16  ">
           <div className="lg:w-4/5 container font-bold text-6xl lg:text-9xl text-white h-full ">
-            <div className="grid items-center h-full">
+            <div className="grid items-center">
               <div className="flex justify-end ">
                 <div className="py-8">
                   <Image
@@ -19,7 +19,7 @@ function Sectionthree() {
               </div>
             </div>
           </div>
-          <div className="lg:w-1/5 mt-8 lg:mt-0  h-full grid font-bold text-2xl text-white text-left ">
+          <div className="lg:w-1/5 mt-8 lg:mt-0  grid font-bold text-2xl text-white text-left ">
             <div className=" bg-gray-50 lg:p-0 p-24  bg-clients bg-cover  mt-2 grid items-center text-3xl ">
               <div className="ml-16 "> Client</div>
             </div>

@@ -9,6 +9,8 @@ module.exports = {
         hero: "url('../../public/home1.jpg')",
         candidate: "url('../../public/Candidate.jpg')",
         clients: "url('../../public/Clients.jpg')",
+        cfund: "url('../../public/icons/clients/clients.png')",
+
         join: "url('../../public/Join Us.jpg')",
         p2topbg: "url('../../public/p2/Top Background.svg')",
         p2topbgmd: "url('../../public/p2/Top Backgroundmd.svg')",

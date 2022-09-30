@@ -5,7 +5,7 @@ import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className="bg-[#FFF6E9] h-full ">
+    <section className="bg-[#FFF6E9] h-full mx-auto ">
       <div className="2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat 2xl:bg-contain xl:bg-cover bg-center  container  ">
         <div className="xl:flex lg:h-full xl:h-screen 2xl:h-screen ">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
