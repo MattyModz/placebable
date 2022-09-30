@@ -1,7 +1,7 @@
 import React from "react";
-import { RoughNotation } from "react-rough-notation";
-import Card from "./card";
-import Cardpurp from "./cardpurple";
+// import { RoughNotation } from "react-rough-notation";
+// import Card from "./card";
+// import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
