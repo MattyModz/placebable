@@ -1,16 +1,30 @@
 import React from "react";
-// import { RoughNotation } from "react-rough-notation";
-// import Card from "./card";
-// import Cardpurp from "./cardpurple";
+import { RoughNotation } from "react-rough-notation";
+import Card from "./card";
+import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className="bg-[#FFF6E9] 2xl:bg-p2topbg xl:bg-p2topbg bg-no-repeat 2xl:bg-contain xl:bg-cover bg-center ">
-      <div className="flex justify-end border container">
+    <section className=" h-screen  px-4  ">
+      <div className="flex justify-end bg-center h-full  lg:bg-p2topbg bg-no-repeat bg-contain container">
         {" "}
-        <Image src={"/icons/clients/sub.svg"} width={400} height={300} />
+        <Image src={"/icons/clients/sub.svg"} width={600} height={400} />
       </div>
-      <div className=" border  container  ">
+      <div className="hidden">
+        {" "}
+        <Card
+          role={"Founder & MD at Thirdfort"}
+          name={"Olly Thornton-Berry"}
+          className="-8 "
+        />
+        ;
+        <Cardpurp
+          role={"Founder & MD at Thirdfort"}
+          name={"Olly Thornton-Berry"}
+        />
+      </div>
+
+      <div className=" border  container hidden ">
         <div className="xl:flex  ">
           <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
             <div className="2xl:flex   ">
@@ -27,7 +41,7 @@ function Sectionfour() {
                   height={600}
                 />
               </div>
-              <div className="2xl:w-1/2  2xl:block xl:hidden hidden   flex items-stretch  ">
+              <div className="2xl:w-1/2  2xl:block xl:hidden sm:hidden   flex items-stretch  ">
                 {" "}
                 <div className="self-end flex items-end ">
                   <Image
@@ -49,20 +63,7 @@ function Sectionfour() {
             </div>
           </div>
         </div>
-
-        <div className="container font-bold">
-          <div className="px-4">
-            {" "}
-            <img src={"./S1Arrow.svg"} width={50} height={50} />
-          </div>
-          <div className="  text-xl">
-            <div className="lg:w-1/2 px-4 text-black underline">
-              {" "}
-              Explore our fundamentals
-            </div>
-          </div>
-        </div>
-      </div>{" "}
+      </div>
     </section>
   );
 }
@@ -94,31 +95,15 @@ export default Sectionfour;
 //    </h3>
 //  </div>;
 
-// <div className="lg:text-8xl text-right font-bold 2xl:block xl:block hidden ">
-//   What our <br />
-//   <span>
+// <div className="container font-bold">
+//   <div className="px-4">
 //     {" "}
-//     <RoughNotation
-//       type="underline"
-//       show={true}
-//       color="#C096D6"
-//       padding={"-px"}
-//       strokeWidth={"25px"}
-//     >
-//       clients
-//     </RoughNotation>
-//   </span>{" "}
-//   <br />
-//   say
-// </div>
-
-// <Card
-//   role={"Founder & MD at Thirdfort"}
-//   name={"Olly Thornton-Berry"}
-//   className="-8 "
-// />;
-
-//  <Cardpurp
-//    role={"Founder & MD at Thirdfort"}
-//    name={"Olly Thornton-Berry"}
-//  />;
+//     <img src={"./S1Arrow.svg"} width={50} height={50} />
+//   </div>
+//   <div className="  text-xl">
+//     <div className="lg:w-1/2 px-4 text-black underline">
+//       {" "}
+//       Explore our fundamentals
+//     </div>
+//   </div>
+// </div>;
