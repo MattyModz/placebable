@@ -3,8 +3,8 @@ import Image from "next/image";
 
 function Sectionfive() {
   return (
-    <div className="bg-cfund bg-cover  text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
-      <div className=" container overflow-hidden ">
+    <div className="bg-cfund bg-cover h-full text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
+      <div className=" container overflow-hidden lg:h-screen">
         <div className="">
           <Image src={"/icons/clients/fund.svg"} width={1000} height={300} />
         </div>
@@ -112,7 +112,7 @@ function Sectionfive() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end p-4">
+        <div className="flex justify-end -mt-16s">
           <div>
             <div className="flex justify-end">
               <img src={"/icons/S3Arrow.svg"} height={50} width={50} />

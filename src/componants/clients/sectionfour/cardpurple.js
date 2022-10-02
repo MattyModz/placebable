@@ -15,7 +15,7 @@ function Cardpurp({ role, name }) {
         love and trust them; and they aren&apos;t afraid to challenge us in the
         right moments.”
       </p>
-      <h3 className="py-4 text-2xl font-bold">
+      <h3 className="py-4 lg:text-2xl text-xl font-bold">
         {role} | <br />
         <span>{name}</span>
       </h3>
