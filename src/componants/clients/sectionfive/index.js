@@ -6,9 +6,9 @@ function Sectionfive() {
     <div className="bg-cfund bg-cover h-full text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
       <div className=" container overflow-hidden lg:h-screen">
         <div className="">
-          <Image src={"/icons/clients/fund.svg"} width={1000} height={300} />
+          <Image src={"/icons/clients/fund.svg"} width={800} height={300} />
         </div>
-        <div className="lg:py-16 lg:grid grid-cols-3">
+        <div className=" lg:grid grid-cols-3">
           <div className="">
             {" "}
             <div className="p-4">

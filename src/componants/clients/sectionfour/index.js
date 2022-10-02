@@ -5,12 +5,12 @@ import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" lg:h-full bg-[#FFF6E9]  px-4  ">
+    <section className=" lg:h-full bg-[#FFF6E9]  p-4  ">
       <div className="flex justify-end bg-center lg:h-screen  lg:bg-p2topbg bg-no-repeat bg-contain container">
         {" "}
         <div>
           {" "}
-          <Image src={"/icons/clients/sub.svg"} width={600} height={400} />
+          <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
         </div>
       </div>
       <div className="h-full lg:hidden ">

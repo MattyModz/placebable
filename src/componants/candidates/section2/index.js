@@ -8,7 +8,7 @@ function Candidfive() {
         <div className="">
           <Image src={"/p3/promise/title.svg"} width={500} height={300} />
         </div>
-        <div className="lg:py-16 lg:grid grid-cols-3">
+        <div className=" lg:grid grid-cols-3">
           <div className="">
             {" "}
             <div className="p-4">

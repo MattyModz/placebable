@@ -5,12 +5,12 @@ import Cardpurp from "../../clients/sectionfour/cardpurple";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-full bg-[#FFF6E9]  px-4  ">
+    <section className=" lg:h-full bg-[#FFF6E9]  p-4  ">
       <div className="flex justify-end bg-center lg:h-screen  lg:bg-candidsaybg bg-no-repeat bg-contain container">
         {" "}
         <div>
           {" "}
-          <Image src={"/p3/say/title.svg"} width={600} height={400} />
+          <Image src={"/p3/say/title.svg"} width={500} height={400} />
         </div>
       </div>
       <div className="h-full lg:hidden ">
