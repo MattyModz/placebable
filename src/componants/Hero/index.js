@@ -30,7 +30,7 @@ function Hero() {
 
           <section className="container">
             <div className="lg:flex">
-              <div className="lg:w-1/2">test</div>
+              {/* <div className="lg:w-1/2">test</div> */}
               <div className="lg:w-1/2"> </div>
             </div>
           </section>

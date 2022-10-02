@@ -20,7 +20,6 @@ function Sectionfour() {
           name={"Olly Thornton-Berry"}
           className="-8 "
         />
-        ;
         <Cardpurp
           role={"Founder & MD at Thirdfort"}
           name={"Olly Thornton-Berry"}
