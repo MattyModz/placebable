@@ -41,64 +41,59 @@ function Sectionsix({}) {
         <div className="lg:flex ">
           <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
             {" "}
-            <div className="lg:flex lg:mb-0 mb-4">
-              <Card
-                title={"The Brief"}
-                src={"/p2/How It Works Icons/Brief.svg"}
-                description={
-                  "We’ll work together to make  sure we understand exactly what you’re looking for."
-                }
-                no={"1"}
-              />
+            <div className="lg:flex lg:mb-0 ">
+              <div className="flex justify-center">
+                <Image
+                  src={"/icons/clients/howit/1.svg"}
+                  height={350}
+                  width={500}
+                />{" "}
+              </div>
             </div>
           </div>
           <div className="lg:w-1/2  "></div>
         </div>
         <div className="lg:flex">
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
+          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
             {" "}
-            <Card2
-              title={"The Search"}
-              src={"/p2/How It Works Icons/Search.svg"}
-              description={
-                "We’ll draw on our extensive database to identify a first set of compatible candidates."
-              }
-              no={"2"}
-            />
+            <div className="flex justify-center">
+              <Image
+                src={"/icons/clients/howit/2.svg"}
+                height={350}
+                width={500}
+              />{" "}
+            </div>
           </div>
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
+          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
             {" "}
-            <Card2
-              title={"The Brief"}
-              src={"/p2/How It Works Icons/Science.svg"}
-              description={
-                "We’ll begin our unrivalled, data-led vetting process to determine the final shortlist."
-              }
-              no={"3"}
-            />
+            <div className="flex justify-center">
+              <Image
+                src={"/icons/clients/howit/3.svg"}
+                height={350}
+                width={500}
+              />{" "}
+            </div>
           </div>
         </div>
         <div className="lg:flex ">
           <div className="lg:w-1/2"></div>
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 mb-4">
+          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
             {" "}
-            <Card2
-              title={"The Interviews"}
-              src={"/p2/How It Works Icons/Interviews.svg"}
-              description={
-                "We’ll guide applicants during your interview process through to offer, and make sure they’re set-up for success."
-              }
-              no={"4"}
-            />
-            <div className="lg:hidden block lg:mb-0 mt-4">
-              <Card
-                title={"The Feedback"}
-                src={"/p2/How It Works Icons/Feedback.svg"}
-                description={
-                  "We'll provide you with real-time and post-hire insights to support your next recruitment drive"
-                }
-                no={"5"}
-              />
+            <div className="flex justify-center">
+              <Image
+                src={"/icons/clients/howit/4.svg"}
+                height={350}
+                width={500}
+              />{" "}
+            </div>
+            <div className="lg:hidden block lg:mb-0 ">
+              <div className="flex justify-center">
+                <Image
+                  src={"/icons/clients/howit/5.svg"}
+                  height={350}
+                  width={500}
+                />{" "}
+              </div>
             </div>
           </div>
         </div>
