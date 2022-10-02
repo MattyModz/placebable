@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "./card";
+// import Card from "./card";
 import Image from "next/image";
 // import { RoughNotation } from "react-rough-notation";
-import Card2 from "./cardpurp";
+// import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
     <div className="bg-[#1E1E1E]  lg:h-full lg:p-16 p-4 ">
