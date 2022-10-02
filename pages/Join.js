@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Header/nav";
+// import Nav from "../Header/nav";
 // import Modal from "../Modal/Modal";
 import Image from "next/image";
 function indexjoin() {
@@ -7,8 +7,6 @@ function indexjoin() {
     <>
       <header className="relative bg-black flex items-center justify-center   ">
         <div className=" relative w-full z-30   p-6  ">
-          <Nav />
-
           <section className="  grid items-stretch h-full container   ">
             <div className="   lg:w-1/2 justify-start flex">
               <Image src={"/icons/clients/head.svg"} width={700} height={400} />
