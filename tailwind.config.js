@@ -10,6 +10,7 @@ module.exports = {
         candidate: "url('../../public/Candidate.jpg')",
         clients: "url('../../public/Clients.jpg')",
         cfund: "url('../../public/icons/clients/clients.png')",
+        cpromise: "url('../../public/p3/promise/bgasset.svg')",
 
         join: "url('../../public/Join Us.jpg')",
         p2topbg: "url('../../public/p2/Top Background.svg')",

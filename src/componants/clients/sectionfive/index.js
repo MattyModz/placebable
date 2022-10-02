@@ -8,62 +8,63 @@ function Sectionfive() {
         <div className="">
           <Image src={"/icons/clients/fund.svg"} width={1000} height={300} />
         </div>
-        <div className="lg:flex lg:items-center py-16">
-          <div className=""></div>
+        <div className="lg:py-16 lg:grid grid-cols-3">
           <div className="">
-            <div className="lg:flex justify-between">
-              <div className="p-4">
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon1.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold ">Reduced time (& cost)</div>
+            {" "}
+            <div className="p-4">
+              <div>
+                {" "}
+                <img src={"/icons/S3icon1.svg"} height={50} width={50} />
+              </div>
+              <div className="text-2xl font-bold ">Reduced time (& cost)</div>
 
-                <div>
-                  <p className=" text-xl">
-                    An in-depth, upfront brief means we’re able to identify
-                    high-quality candidates for you, quicker.
-                  </p>
-                </div>
+              <div>
+                <p className=" text-xl">
+                  An in-depth, upfront brief means we’re able to identify
+                  high-quality candidates for you, quicker.
+                </p>
               </div>
-              <div className="p-4">
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div className="p-4">
+              {" "}
+              <div>
                 {" "}
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon2.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold ">
-                  Superior compatibility
-                </div>
-                <div>
-                  <p className=" text-xl">
-                    With pre-defined quality gates in place, you’ll see only the
-                    best-suited candidates advance through the process.
-                  </p>
-                </div>
+                <img src={"/icons/S3icon2.svg"} height={50} width={50} />
               </div>
-              <div className="p-4">
+              <div className="text-2xl font-bold ">Superior compatibility</div>
+              <div>
+                <p className=" text-xl">
+                  With pre-defined quality gates in place, you’ll see only the
+                  best-suited candidates advance through the process.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div className="p-4">
+              {" "}
+              <div>
                 {" "}
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon3.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold ">
-                  Inclusion at the forefront
-                </div>
-                <div>
-                  <p className=" text-xl">
-                    We have a duty to reach everyone. That’s why our search
-                    strategy targets talent pools as diverse as possible.
-                  </p>
-                </div>
+                <img src={"/icons/S3icon3.svg"} height={50} width={50} />
+              </div>
+              <div className="text-2xl font-bold ">
+                Inclusion at the forefront
+              </div>
+              <div>
+                <p className=" text-xl">
+                  We have a duty to reach everyone. That’s why our search
+                  strategy targets talent pools as diverse as possible.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="lg:flex lg:items-center py-16">
-          <div className=""></div>
-          <div className="">
+        <div className="  lg:py-16 lg:grid grid-cols-3">
+          <div className="grid-cols-1">
             <div className="lg:flex justify-between">
               <div className="p-4">
                 <div>
@@ -81,36 +82,26 @@ function Sectionfive() {
                   </p>
                 </div>
               </div>
-              <div className="p-4">
+            </div>
+          </div>
+          <div className="lg:grid-cols-1">
+            {" "}
+            <div className="p-4">
+              {" "}
+              <div>
                 {" "}
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon2.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold ">A personal touch</div>
-                <div>
-                  <p className=" text-xl">
-                    You’ll benefit from a dedicated account manager – from the
-                    initial brief through to post-hire support.
-                  </p>
-                </div>
+                <img src={"/icons/S3icon2.svg"} height={50} width={50} />
               </div>
-              <div className="">
-                {" "}
-                <div>
-                  {" "}
-                  <img src={"/icons/S3icon2.svg"} height={50} width={50} />
-                </div>
-                <div className="text-2xl font-bold ">A personal touch</div>
-                <div>
-                  <p className=" text-xl">
-                    You’ll benefit from a dedicated account manager – from the
-                    initial brief through to post-hire support.
-                  </p>
-                </div>
+              <div className="text-2xl font-bold ">A personal touch</div>
+              <div>
+                <p className=" text-xl">
+                  You’ll benefit from a dedicated account manager – from the
+                  initial brief through to post-hire support.
+                </p>
               </div>
             </div>
           </div>
+          <div></div>
         </div>
         <div className="flex justify-end -mt-16s">
           <div>
@@ -131,3 +122,28 @@ function Sectionfive() {
 }
 
 export default Sectionfive;
+
+//  <div className=""></div>
+//         <div className="">
+
+//             </div>
+
+//             <div className="">
+//               {" "}
+//               <div></div>
+//               <div className="hidden">
+//                 {" "}
+//                 <img src={"/icons/S3icon2.svg"} height={50} width={50} />
+//               </div>
+//               <div className="text-2xl font-bold hidden">
+//                 A personal touch
+//               </div>
+//               <div>
+//                 <p className=" text-xl hidden">
+//                   You’ll benefit from a dedicated account manager – from the
+//                   initial brief through to post-hire support.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>

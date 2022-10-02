@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../Header/nav";
+import Image from "next/image";
 function Indexcandid() {
   return (
     <>
@@ -7,28 +8,10 @@ function Indexcandid() {
         <div className=" relative w-full z-30   p-6  ">
           <Nav />
           <section className="  grid items-stretch h-full container   ">
-            <div>
-              <div className="flex py-12">
-                <div className="text-6xl  font-bold text-white ">
-                  candidates
-                </div>
-              </div>
-              <div className="   lg:w-1/2 justify-start flex">
-                <div className="">
-                  <p className="text-3xl text-[#FFF6E9]">
-                    &quot;Recruiters?&quot; They just don&apos;t listen.
-                    They&apos;ll blag.
-                    <br />
-                    They&apos;ll send you roles that have nothing to do
-                    <br />
-                    with what you actually wanted, sound familiar?
-                  </p>
-                  <div className="text-3xl text-white font-bold py-8">
-                    <p>It shouldn&apos;t have to.</p>
-                  </div>
-                </div>
-              </div>
+            <div className="   lg:w-1/2 justify-start flex">
+              <Image src={"/p3/hero/head.svg"} width={700} height={400} />
             </div>
+
             <div className="lg:flex  ">
               <div className="lg:w-1/3">
                 {" "}
