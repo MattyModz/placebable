@@ -5,12 +5,15 @@ import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" h-screen  px-4  ">
-      <div className="flex justify-end bg-center h-full  lg:bg-p2topbg bg-no-repeat bg-contain container">
+    <section className=" lg:h-full bg-[#FFF6E9]  px-4  ">
+      <div className="flex justify-end bg-center lg:h-screen  lg:bg-p2topbg bg-no-repeat bg-contain container">
         {" "}
-        <Image src={"/icons/clients/sub.svg"} width={600} height={400} />
+        <div>
+          {" "}
+          <Image src={"/icons/clients/sub.svg"} width={600} height={400} />
+        </div>
       </div>
-      <div className="hidden">
+      <div className="h-full lg:hidden ">
         {" "}
         <Card
           role={"Founder & MD at Thirdfort"}
@@ -41,7 +44,7 @@ function Sectionfour() {
                   height={600}
                 />
               </div>
-              <div className="2xl:w-1/2  2xl:block xl:hidden sm:hidden   flex items-stretch  ">
+              <div className="2xl:w-1/2  2xl:block xl:hidden   flex items-stretch  ">
                 {" "}
                 <div className="self-end flex items-end ">
                   <Image

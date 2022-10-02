@@ -8,14 +8,18 @@ function Sectionsix({}) {
     <div className="bg-[#1E1E1E]  lg:h-full lg:p-16 p-4 ">
       <div className="  lg:bg-p2btmbg bg-no-repeat lg:h-screen relative bg-contain  container ">
         <div className=" ">
-          <div className="lg:flex-col-2 s:flex-col-reverse  lg:flex ">
+          <div className="lg:flex-col-2 s:flex-col-reverse  md:justify-end lg:flex ">
             <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  text-white"></div>
-            <div className="2xl:w-1/3 xl:w-1/3   xl:block 2xl:block grid-cols-reverse  ">
-              <Image
-                src={"/icons/clients/howit/how.svg"}
-                width={500}
-                height={500}
-              />
+            <div className="2xl:w-1/3 xl:w-1/3 xl:block 2xl:block lg:w-1/3 lg:block   ">
+              <div className="flex justify-center">
+                {" "}
+                <Image
+                  src={"/icons/clients/howit/how.svg"}
+                  width={500}
+                  height={500}
+                />
+              </div>
+
               <div className=" sm:block  lg:p-10 ml-8 flex  items-stretch ">
                 <div className="flex items-center "></div>
               </div>
