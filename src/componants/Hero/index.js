@@ -11,9 +11,9 @@ function Hero() {
       <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
-          <section className="h-full container   ">
+          <section className="h-full container py-16  ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className=" font-bold text-white ml-5">Recruitment 2.0</div>
+              <div className=" font-bold text-white ml-5 ">Recruitment 2.0</div>
               <div className="py-8 ">
                 <Image
                   src={"/lines/index/thejob.svg"}

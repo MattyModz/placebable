@@ -5,64 +5,39 @@ import Cardpurp from "../../clients/sectionfour/cardpurple";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-full bg-[#FFF6E9]  p-4  ">
-      <div className="flex justify-end bg-center lg:h-screen  lg:bg-candidsaybg bg-no-repeat bg-contain container">
+    <section className=" lg:h-full bg-[#FFF6E9] p-8 ">
+      <div className="md:flex justify-end bg-center   lg:h-screen md:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
-        <div>
+        <div className="px-4">
           {" "}
           <Image src={"/p3/say/title.svg"} width={500} height={400} />
         </div>
       </div>
-      <div className="h-full lg:hidden ">
-        {" "}
-        <Card
-          role={"Founder & MD at Thirdfort"}
-          name={"Olly Thornton-Berry"}
-          className="-8 "
-        />
-        <Cardpurp
-          role={"Founder & MD at Thirdfort"}
-          name={"Olly Thornton-Berry"}
-        />
-      </div>
-
-      <div className=" border  container hidden ">
-        <div className="xl:flex  ">
-          <div className="2xl:w-2/3 xl:w-1/2 lg:w-1/1 ">
-            <div className="2xl:flex   ">
-              <div className="text-8xl text-right font-bold xl:hidden 2xl:hidden block ">
-                <div className="py-8 border hidden lg:visible">
-                  <Image src={"/p2/head.svg"} width={500} height={250} />
-                </div>
-              </div>
-              <div className="2xl:w-1/2 flex justify-center ">
-                {" "}
-                <Image
-                  src={"/icons/clients/olly.svg"}
-                  width={600}
-                  height={600}
-                />
-              </div>
-              <div className="2xl:w-1/2  2xl:block xl:hidden   flex items-stretch  ">
-                {" "}
-                <div className="self-end flex items-end ">
-                  <Image
-                    src={"/icons/clients/libby.svg"}
-                    width={600}
-                    height={600}
-                  />
-                </div>
-              </div>
-            </div>
+      <div className="  hidden sm:block">
+        <div className=" hidden md:block sm:hidden lg:hidden">
+          {" "}
+          <div className="-mt-32">
+            <Image src={"/p3/say/bgassetmd.svg"} width={800} height={500} />
           </div>
-          <div className="2xl:w-1/3 xl:w-1/2 lg:w-1/1  ">
-            <div className="2xl:hidden lg:visible flex justify-center  ">
-              <Image
-                src={"/icons/clients/libby.svg"}
-                width={600}
-                height={600}
-              />
-            </div>
+        </div>
+      </div>
+      <div className="h-full   justify-center md:hidden bg-p3bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+        {" "}
+        <div className=" py-8 ">
+          {" "}
+          <Image src={"/p3/say/green.svg"} width={500} height={500} />
+          <Image src={"/p3/say/orange.svg"} width={500} height={500} />
+        </div>
+      </div>
+      <div className="container font-bold">
+        <div className="px-4">
+          {" "}
+          <img src={"./S1Arrow.svg"} width={50} height={50} />
+        </div>
+        <div className="  text-xl">
+          <div className="lg:w-1/2 px-4 text-black underline">
+            {" "}
+            Explore our fundamentals
           </div>
         </div>
       </div>

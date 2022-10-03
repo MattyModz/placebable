@@ -4,7 +4,7 @@ import Image from "next/image";
 function Indexcandid() {
   return (
     <>
-      <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4 bg-black    ">
+      <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-screen overflow-hidden px-4 bg-black    ">
         <div className=" relative w-full z-30   h-full ">
           <Nav />
           <section className="  container   ">
@@ -45,7 +45,7 @@ function Indexcandid() {
             </div>
           </section>
         </div>
-        {/* <video
+        <video
           autoPlay
           poster=""
           loop
@@ -54,7 +54,7 @@ function Indexcandid() {
         >
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
       </header>
       {/* <Modal open={showModal} onClose={() => setShowModal(false)}></Modal> */}
     </>
