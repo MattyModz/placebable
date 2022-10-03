@@ -10,7 +10,7 @@ function Indexclient() {
           <Nav />
           <section className="container   ">
             <div className="   lg:w-1/2 justify-start flex">
-              <Image src={"/icons/clients/head.svg"} width={700} height={400} />
+              <Image src={"/icons/clients/head.svg"} width={900} height={500} />
             </div>
             <div className="lg:flex  ">
               <div className="lg:w-1/3">
