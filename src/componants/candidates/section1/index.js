@@ -36,7 +36,7 @@ function S1candid() {
         <div className="  text-xl">
           <div className="lg:w-1/2 px-4 text-black underline">
             {" "}
-            Explore our fundamentals
+            Explore our Promises
           </div>
         </div>
       </div>
