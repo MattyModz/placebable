@@ -1,7 +1,6 @@
 import React from "react";
 // import { RoughNotation } from "react-rough-notation";
-import Card from "./card";
-import Cardpurp from "./cardpurple";
+
 import Image from "next/image";
 function Sectionfour() {
   return (
@@ -13,7 +12,7 @@ function Sectionfour() {
           <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
         </div>
       </div>
-      <div className="h-full lg:hidden bg-p2bgassetmdsay bg-no-repeat bg-contain container bg-center ">
+      <div className="h-full flex justify-center lg:hidden bg-p2bgassetmdsay bg-no-repeat bg-contain container bg-center ">
         {" "}
         <div className="">
           {" "}
