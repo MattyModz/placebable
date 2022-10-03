@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" h-screen bg-[#FFF6E9]  ">
+    <section className=" lg:h-screen bg-[#FFF6E9] pb-4 ">
       <div className="md:flex justify-end bg-center   lg:h-screen  lg:bg-p2topbg bg-no-repeat bg-contain container ">
         {" "}
         <div className="px-4">
