@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-full bg-[#FFF6E9] p-8 ">
+    <section className=" lg:h-full bg-[#FFF6E9]  ">
       <div className="md:flex justify-end bg-center   lg:h-screen md:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
         <div className="px-4">
@@ -26,18 +26,6 @@ function S1candid() {
           {" "}
           <Image src={"/p3/say/green.svg"} width={500} height={500} />
           <Image src={"/p3/say/orange.svg"} width={500} height={500} />
-        </div>
-      </div>
-      <div className="container font-bold">
-        <div className="px-4">
-          {" "}
-          <img src={"./S1Arrow.svg"} width={50} height={50} />
-        </div>
-        <div className="  text-xl">
-          <div className="lg:w-1/2 px-4 text-black underline">
-            {" "}
-            Explore our Promises
-          </div>
         </div>
       </div>
     </section>
