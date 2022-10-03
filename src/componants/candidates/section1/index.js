@@ -1,7 +1,6 @@
 import React from "react";
 // import { RoughNotation } from "react-rough-notation";
-import Card from "../../clients/sectionfour/card";
-import Cardpurp from "../../clients/sectionfour/cardpurple";
+
 import Image from "next/image";
 function S1candid() {
   return (
