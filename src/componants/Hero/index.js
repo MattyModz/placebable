@@ -13,8 +13,8 @@ function Hero() {
           <Nav />
           <section className="h-full container   ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className=" font-bold text-white  py-8">Recruitment 2.0</div>
-              <div className="py-8 ">
+              <div className=" font-bold text-white  ">Recruitment 2.0</div>
+              <div className="py-4 ">
                 <Image
                   src={"/lines/index/thejob.svg"}
                   width={500}
@@ -48,9 +48,9 @@ function Hero() {
               </div>
               <div
                 className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
-                // onClick={() => {
-                //   setShowModal(true);
-                // }}
+                onClick={() => {
+                  setShowModal(true);
+                }}
               >
                 {" "}
                 Watch the full video

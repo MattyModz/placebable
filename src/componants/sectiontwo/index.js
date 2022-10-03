@@ -3,8 +3,8 @@ import Image from "next/image";
 // import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
-    <div className="bg-hero bg-cover  text-[#FFF6E9] lg:px-4 p-4 ">
-      <div className="h-full container overflow-hidden ">
+    <div className="bg-hero bg-cover pb-2  text-[#FFF6E9] lg:px-4 px-4 ">
+      <div className=" container overflow-hidden ">
         <div className="max-w-6xl">
           <Image src={"/lines/index/broken.svg"} width={800} height={350} />
         </div>
@@ -12,7 +12,7 @@ function Sectiontwo() {
           <div className="lg:w-1/4"></div>
           <div className="lg:w-3/4">
             <div className="lg:flex justify-between">
-              <div className="p-4">
+              <div className="px-4">
                 <div>
                   {" "}
                   <img src={"/icons/S3icon1.svg"} height={50} width={50} />
@@ -28,7 +28,7 @@ function Sectiontwo() {
                   </p>
                 </div>
               </div>
-              <div className="p-4">
+              <div className="px-4">
                 {" "}
                 <div>
                   {" "}
@@ -46,7 +46,7 @@ function Sectiontwo() {
                   </p>
                 </div>
               </div>
-              <div className="p-4">
+              <div className="px-4">
                 {" "}
                 <div>
                   {" "}
@@ -67,7 +67,7 @@ function Sectiontwo() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end p-4">
+        <div className="flex justify-end  px-4">
           <div>
             <div className="flex justify-end">
               <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
