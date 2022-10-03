@@ -4,10 +4,10 @@ import Image from "next/image";
 function Indexcandid() {
   return (
     <>
-      <header className="relative bg-black flex items-center justify-center    ">
-        <div className=" relative w-full z-30   p-6  ">
+      <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4 bg-black    ">
+        <div className=" relative w-full z-30   h-full ">
           <Nav />
-          <section className="  grid items-stretch h-full container   ">
+          <section className="  container   ">
             <div className="   lg:w-1/2 justify-start flex">
               <Image src={"/p3/hero/head.svg"} width={700} height={400} />
             </div>

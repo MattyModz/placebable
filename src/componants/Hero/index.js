@@ -27,7 +27,70 @@ function Hero() {
               <Image src={"/lines/index/sub.svg"} width={500} height={250} />
             </div>
           </section>
-
+          <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4">
+            <div className="relative w-full z-30  h-full  ">
+              <Nav />
+              <section className="h-full container   ">
+                <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
+                  <div className=" font-bold text-white ml-5">
+                    Recruitment 2.0
+                  </div>
+                  <div className="py-8 ">
+                    <Image
+                      src={"/lines/index/thejob.svg"}
+                      width={500}
+                      height={250}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-end">
+                  {" "}
+                  <Image
+                    src={"/lines/index/sub.svg"}
+                    width={500}
+                    height={250}
+                  />
+                </div>
+              </section>
+              <div className="lg:flex  ">
+                <div className="lg:w-1/3">
+                  {" "}
+                  <div className="">
+                    {" "}
+                    <img src={"./S1Arrow.svg"} width={50} height={50} />
+                  </div>
+                  <div className="  text-xl">
+                    <div className="w-1/2 py-4 text-[#FFF6E9] underline">
+                      {" "}
+                      Discover why its time to give Placeable a shot
+                    </div>
+                  </div>
+                </div>
+                <div className="lg:w-1/3  justify-center">
+                  <div className="flex justify-center">
+                    {" "}
+                    <img src={"./S1play.svg"} width={50} height={50} />
+                  </div>
+                  <div
+                    className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
+                    // onClick={() => {
+                    //   setShowModal(true);
+                    // }}
+                  >
+                    {" "}
+                    Watch the full video
+                  </div>
+                </div>
+                <div className="lg:w-1/3"></div>
+              </div>
+              <section className="container">
+                <div className="lg:flex">
+                  {/* <div className="lg:w-1/2">test</div> */}
+                  <div className="lg:w-1/2"> </div>
+                </div>
+              </section>
+            </div>
+          </header>
           <section className="container">
             <div className="lg:flex">
               {/* <div className="lg:w-1/2">test</div> */}

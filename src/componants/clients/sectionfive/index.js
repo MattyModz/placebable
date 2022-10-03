@@ -101,18 +101,20 @@ function Sectionfive() {
               </div>
             </div>
           </div>
-          <div></div>
-        </div>
-        <div className="flex justify-end -mt-16s">
           <div>
-            <div className="flex justify-end">
-              <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
-            </div>
-            <div>
-              <p className="underline text-right text-xl font-bold cursor">
-                Learn how Placeable
-                <br /> can help you
-              </p>
+            {" "}
+            <div className="flex justify-end py-16">
+              <div>
+                <div className="flex justify-end">
+                  <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                </div>
+                <div>
+                  <p className="underline text-right text-xl font-bold cursor">
+                    Learn how Placeable
+                    <br /> can help you
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

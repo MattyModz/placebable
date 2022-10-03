@@ -5,25 +5,21 @@ import Cardpurp from "./cardpurple";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" lg:h-full bg-[#FFF6E9]  p-4  ">
-      <div className="flex justify-end bg-center lg:h-screen  lg:bg-p2topbg bg-no-repeat bg-contain container">
+    <section className=" lg:h-full bg-[#FFF6E9]   ">
+      <div className="flex justify-end bg-center lg:h-screen  lg:bg-p2topbg bg-no-repeat bg-contain container ">
         {" "}
-        <div>
+        <div className="px-4">
           {" "}
           <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
         </div>
       </div>
-      <div className="h-full lg:hidden ">
+      <div className="h-full lg:hidden bg-p2bgassetmdsay bg-no-repeat bg-contain container bg-center ">
         {" "}
-        <Card
-          role={"Founder & MD at Thirdfort"}
-          name={"Olly Thornton-Berry"}
-          className="-8 "
-        />
-        <Cardpurp
-          role={"Founder & MD at Thirdfort"}
-          name={"Olly Thornton-Berry"}
-        />
+        <div className="">
+          {" "}
+          <Image src={"/p2/say/green.svg"} width={500} height={500} />
+          <Image src={"/p2/say/purple.svg"} width={500} height={500} />
+        </div>
       </div>
 
       <div className=" border  container hidden ">

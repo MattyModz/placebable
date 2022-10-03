@@ -6,7 +6,7 @@ export default function Nav() {
 
   const [Menu, showMenu] = useState(false);
   return (
-    <nav className=" w-full select-none shadow-sm ">
+    <nav className=" w-full select-none shadow-sm container ">
       <div className="flex items-center justify-between h-20  py-2 container md:h-24 sm:box-content">
         <div className="flex items-center ">
           <a

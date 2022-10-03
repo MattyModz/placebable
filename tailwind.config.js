@@ -16,6 +16,7 @@ module.exports = {
         p2topbg: "url('../../public/p2/Top Background.svg')",
         p2topbgmd: "url('../../public/p2/Top Backgroundmd.svg')",
         p2btmbg: "url('../../public/icons/clients/howit/all.svg')",
+        p2bgassetmdsay: "url('../../public/p2/say/bgassetmd.svg')",
         JT: "url('../../public/JT.png')",
         candidsaybg: "url('../../public/p3/say/bgasset.svg')",
         candidhowbg: "url('../../public/p3/howit/bgasset.svg')",

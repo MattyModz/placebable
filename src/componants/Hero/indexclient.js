@@ -2,14 +2,13 @@ import React from "react";
 import Nav from "../Header/nav";
 // import Modal from "../Modal/Modal";
 import Image from "next/image";
-function indexclient() {
+function Indexclient() {
   return (
     <>
-      <header className="relative bg-black flex items-center justify-center   ">
-        <div className=" relative w-full z-30   p-6  ">
+      <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen h-full overflow-hidden px-4 bg-black  ">
+        <div className=" relative w-full z-30   h-full ">
           <Nav />
-
-          <section className="  grid items-stretch h-full container   ">
+          <section className="container   ">
             <div className="   lg:w-1/2 justify-start flex">
               <Image src={"/icons/clients/head.svg"} width={700} height={400} />
             </div>
@@ -62,7 +61,7 @@ function indexclient() {
   );
 }
 
-export default indexclient;
+export default Indexclient;
 
 // <div className="">
 //                   <p className="text-3xl text-[#FFF6E9]">
