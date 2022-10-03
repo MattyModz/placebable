@@ -7,7 +7,7 @@ function Indexcandid() {
       <header className="relative flex items-center justify-center w-full xl:h-screen 2xl:h-screen lg:h-screen  overflow-hidden px-4 bg-black    ">
         <div className=" relative w-full z-30   h-full ">
           <Nav />
-          <section className="  container   ">
+          <section className="  container   h-full ">
             <div className="   lg:w-1/2 justify-start flex">
               <Image src={"/p3/hero/head.svg"} width={700} height={400} />
             </div>

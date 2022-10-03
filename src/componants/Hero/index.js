@@ -13,7 +13,9 @@ function Hero() {
           <Nav />
           <section className="h-full container   ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className=" font-bold text-white pl-8 ">Recruitment 2.0</div>
+              <div className=" font-bold text-white lg:pl-8 pl-4">
+                Recruitment 2.0
+              </div>
               <div className="py-4 ">
                 <Image
                   src={"/lines/index/thejob.svg"}
