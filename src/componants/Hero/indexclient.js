@@ -5,43 +5,50 @@ import Image from "next/image";
 function Indexclient() {
   return (
     <>
-      <header className="relative flex items-center justify-center w-full  overflow-hidden px-4 bg-black lg:h-screen ">
+      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black lg:h-screen ">
         <div className=" relative w-full z-30   h-full ">
           <Nav />
-          <section className="container   ">
-            <div className="   lg:w-1/2 justify-start flex">
-              <Image src={"/icons/clients/head.svg"} width={900} height={500} />
-            </div>
-            <div className="lg:flex  ">
-              <div className="lg:w-1/3">
+          <section className="container   h-screen   ">
+            <div className="grid grid-rows-2 items-stretch">
+              <div className="   lg:w-1/2 justify-start flex ">
+                <Image
+                  src={"/icons/clients/head.svg"}
+                  width={900}
+                  height={500}
+                />
+              </div>
+              <div className="     items-end flex">
                 {" "}
-                <div className="">
+                <div className="lg:w-1/3">
                   {" "}
-                  <img src={"./S1Arrow.svg"} width={50} height={50} />
-                </div>
-                <div className="  text-xl">
-                  <div className="w-1/2 py-4 text-[#FFF6E9] underline">
+                  <div className="">
                     {" "}
-                    Discover what Placeable can offer instead
+                    <img src={"./S1Arrow.svg"} width={50} height={50} />
+                  </div>
+                  <div className="  text-xl">
+                    <div className="w-1/2 py-4 text-[#FFF6E9] underline">
+                      {" "}
+                      Discover what Placeable can offer instead
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="lg:w-1/3  justify-center">
-                <div className="flex justify-center">
-                  {" "}
-                  <img src={"./S1play.svg"} width={50} height={50} />
+                <div className="lg:w-1/3  justify-center">
+                  <div className="flex justify-center">
+                    {" "}
+                    <img src={"./S1play.svg"} width={50} height={50} />
+                  </div>
+                  <div
+                    className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
+                    // onClick={() => {
+                    //   setShowModal(true);
+                    // }}
+                  >
+                    {" "}
+                    Watch the full video
+                  </div>
                 </div>
-                <div
-                  className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
-                  // onClick={() => {
-                  //   setShowModal(true);
-                  // }}
-                >
-                  {" "}
-                  Watch the full video
-                </div>
+                <div className="lg:w-1/3"></div>
               </div>
-              <div className="lg:w-1/3"></div>
             </div>
           </section>
         </div>

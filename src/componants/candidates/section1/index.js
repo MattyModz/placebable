@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9] pb-4 ">
+    <section className=" lg:h-screen bg-[#FFF6E9] lg:p-16 ">
       <div className="md:flex justify-end bg-center   lg:h-screen md:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
         <div className="px-4">
