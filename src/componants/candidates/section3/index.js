@@ -5,7 +5,7 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Candidhow({}) {
   return (
-    <div className="bg-[#1E1E1E]  lg:h-screen lg:p-16 pt-32 pb-32 ">
+    <div className="bg-[#1E1E1E]  lg:h-screen ">
       <div className="  lg:bg-candidhowbg bg-no-repeat lg:h-full relative bg-contain  container p-8 ">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  md:justify-end lg:flex ">
