@@ -8,12 +8,27 @@ export default function Home() {
   return (
     <>
       <Container />
-      <Hero />
-      <Sectionone />
-      <Sectiontwo />
-      <Sectionthree />
+      <div id="">
+        {" "}
+        <Hero />
+      </div>
+      <div id="1">
+        {" "}
+        <Sectionone />
+      </div>
+      <div id="2">
+        {" "}
+        <Sectiontwo />
+      </div>
+      <div id="3">
+        {" "}
+        <Sectionthree />
+      </div>
+
       <Container />
-      <Contactform />
+      <div id="4">
+        <Contactform />
+      </div>
     </>
   );
 }

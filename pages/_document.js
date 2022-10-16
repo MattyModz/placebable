@@ -8,7 +8,10 @@ class MainDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html
+        className="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01']"
+        lang="en"
+      >
         <Head></Head>
         <body>
           <Main />

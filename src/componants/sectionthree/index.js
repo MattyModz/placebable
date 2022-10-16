@@ -1,6 +1,7 @@
 import React from "react";
 // import { RoughNotation } from "react-rough-notation";
 import Image from "next/image";
+import Link from "next/link";
 function Sectionthree() {
   return (
     <div className="bg-[#303030] px-4">
@@ -21,16 +22,24 @@ function Sectionthree() {
           </div>
           <div className="lg:w-1/5 mt-8 lg:mt-0  grid font-bold text-2xl text-white text-left ">
             <div className=" bg-gray-50 lg:p-0 p-24  bg-clients bg-cover  mt-2 grid items-center text-3xl ">
-              <div className="ml-16 "> Client</div>
+              <div className="text-center ">
+                {" "}
+                <Link href={"/clients"}>Client</Link>
+              </div>
             </div>
             <div
               className=" bg-gray-50 lg:p-0 p-24 bg-candidate 
           bg-cover  mt-2 grid items-center text-3xl"
             >
-              <div className="ml-16 text-white"> Candiate</div>
+              <div className="text-center text-white">
+                {" "}
+                <Link href={"/candiates"}>Candidate</Link>
+              </div>
             </div>
             <div className=" bg-gray-50 bg-join  lg:p-0 p-24 bg-cover mt-2 grid items-center text-3xl ">
-              <div className="ml-16"> Join us</div>
+              <div className="text-center">
+                <Link href={"/joinus"}>Join us</Link>
+              </div>
             </div>
           </div>
         </div>

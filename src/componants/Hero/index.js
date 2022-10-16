@@ -13,11 +13,11 @@ function Hero() {
           <Nav />
           <section className="h-full container grid grid-rows-3 ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
-              <div className=" font-bold text-white  pl-4">Recruitment 2.0</div>
-              <div className="py-4 ">
+              <div className=" font-bold text-white  ">Recruitment 2.0</div>
+              <div className="py-4 -ml-4">
                 <Image
                   src={"/lines/index/thejob.svg"}
-                  width={500}
+                  width={400}
                   height={250}
                 />
               </div>
@@ -32,12 +32,16 @@ function Hero() {
                 {" "}
                 <div className="">
                   {" "}
-                  <img src={"./S1Arrow.svg"} width={50} height={50} />
+                  <a href="#1">
+                    <img src={"./S1Arrow.svg"} width={50} height={50} />
+                  </a>
                 </div>
                 <div className="  text-xl">
                   <div className="w-1/2 py-4 text-[#FFF6E9] underline">
                     {" "}
-                    Discover why its time to give Placeable a shot
+                    <a href="#1">
+                      Discover why its time to give Placeable a shot
+                    </a>
                   </div>
                 </div>
               </div>

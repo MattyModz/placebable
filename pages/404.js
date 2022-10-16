@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Four0Four() {
   return (
-    <section className=" grid grid-cols-1 content-center bg-royal  h-screen">
+    <section className=" grid grid-cols-1 content-center bg-[#303030] h-screen">
       <div className="">
         <div className="align-middle flex justify-center text-8xl font-inter font-bold text-white">
           404

@@ -30,13 +30,18 @@ function Sectionone() {
                 <br />
                 <br />
                 <div className="flex justify-center">
-                  <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                  <a href="#2">
+                    {" "}
+                    <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                  </a>
                 </div>
                 <div>
-                  <p className="underline text-center text-xl font-bold cursor">
-                    Find out how we&apos;re doing
-                    <br /> things differently
-                  </p>
+                  <a href="#2">
+                    <p className="underline text-center text-xl font-bold cursor">
+                      Find out how we&apos;re doing
+                      <br /> things differently
+                    </p>
+                  </a>
                 </div>
               </div>
 
