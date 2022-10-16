@@ -5,8 +5,8 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Candidhow({}) {
   return (
-    <div className="bg-[#1E1E1E]  lg:h-full lg:p-16 p-4 ">
-      <div className="  lg:bg-candidhowbg bg-no-repeat lg:h-screen relative bg-contain  container ">
+    <div className="bg-[#1E1E1E]  lg:h-screen lg:p-16 pt-32 pb-32 ">
+      <div className="  lg:bg-candidhowbg bg-no-repeat lg:h-screen relative bg-contain  container p-8 ">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  md:justify-end lg:flex ">
             <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  text-white"></div>
@@ -22,17 +22,18 @@ function Candidhow({}) {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container -mt-32 hidden lg:block ">
-        <div>
-          <Image src={"/Phone.svg"} height={50} width={50} />{" "}
+        <div className="container  hidden lg:block py-24">
+          <div>
+            <Image src={"/Phone.svg"} height={50} width={50} />{" "}
+          </div>
+          <div className="underline  font-medium text-[#FFF6E9]">
+            Schedule your
+            <br />
+            discovery call
+          </div>
         </div>
-        <div className="underline  font-medium text-[#FFF6E9]">
-          Schedule your
-          <br />
-          discovery call
-        </div>
       </div>
+
       <section className="lg:hidden sm:blocks">
         <div className="lg:flex ">
           <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
