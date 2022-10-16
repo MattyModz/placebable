@@ -7,11 +7,26 @@ import Contactform from "../src/componants/Contact/index";
 function Clients() {
   return (
     <div>
-      <Indexclient />
-      <Sectionfour />
-      <Sectionfive />
-      <Sectionsix />
-      <Contactform />
+      <div id="1">
+        {" "}
+        <Indexclient />
+      </div>
+      <div id="2">
+        {" "}
+        <Sectionfour />
+      </div>
+      <div id="3">
+        {" "}
+        <Sectionfive />
+      </div>
+      <div id="4">
+        {" "}
+        <Sectionsix />{" "}
+      </div>
+      <div id="5">
+        {" "}
+        <Contactform />
+      </div>
     </div>
   );
 }

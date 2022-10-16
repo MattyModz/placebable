@@ -107,13 +107,17 @@ function Candidfive() {
             <div className="flex justify-end py-16">
               <div>
                 <div className="flex justify-end">
-                  <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                  <a href="#4">
+                    <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+                  </a>
                 </div>
                 <div>
-                  <p className="underline text-right text-xl font-bold cursor">
-                    Learn how Placeable
-                    <br /> can help you
-                  </p>
+                  <a href="#4">
+                    <p className="underline text-right text-xl font-bold cursor">
+                      Learn how Placeable
+                      <br /> can help you
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>

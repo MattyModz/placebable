@@ -22,6 +22,7 @@ module.exports = {
         JT: "url('../../public/JT.png')",
         candidsaybg: "url('../../public/p3/say/bgasset.svg')",
         candidhowbg: "url('../../public/p3/howit/bgasset.svg')",
+        candidhowbgmob: "url('../../public/p3/howit/bgassetmob.svg')",
       },
       padding: { "fluid-video": "56.25%" },
       colors: {

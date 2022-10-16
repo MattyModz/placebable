@@ -8,7 +8,7 @@ function Indexclient() {
       <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black lg:h-screen ">
         <div className=" relative w-full z-30   h-full ">
           <Nav />
-          <section className="container   h-screen   ">
+          <section className="container      ">
             <div className="grid grid-rows-2 items-stretch">
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image
@@ -17,18 +17,20 @@ function Indexclient() {
                   height={500}
                 />
               </div>
-              <div className="     items-end flex">
+              <div className="     items-end lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}
                   <div className="">
                     {" "}
-                    <img src={"./S1Arrow.svg"} width={50} height={50} />
+                    <a href="#2">
+                      <img src={"./S1Arrow.svg"} width={50} height={50} />
+                    </a>
                   </div>
                   <div className="  text-xl">
                     <div className="w-1/2 py-4 text-[#FFF6E9] underline">
                       {" "}
-                      Discover what Placeable can offer instead
+                      <a href="#2">Discover what Placeable can offer instead</a>
                     </div>
                   </div>
                 </div>

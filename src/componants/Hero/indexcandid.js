@@ -4,26 +4,30 @@ import Image from "next/image";
 function Indexcandid() {
   return (
     <>
-      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black lg:h-screen ">
+      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black  ">
         <div className=" relative w-full z-30   h-full ">
           <Nav />
-          <section className="container   h-screen   ">
+          <section className="container      ">
             <div className="grid grid-rows-2 items-stretch">
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image src={"/p3/hero/head.svg"} width={900} height={500} />
               </div>
-              <div className="     items-end flex">
+              <div className="     items-end lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}
                   <div className="">
                     {" "}
-                    <img src={"./S1Arrow.svg"} width={50} height={50} />
+                    <a href="#2">
+                      <img src={"./S1Arrow.svg"} width={50} height={50} />
+                    </a>
                   </div>
                   <div className="  text-xl">
                     <div className="w-1/2 py-4 text-[#FFF6E9] underline">
                       {" "}
-                      Discover why its time to give Placeable a shot
+                      <a href="#2">
+                        Discover why its time to give Placeable a shot
+                      </a>
                     </div>
                   </div>
                 </div>
