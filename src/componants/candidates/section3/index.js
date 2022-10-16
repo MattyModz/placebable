@@ -14,7 +14,7 @@ function Candidhow({}) {
               <div className="2xl:w-1/3 xl:w-1/3 xl:block 2xl:block lg:w-1/3 lg:block   ">
                 <div className="flex justify-center">
                   {" "}
-                  <Image src={"/p3/howit/title.svg"} width={500} height={500} />
+                  <Image src={"/p3/howit/title.svg"} width={400} height={400} />
                 </div>
 
                 <div className=" sm:block  lg:p-10 ml-8 flex  items-stretch ">
