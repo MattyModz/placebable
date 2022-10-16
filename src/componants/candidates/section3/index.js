@@ -6,7 +6,7 @@ import Image from "next/image";
 function Candidhow({}) {
   return (
     <div className="bg-[#1E1E1E]  lg:h-screen lg:p-16 pt-32 pb-32 ">
-      <div className="  lg:bg-candidhowbg bg-no-repeat lg:h-screen relative bg-contain  container p-8 ">
+      <div className="  lg:bg-candidhowbg bg-no-repeat lg:h-full relative bg-contain  container p-8 ">
         <div className=" ">
           <div className="lg:flex-col-2 s:flex-col-reverse  md:justify-end lg:flex ">
             <div className="2xl:w-2/3 xl:w-2/3 lg:w-1/1 text-7xl  text-white"></div>
@@ -22,7 +22,7 @@ function Candidhow({}) {
             </div>
           </div>
         </div>
-        <div className="container  hidden lg:block py-24">
+        <div className="container  hidden lg:block ">
           <div>
             <Image src={"/Phone.svg"} height={50} width={50} />{" "}
           </div>
