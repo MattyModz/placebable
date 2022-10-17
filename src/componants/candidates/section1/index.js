@@ -4,8 +4,8 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9] lg:p-12 ">
-      <div className="md:flex justify-end bg-center   lg:h-screen md:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
+    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 ">
+      <div className="md:flex justify-end bg-center   lg:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
         <div className="px-4">
           {" "}
@@ -20,12 +20,12 @@ function S1candid() {
           </div>
         </div>
       </div>
-      <div className="h-full   justify-center md:hidden bg-p3bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+      <div className="h-full mb-8   justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
         {" "}
-        <div className=" py-8 ">
+        <div className=" py-8 mb-4">
           {" "}
-          <Image src={"/p3/say/green.svg"} width={500} height={500} />
           <Image src={"/p3/say/orange.svg"} width={500} height={500} />
+          <Image src={"/p3/say/green.svg"} width={500} height={500} />
         </div>
       </div>
     </section>

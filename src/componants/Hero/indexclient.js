@@ -1,13 +1,14 @@
 import React from "react";
-import Nav from "../Header/nav";
+
 // import Modal from "../Modal/Modal";
 import Image from "next/image";
+import Navclients from "../Header/headerclients";
 function Indexclient() {
   return (
     <>
-      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black lg:h-screen ">
+      <header className="relative flex items-center  justify-center w-full lg:h-screen overflow-hidden px-4 bg-black lg:h-screen ">
         <div className=" relative w-full z-30   h-full ">
-          <Nav />
+          <Navclients />
           <section className="container      ">
             <div className="grid grid-rows-2 items-stretch">
               <div className="   lg:w-1/2 justify-start flex ">

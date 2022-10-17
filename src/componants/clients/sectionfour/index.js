@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 ">
+    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12  mb-8">
       <div className="md:flex justify-end bg-center   lg:h-full lg:bg-p2topbg bg-no-repeat bg-contain container ">
         {" "}
         <div className="px-4">
@@ -20,9 +20,9 @@ function Sectionfour() {
           </div>
         </div>
       </div>
-      <div className="h-full   justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+      <div className="h-full  justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
         {" "}
-        <div className=" py-8 ">
+        <div className=" py-8  ">
           {" "}
           <Image src={"/p2/say/green.svg"} width={500} height={500} />
           <Image src={"/p2/say/purple.svg"} width={500} height={500} />
