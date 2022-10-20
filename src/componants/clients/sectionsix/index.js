@@ -5,7 +5,7 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E]  h-screen ">
+    <div className="bg-[#1E1E1E] ">
       <div className=" h-full p-8">
         <div className="  lg:bg-p2btmbg bg-no-repeat lg:h-full relative bg-contain  container  ">
           <div className=" ">
@@ -27,7 +27,7 @@ function Sectionsix({}) {
               </div>
             </div>
           </div>
-          <div className="container  hidden lg:block py-32  ">
+          <div className="container border  hidden lg:block py-32  ">
             <div className="border">
               <Image src={"/Phone.svg"} height={50} width={50} />{" "}
             </div>
@@ -39,7 +39,7 @@ function Sectionsix({}) {
           </div>
         </div>
 
-        <section className="lg:hidden sm:blocks p-8 bg-candidhowbgmob bg-no-repeat  bg-center h-full  ">
+        <section className="lg:hidden sm:blocks  bg-candidhowbgmob bg-no-repeat  bg-center h-full  ">
           <div className="lg:flex ">
             <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
               {" "}
