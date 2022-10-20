@@ -20,7 +20,7 @@ function Candidates() {
         {" "}
         <Candidfive />
       </div>
-      <div className="" id="4 ">
+      <div id="4">
         {" "}
         <Candidhow />
       </div>
