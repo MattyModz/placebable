@@ -5,7 +5,7 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E]   ">
+    <div className="bg-[#1E1E1E]  h-screen ">
       <div className=" h-full p-8">
         <div className="  lg:bg-p2btmbg bg-no-repeat lg:h-full relative bg-contain  container  ">
           <div className=" ">

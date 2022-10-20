@@ -4,7 +4,7 @@ import Image from "next/image";
 function Indexcandid() {
   return (
     <>
-      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black  ">
+      <header className="relative flex items-center  justify-center w-full h-screen overflow-hidden px-4 bg-black  ">
         <div className=" relative w-full z-30   h-full ">
           <Navcandid />
           <section className="container      ">
