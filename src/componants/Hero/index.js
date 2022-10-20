@@ -11,7 +11,7 @@ function Hero() {
       <header className="relative flex items-center justify-center w-full    overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
-          <section className="h-full container grid grid-rows-3 ">
+          <section className="h-screen container grid grid-rows-3 ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
               <div className=" font-bold text-white  ">Recruitment 2.0</div>
               <div className="py-4 -ml-4">
