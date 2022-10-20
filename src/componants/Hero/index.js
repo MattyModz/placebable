@@ -8,7 +8,7 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center w-full lg:h-auto   overflow-hidden px-4">
+      <header className="relative flex items-center justify-center w-full    overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
           <section className="h-full container grid grid-rows-3 ">
