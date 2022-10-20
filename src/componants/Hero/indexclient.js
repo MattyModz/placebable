@@ -18,7 +18,7 @@ function Indexclient() {
                   height={500}
                 />
               </div>
-              <div className="  w-full    items-center mb-8 lg:flex">
+              <div className="  w-full    items-start  lg:flex">
                 {" "}
                 <div className="lg:w-1/3 ">
                   {" "}
