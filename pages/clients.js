@@ -11,17 +11,25 @@ function Clients() {
         {" "}
         <Indexclient />
       </div>
-      <div id="2">
+      <div
+        id="2"
+        className="h-screen
+      "
+      >
         {" "}
         <Sectionfour />
       </div>
-      <div id="3">
+      <div
+        id="3"
+        className="h-screen
+      "
+      >
         {" "}
         <Sectionfive />
       </div>
       <div
         id="4"
-        className="
+        className="h-screen
       "
       >
         {" "}

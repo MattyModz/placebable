@@ -10,7 +10,7 @@ function Indexclient() {
         <div className=" relative w-full z-30   h-full ">
           <Navclients />
           <section className="container      ">
-            <div className="grid grid-rows-2 items-stretch">
+            <div className="grid grid-rows-2  h-screen">
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image
                   src={"/icons/clients/head.svg"}
@@ -18,7 +18,7 @@ function Indexclient() {
                   height={500}
                 />
               </div>
-              <div className="  w-full    items-start py-6 lg:flex">
+              <div className="  w-full    i py-6 lg:flex">
                 {" "}
                 <div className="lg:w-1/3 ">
                   {" "}
