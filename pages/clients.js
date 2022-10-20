@@ -6,32 +6,20 @@ import Sectionsix from "../src/componants/clients/sectionsix";
 import Contactform from "../src/componants/Contact/index";
 function Clients() {
   return (
-    <div className="">
+    <div>
       <div id="1">
         {" "}
         <Indexclient />
       </div>
-      <div
-        id="2"
-        className="h-screen
-      "
-      >
+      <div id="2">
         {" "}
         <Sectionfour />
       </div>
-      <div
-        id="3"
-        className="h-screen
-      "
-      >
+      <div id="3">
         {" "}
         <Sectionfive />
       </div>
-      <div
-        id="4"
-        className="h-screen
-      "
-      >
+      <div id="4">
         {" "}
         <Sectionsix />{" "}
       </div>
