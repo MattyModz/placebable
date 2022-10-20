@@ -19,7 +19,7 @@ function Clients() {
         {" "}
         <Sectionfive />
       </div>
-      <div id="4" className="bg-[#1E1E1E] h-screen grid items-center">
+      <div id="4" className="bg-[#1E1E1E] lg:h-screen lg:grid items-center">
         {" "}
         <Sectionsix />{" "}
       </div>
