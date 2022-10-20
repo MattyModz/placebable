@@ -28,7 +28,7 @@ function Sectionsix({}) {
             </div>
           </div>
           <div className="container  hidden lg:block py-32  ">
-            <div className="">
+            <div className="border">
               <Image src={"/Phone.svg"} height={50} width={50} />{" "}
             </div>
             <div className="underline  font-medium text-[#FFF6E9]">

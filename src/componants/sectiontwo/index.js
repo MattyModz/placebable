@@ -4,7 +4,7 @@ import Image from "next/image";
 function Sectiontwo() {
   return (
     <div className=" bg-hero bg-cover">
-      <section className=" pb-2 h-screen  text-[#FFF6E9] lg:px-4 px-4">
+      <section className=" pb-2   text-[#FFF6E9] lg:px-4 px-4">
         <div className=" container overflow-hidden">
           <div className="max-w-6xl">
             <Image src={"/lines/index/broken.svg"} width={800} height={350} />
