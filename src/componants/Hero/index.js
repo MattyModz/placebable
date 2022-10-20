@@ -8,7 +8,7 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center w-full h-screen   overflow-hidden px-4">
+      <header className="relative flex items-center justify-center w-full    overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
           <section className="h-full container grid grid-rows-3 ">
@@ -23,7 +23,7 @@ function Hero() {
               </div>
             </div>
 
-            <div className="flex justify-end h-screen">
+            <div className="flex justify-end">
               {" "}
               <Image src={"/lines/index/sub.svg"} width={500} height={250} />
             </div>
@@ -81,74 +81,3 @@ function Hero() {
 }
 
 export default Hero;
-
-// <div className="text-6xl xl:text-6xl lg:5xl font-bold max-w-xl text-[#FFF6E9]">
-//             The Job market has{" "}
-//             <span>
-//               <RoughNotation
-//                 type="circle"
-//                 show={true}
-//                 color="#F98D2B"
-//                 padding={"2px"}
-//                 strokeWidth={"10px"}
-//                ={"1"}
-//               >
-//                 evolved.{" "}
-//               </RoughNotation>
-//             </span>
-//             Career expectations have{" "}
-//             <span>
-//               {" "}
-//               <RoughNotation
-//                 type="underline"
-//                 show={true}
-//                 color="#8CD87C"
-//                 padding={"2px"}
-//                 strokeWidth={"10px"}
-//                ={"2"}
-//               >
-//                 changed.{" "}
-//               </RoughNotation>
-//             </span>
-//           </div>
-//           <div className=""></div>
-
-//  But Recruiters?
-//                 <br /> They&apos;re
-//                 <span>
-//                   {" "}
-//                   <RoughNotation
-//                     type="underline"
-//                     show={true}
-//                     color="#F98D2B"
-//                     padding={"2px"}
-//                     strokeWidth={"10px"}
-//                    ={"3"}
-//                   >
-//                     still the same.{" "}
-//                   </RoughNotation>
-//                 </span>
-//               </div>
-//             </div>
-//             <div className="  flex justify-end">
-//               <div className="w-1/2"></div>
-//               <div className="w-1/2  text-2xl   max-w-xl lg:text-right text-[#FFF6E9]">
-//                 <p>
-//                   Unless You&apos;re{" "}
-//                   <span>
-//                     {" "}
-//                     <RoughNotation
-//                       type="underline"
-//                       show={true}
-//                       color="#E3CCE1"
-//                       padding={"-px"}
-//                       strokeWidth={"5px"}
-//                      ={"4"}
-//                     >
-//                       one step ahead{" "}
-//                     </RoughNotation>
-//                   </span>{" "}
-//                   how can you trust
-//                   <br /> they&apos;ll find what you&apos;re really after?
-//                 </p>
-//               </div>
