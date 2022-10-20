@@ -23,7 +23,7 @@ function Hero() {
               </div>
             </div>
 
-            <div className="flex justify-end">
+            <div className="flex justify-end h-screen">
               {" "}
               <Image src={"/lines/index/sub.svg"} width={500} height={250} />
             </div>

@@ -6,7 +6,7 @@ import Navclients from "../Header/headerclients";
 function Indexclient() {
   return (
     <>
-      <header className="relative flex items-center   justify-center w-full h-full overflow-hidden px-4 bg-black  ">
+      <header className="relative flex items-center   justify-center w-full  overflow-hidden px-4 bg-black  ">
         <div className=" relative w-full z-30   h-full ">
           <Navclients />
           <section className="container      ">
