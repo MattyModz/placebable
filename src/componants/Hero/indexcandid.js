@@ -4,7 +4,7 @@ import Image from "next/image";
 function Indexcandid() {
   return (
     <>
-      <header className="relative flex items-center  justify-center w-full lg:h-screen overflow-hidden px-4 bg-black  ">
+      <header className="relative flex items-center  justify-center w-full  overflow-hidden px-4 bg-black  ">
         <div className=" relative w-full z-30   h-full ">
           <Navcandid />
           <section className="container      ">
@@ -12,7 +12,7 @@ function Indexcandid() {
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image src={"/p3/hero/head.svg"} width={900} height={500} />
               </div>
-              <div className="     items-end lg:flex">
+              <div className="  w-full mb-8   items-end lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}

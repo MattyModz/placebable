@@ -4,7 +4,7 @@ import Image from "next/image";
 function Candidfive() {
   return (
     <div className="bg-cpromise bg-cover h-full text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
-      <div className=" container overflow-hidden lg:h-screen">
+      <div className=" container overflow-hidden ">
         <div className="">
           <Image src={"/p3/promise/title.svg"} width={500} height={300} />
         </div>
