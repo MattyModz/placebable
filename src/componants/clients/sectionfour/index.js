@@ -4,14 +4,32 @@ import React from "react";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 ">
-      <div className="md:flex justify-end bg-center   lg:h-full lg:bg-p2topbg bg-no-repeat bg-contain container ">
+    <section className="relative bg-[#FFF6E9]  lg:p-12   ">
+      <div className="md:flex justify-end bg-center    lg:h-full lg:bg-p2topbg bg-no-repeat bg-contain container ">
         {" "}
-        <div className="px-4">
-          {" "}
-          <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
+        <div className="grid lg:grid-rows-2  w-full">
+          <div className=" w-full flex justify-end">
+            <div className="px-4 ">
+              {" "}
+              <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
+            </div>
+          </div>
+          <div className=" lg:grid items-end hidden ">
+            {" "}
+            <div className="   text-xl">
+              <div className="px-4 ">
+                {" "}
+                <img src={"./S1Arrow.svg"} width={50} height={50} />
+              </div>
+              <div className="lg:w-1/2 px-4 text-black underline">
+                {" "}
+                Explore our fundamentals
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div> </div>
       <div className="  hidden sm:block">
         <div className=" hidden md:block sm:hidden lg:hidden">
           {" "}
@@ -20,9 +38,9 @@ function Sectionfour() {
           </div>
         </div>
       </div>
-      <div className="h-full   justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+      <div className="h-full  justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
         {" "}
-        <div className=" py-8 ">
+        <div className=" py-8  ">
           {" "}
           <Image src={"/p2/say/green.svg"} width={500} height={500} />
           <Image src={"/p2/say/purple.svg"} width={500} height={500} />

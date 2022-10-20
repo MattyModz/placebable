@@ -5,9 +5,9 @@ import Image from "next/image";
 function S1candid() {
   return (
     <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 ">
-      <div className="md:flex justify-end bg-center   lg:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
+      <div className="md:flex justify-end    lg:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
-        <div className="px-4">
+        <div className="">
           {" "}
           <Image src={"/p3/say/title.svg"} width={500} height={400} />
         </div>

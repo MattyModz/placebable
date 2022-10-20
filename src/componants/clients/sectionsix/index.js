@@ -6,7 +6,7 @@ import Image from "next/image";
 function Sectionsix({}) {
   return (
     <div className="bg-[#1E1E1E]  lg:h-screen ">
-      <div className=" h-full p-8">
+      <div className=" h-full p-8 flex">
         <div className="  lg:bg-p2btmbg bg-no-repeat lg:h-full relative bg-contain  container  ">
           <div className=" ">
             <div className="lg:flex-col-2 s:flex-col-reverse  md:justify-end lg:flex ">
