@@ -7,7 +7,7 @@ function S1candid() {
     <section className="  bg-[#FFF6E9]  lg:p-12 pb-8">
       <div className="grid items-center  ">
         <div className="flex justify-center ">
-          <Image src={"/p3/say/bgasset.svg"} width={1400} height={800} />
+          <Image src={"/p3/say/bgasset.svg"} width={1200} height={700} />
           <div className="absolute border w-full flex justify-end px-4 container ">
             {" "}
             <Image src={"/p3/say/title.svg"} width={500} height={400} />
