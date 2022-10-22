@@ -27,7 +27,7 @@ function Candidhow({}) {
         <div className="underline  font-medium text-[#FFF6E9]">
           Schedule your
           <br />
-          discovery call
+          discovery call.
         </div>
       </div>
       <div className="  pt-32 pb-32  bg-candidhowbgmob lg:hidden bg-no-repeat bg-center bg-contain">
