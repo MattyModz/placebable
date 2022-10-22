@@ -4,11 +4,11 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className="  bg-[#FFF6E9]  lg:p-12 pb-8">
+    <section className="  bg-[#FFF6E9]  lg:p-12 pb-8 py-8">
       <div className="grid   ">
         <div className="lg:flex justify-center hidden   ">
           <Image src={"/p3/say/bgasset.svg"} width={1200} height={700} />
-          <div className="absolute border w-full lg:flex justify-end px-4 container hidden  ">
+          <div className="absolute  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
             <Image src={"/p3/say/title.svg"} width={500} height={250} />
           </div>
@@ -16,7 +16,7 @@ function S1candid() {
       </div>
       <div className="  hidden sm:block flex justify-center">
         <div className=" hidden md:block sm:hidden lg:hidden">
-          <div className=" border w-full flex justify-end  px-4 container   ">
+          <div className="  w-full flex justify-end  px-4 container   ">
             {" "}
             <Image src={"/p3/say/title.svg"} width={500} height={250} />
           </div>
@@ -25,7 +25,7 @@ function S1candid() {
           </div>
         </div>
       </div>
-      <div className=" border w-full flex justify-end  px-4 container  md:hidden  ">
+      <div className="  w-full flex justify-end  px-4 container  md:hidden  ">
         {" "}
         <Image src={"/p3/say/title.svg"} width={500} height={250} />
       </div>
