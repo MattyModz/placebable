@@ -6,7 +6,7 @@ function S1candid() {
   return (
     <section className="  bg-[#FFF6E9]  lg:p-12 pb-8 py-8">
       <div className="grid   ">
-        <div className="lg:flex justify-center hidden   ">
+        <div id="1" className="lg:flex justify-center hidden   ">
           <Image src={"/p3/say/bgasset.svg"} width={1200} height={700} />
           <div className="absolute  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
@@ -35,6 +35,21 @@ function S1candid() {
           {" "}
           <Image src={"/p3/say/orange.svg"} width={500} height={500} />
           <Image src={"/p3/say/green.svg"} width={500} height={500} />
+        </div>
+        <div>hell</div>
+      </div>
+      <div className="px-4 lg:-mt-20 container">
+        <div className="flex justify-start">
+          <a href="#">
+            <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+          </a>
+        </div>
+        <div>
+          <a href="#3">
+            <p className="underline text-left text-xl font-bold cursor">
+              Explore our fundamentals
+            </p>
+          </a>
         </div>
       </div>
     </section>
