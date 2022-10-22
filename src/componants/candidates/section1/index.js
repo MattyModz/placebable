@@ -36,7 +36,6 @@ function S1candid() {
           <Image src={"/p3/say/orange.svg"} width={500} height={500} />
           <Image src={"/p3/say/green.svg"} width={500} height={500} />
         </div>
-        <div>hell</div>
       </div>
       <div className="px-4 lg:-mt-20 container">
         <div className="flex justify-start">
