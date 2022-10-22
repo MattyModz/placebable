@@ -4,10 +4,10 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 ">
+    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 pb-8 ">
       <div className="md:flex justify-end    lg:h-full lg:bg-candidsaybg bg-no-repeat bg-contain container ">
         {" "}
-        <div className="">
+        <div className="px-4">
           {" "}
           <Image src={"/p3/say/title.svg"} width={500} height={400} />
         </div>
@@ -15,14 +15,14 @@ function S1candid() {
       <div className="  hidden sm:block">
         <div className=" hidden md:block sm:hidden lg:hidden">
           {" "}
-          <div className="-mt-32">
+          <div className="">
             <Image src={"/p3/say/bgassetmd.svg"} width={800} height={500} />
           </div>
         </div>
       </div>
-      <div className="h-full mb-8   justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+      <div className="h-full    justify-center md:hidden bg-p2bgassetsmsay pb-24 bg-no-repeat bg-contain container bg-center ">
         {" "}
-        <div className=" py-8 mb-4">
+        <div className=" py-8 ">
           {" "}
           <Image src={"/p3/say/orange.svg"} width={500} height={500} />
           <Image src={"/p3/say/green.svg"} width={500} height={500} />

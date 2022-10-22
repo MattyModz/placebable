@@ -23,6 +23,7 @@ module.exports = {
         candidsaybg: "url('../../public/p3/say/bgasset.svg')",
         candidhowbg: "url('../../public/p3/howit/bgasset.svg')",
         candidhowbgmob: "url('../../public/p3/howit/bgassetmob.svg')",
+        clihowbgassetmob: "url('../../public/p2/clibgassetmob.svg')",
       },
       padding: { "fluid-video": "56.25%" },
       colors: {

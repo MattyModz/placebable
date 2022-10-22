@@ -8,24 +8,36 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center w-full    overflow-hidden px-4">
+      <header className="relative flex items-center justify-center w-full h-full    overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
-          <section className=" container grid grid-rows-3 h-screen">
-            <div className=" 2xl:text-6xl xl:text-6xl lg:5xl text-5xl">
+          <section className=" container grid grid-rows-2 ">
+            <div className=" 2xl:text-6xl xl:text-6xl lg:5xl py-8 text-5xl">
               <div className=" font-bold text-white  ">Recruitment 2.0</div>
-              <div className="py-4 -ml-4">
-                <Image
-                  src={"/lines/index/thejob.svg"}
-                  width={400}
-                  height={250}
-                />
+              <div className="py-4 ">
+                <h1 className="font-bold text-[#FFF6E9] text-5xl">
+                  The job market has
+                  <br />
+                  evolved. Career <br />
+                  expectations have <br />
+                  changed
+                </h1>
               </div>
             </div>
 
             <div className="flex justify-end">
               {" "}
-              <Image src={"/lines/index/sub.svg"} width={500} height={250} />
+              <div className="font-bold text-[#FFF6E9] text-5xl text-right">
+                But recruiters?
+                <br />
+                They're <span className="border-b-4">still the same</span>
+                <br />
+                <div className="font-semi-bold text-[#FFF6E9] text-2xl">
+                  Unless your one step ahead how can you
+                  <br />
+                  trust they'll find what you're really after?
+                </div>
+              </div>
             </div>
             <div className="lg:flex  ">
               <div className="lg:w-1/3">

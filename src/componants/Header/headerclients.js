@@ -95,7 +95,7 @@ export default function Navclients() {
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}
               >
-                <Link href={"#4"} passHref>
+                <Link href={"#5"} passHref>
                   Contact
                 </Link>
               </li>

@@ -13,7 +13,11 @@ function Candidhow({}) {
             <div className="2xl:w-1/3 xl:w-1/3 xl:block 2xl:block lg:w-1/3 lg:block   ">
               <div className="flex justify-center">
                 {" "}
-                <Image src={"/p3/howit/title.svg"} width={500} height={500} />
+                <Image
+                  src={"/icons/clients/howit/how.svg"}
+                  width={500}
+                  height={500}
+                />
               </div>
 
               <div className=" sm:block  lg:p-10 ml-8 flex  items-stretch ">
@@ -33,47 +37,59 @@ function Candidhow({}) {
           discovery call
         </div>
       </div>
-      <section className="lg:hidden sm:blocks">
-        <div className="lg:flex ">
-          <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
-            {" "}
-            <div className="lg:flex lg:mb-0 ">
+      <div className="  pt-32 pb-32  bg-candidhowbgmob lg:hidden bg-no-repeat bg-center bg-contain">
+        <section className="lg:hidden sm:blocks ">
+          <div className="lg:flex ">
+            <div className="lg:w-1/2 2xl:w-1/2 xl:w-1/2 lg:p-10 lg:ml-20">
+              {" "}
+              <div className="lg:flex lg:mb-0 ">
+                <div className="flex justify-center">
+                  <Image src={"/p3/howit/1.svg"} height={350} width={500} />{" "}
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/2  "></div>
+          </div>
+          <div className="lg:flex">
+            <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
+              {" "}
+              <div className="flex justify-center ">
+                <Image src={"/p3/howit/2.svg"} height={350} width={500} />{" "}
+              </div>
+            </div>
+            <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
+              {" "}
               <div className="flex justify-center">
-                <Image src={"/p3/howit/1.svg"} height={350} width={500} />{" "}
+                <Image src={"/p3/howit/3.svg"} height={350} width={500} />{" "}
               </div>
             </div>
           </div>
-          <div className="lg:w-1/2  "></div>
-        </div>
-        <div className="lg:flex">
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
-            {" "}
-            <div className="flex justify-center">
-              <Image src={"/p3/howit/2.svg"} height={350} width={500} />{" "}
-            </div>
-          </div>
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
-            {" "}
-            <div className="flex justify-center">
-              <Image src={"/p3/howit/3.svg"} height={350} width={500} />{" "}
-            </div>
-          </div>
-        </div>
-        <div className="lg:flex ">
-          <div className="lg:w-1/2"></div>
-          <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
-            {" "}
-            <div className="flex justify-center">
-              <Image src={"/p3/howit/4.svg"} height={350} width={500} />{" "}
-            </div>
-            <div className="lg:hidden block lg:mb-0 ">
+          <div className="lg:flex ">
+            <div className="lg:w-1/2"></div>
+            <div className="lg:w-1/2 lg:p-10 lg:mb-0 ">
+              {" "}
               <div className="flex justify-center">
-                <Image src={"/p3/howit/5.svg"} height={350} width={500} />{" "}
+                <Image src={"/p3/howit/4.svg"} height={350} width={500} />{" "}
+              </div>
+              <div className="lg:hidden block lg:mb-0 ">
+                <div className="flex justify-center">
+                  <Image src={"/p3/howit/5.svg"} height={350} width={500} />{" "}
+                </div>
               </div>
             </div>
           </div>
+        </section>
+      </div>
+      <div className="container md:hidden ">
+        <div>
+          <Image src={"/Phone.svg"} height={50} width={50} />{" "}
         </div>
-      </section>
+        <div className="underline  font-medium text-[#FFF6E9]">
+          Schedule your
+          <br />
+          discovery call
+        </div>
+      </div>
     </div>
   );
 }
