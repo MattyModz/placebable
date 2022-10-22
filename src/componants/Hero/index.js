@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
-import Image from "next/image";
+// import Image from "next/image";
 import { useState } from "react";
 // import { RoughNotation } from "react-rough-notation";
 function Hero() {
@@ -30,12 +30,12 @@ function Hero() {
               <div className="font-bold text-[#FFF6E9] text-5xl text-right">
                 But recruiters?
                 <br />
-                They're <span className="border-b-4">still the same</span>
+                They&apos;re <span className="border-b-4">still the same</span>
                 <br />
                 <div className="font-semi-bold text-[#FFF6E9] text-2xl">
                   Unless your one step ahead how can you
                   <br />
-                  trust they'll find what you're really after?
+                  trust they&apos;ll find what you&apos;re really after?
                 </div>
               </div>
             </div>
