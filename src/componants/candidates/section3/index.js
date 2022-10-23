@@ -5,7 +5,7 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Candidhow({}) {
   return (
-    <div className="bg-[#1E1E1E]  lg:h-full  p-4 pb-16 ">
+    <div className="bg-[#1E1E1E]  lg:h-full  p-4 lg:p-32 ">
       <div className="grid   ">
         <div id="1" className="lg:flex justify-center  hidden   ">
           <Image src={"/p3/howit/bgasset.svg"} width={1200} height={750} />

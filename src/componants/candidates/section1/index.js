@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function S1candid() {
   return (
-    <section className="  bg-[#FFF6E9]  lg:p-12 pb-8 py-8">
+    <section className="  bg-[#FFF6E9]  lg:p-32 py-4 lg:py-0">
       <div className="grid   ">
         <div id="1" className="lg:flex justify-center hidden   ">
           <Image src={"/p3/say/bgasset.svg"} width={1200} height={700} />

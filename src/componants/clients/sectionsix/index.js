@@ -5,7 +5,7 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E]  lg:h-full lg:p-16 p-4 ">
+    <div className="bg-[#1E1E1E]  lg:h-full lg:p-32 p-4 ">
       <div className="grid   ">
         <div id="1" className="lg:flex justify-center  hidden   ">
           <Image

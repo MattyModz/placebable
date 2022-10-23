@@ -19,7 +19,7 @@ function Clients() {
         {" "}
         <Sectionfive />
       </div>
-      <div id="4">
+      <div id="4" className="">
         {" "}
         <Sectionsix />{" "}
       </div>
