@@ -4,28 +4,51 @@ import React from "react";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className=" lg:h-screen bg-[#FFF6E9]  lg:p-12 pb-8">
-      <div className="md:flex justify-end bg-center   lg:h-full lg:bg-p2topbg bg-no-repeat bg-contain container ">
-        {" "}
-        <div className="px-4">
-          {" "}
-          <Image src={"/icons/clients/sub.svg"} width={500} height={400} />
-        </div>
-      </div>
-      <div className="  hidden sm:block">
-        <div className=" hidden md:block sm:hidden lg:hidden">
-          {" "}
-          <div className="">
-            <Image src={"/p2/say/4full.svg"} width={800} height={500} />
+    <section className="  bg-[#FFF6E9]  lg:p-12 pb-8 py-8">
+      <div className="grid   ">
+        <div id="1" className="lg:flex justify-center hidden   ">
+          <Image src={"/p2/TopBackground.svg"} width={1200} height={700} />
+          <div className="absolute  w-full lg:flex justify-end px-4 container hidden  ">
+            {" "}
+            <Image src={"/icons/clients/sub.svg"} width={500} height={250} />
           </div>
         </div>
       </div>
-      <div className="h-full pb-24   justify-center md:hidden bg-p2bgassetsmsay bg-no-repeat bg-contain container bg-center ">
+      <div className="  hidden sm:block flex justify-center">
+        <div className=" hidden md:block sm:hidden lg:hidden">
+          <div className="  w-full flex justify-end  px-4 container   ">
+            {" "}
+            <Image src={"/p3/say/title.svg"} width={500} height={250} />
+          </div>
+          <div className="flex justify-center">
+            <Image src={"/p2/say/bgassetmd.svg"} width={900} height={400} />
+          </div>
+        </div>
+      </div>
+      <div className="  w-full flex justify-end  px-4 container  md:hidden  ">
+        {" "}
+        <Image src={"/p2/say/4full.svg"} width={500} height={250} />
+      </div>
+      <div className="h-full     justify-center md:hidden bg-p2bgassetsmsay pb-24 bg-no-repeat bg-contain container bg-center ">
         {" "}
         <div className=" py-8 ">
           {" "}
           <Image src={"/p2/say/green.svg"} width={500} height={500} />
           <Image src={"/p2/say/purple.svg"} width={500} height={500} />
+        </div>
+      </div>
+      <div className="px-4 lg:-mt-20 container">
+        <div className="flex justify-start">
+          <a href="#">
+            <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
+          </a>
+        </div>
+        <div>
+          <a href="#3">
+            <p className="underline text-left text-xl font-bold cursor">
+              Explore our fundamentals
+            </p>
+          </a>
         </div>
       </div>
     </section>
