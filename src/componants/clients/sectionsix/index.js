@@ -10,8 +10,8 @@ function Sectionsix({}) {
         <div id="1" className="lg:flex justify-center  hidden   ">
           <Image
             src={"/icons/clients/howit/all.svg"}
-            width={1200}
-            height={750}
+            width={1100}
+            height={700}
           />
           <div className="absolute py-8  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}

@@ -8,7 +8,7 @@ function Candidhow({}) {
     <div className="bg-[#1E1E1E]  lg:h-full  p-4 lg:p-32 ">
       <div className="grid   ">
         <div id="1" className="lg:flex justify-center  hidden   ">
-          <Image src={"/p3/howit/bgasset.svg"} width={1200} height={750} />
+          <Image src={"/p3/howit/bgasset.svg"} width={1100} height={700} />
           <div className="absolute py-8  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
             <Image src={"/p3/howit/title.svg"} width={500} height={250} />
