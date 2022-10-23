@@ -1,46 +1,39 @@
 import React from "react";
 import Nav from "../Header/nav";
 import Modal from "../Modal/Modal";
-// import Image from "next/image";
+import Image from "next/image";
 import { useState } from "react";
 // import { RoughNotation } from "react-rough-notation";
 function Hero() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center justify-center w-full h-full    overflow-hidden px-4">
+      <header className="relative flex items-center justify-center w-full h-full lg:h-screen    overflow-hidden px-4">
         <div className="relative w-full z-30  h-full  ">
           <Nav />
           <section className=" container grid grid-rows-2  ">
             <div className=" 2xl:text-6xl xl:text-6xl lg:5xl  text-5xl">
               <div className=" font-bold text-white  ">Recruitment 2.0</div>
               <div className="py-2 ">
-                <h1 className="font-bold text-[#FFF6E9] text-5xl">
-                  The job market has
-                  <br />
-                  evolved. Career <br />
-                  expectations have <br />
-                  changed
-                </h1>
+                <Image
+                  src={"/lines/index/thejob.svg"}
+                  width={400}
+                  height={250}
+                />
               </div>
             </div>
 
-            <div className="grid  border">
+            <div className="grid  ">
               <div className="grid ">
-                <div className="font-bold text-[#FFF6E9] text-5xl text-right border ">
-                  But recruiters?
-                  <br />
-                  They&apos;re{" "}
-                  <span className="border-b-4">still the same</span>
-                  <br />
-                  <div className="font-semi-bold text-[#FFF6E9] text-2xl">
-                    Unless your one step ahead how can you
-                    <br />
-                    trust they&apos;ll find what you&apos;re really after?
-                  </div>
+                <div className="text-right">
+                  <Image
+                    src={"/lines/index/thejob.svg"}
+                    width={400}
+                    height={180}
+                  />
                 </div>
-                <div className="lg:flex py-8   ">
-                  <div className="lg:w-1/2">
+                <div className="lg:flex    ">
+                  <div className="lg:w-1/3">
                     {" "}
                     <div className="">
                       {" "}
@@ -57,7 +50,7 @@ function Hero() {
                       </div>
                     </div>
                   </div>
-                  <div className="lg:w-1/2  justify-center">
+                  <div className="lg:w-1/3  justify-center">
                     <div className="flex justify-center">
                       {" "}
                       <img src={"./S1play.svg"} width={50} height={50} />
