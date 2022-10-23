@@ -33,6 +33,10 @@ function Sectionsix({}) {
           discovery call
         </div>
       </div>
+      <div className="lg:hidden md:flex justify-center mb-4">
+        {" "}
+        <Image src={"/icons/clients/howit/how.svg"} width={500} height={250} />
+      </div>
       <div className="  pt-32 pb-32  bg-clihowbgassetmob lg:hidden bg-no-repeat bg-center bg-contain">
         <section className="lg:hidden sm:blocks ">
           <div className="lg:flex ">

@@ -18,16 +18,16 @@ function Sectionfour() {
         <div className=" hidden md:block sm:hidden lg:hidden">
           <div className="  w-full flex justify-end  px-4 container   ">
             {" "}
-            <Image src={"/p3/say/title.svg"} width={500} height={250} />
+            <Image src={"/icons/clients/sub.svg"} width={500} height={250} />
           </div>
           <div className="flex justify-center">
-            <Image src={"/p2/say/bgassetmd.svg"} width={900} height={400} />
+            <Image src={"/p2/say/4full.svg"} width={900} height={400} />
           </div>
         </div>
       </div>
       <div className="  w-full flex justify-end  px-4 container  md:hidden  ">
         {" "}
-        <Image src={"/p2/say/4full.svg"} width={500} height={250} />
+        <Image src={"/icons/clients/sub.svg"} width={500} height={250} />
       </div>
       <div className="h-full     justify-center md:hidden bg-p2bgassetsmsay pb-24 bg-no-repeat bg-contain container bg-center ">
         {" "}
