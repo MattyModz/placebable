@@ -83,14 +83,14 @@ export default function Navclients() {
                   Candidate
                 </Link>
               </li>
-              <li
+              {/* <li
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}
               >
                 <Link href={"/contact"} passHref>
                   Join us
                 </Link>
-              </li>
+              </li> */}
               <li
                 className="text-white font-bold cursor-pointer hover:text-gray-400 md:ml-10"
                 onClick={() => showMenu((state) => !Menu)}

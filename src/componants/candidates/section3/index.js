@@ -11,11 +11,7 @@ function Candidhow({}) {
           <Image src={"/p3/howit/bgasset.svg"} width={1200} height={750} />
           <div className="absolute py-8  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
-            <Image
-              src={"/icons/clients/howit/how.svg"}
-              width={500}
-              height={250}
-            />
+            <Image src={"/p3/howit/title.svg"} width={500} height={250} />
           </div>
         </div>
       </div>
