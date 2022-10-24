@@ -11,7 +11,7 @@ function Clients() {
         {" "}
         <Indexclient />
       </div>
-      <div id="2">
+      <div id="">
         {" "}
         <Sectionfour />
       </div>
