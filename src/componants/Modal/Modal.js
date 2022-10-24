@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import Script from "next/script";
+// import Script from "next/script";
 const MODAL_STYLES = {
   position: "fixed",
   top: "50%",
