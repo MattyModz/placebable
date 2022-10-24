@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-
+import Script from "next/script";
 const MODAL_STYLES = {
   position: "fixed",
   top: "50%",
@@ -38,8 +38,9 @@ export default function Modal({
           <button className="" onClick={onClose}>
             X
           </button>
-          <div></div>
         </div>
+        <div className="relative"></div>
+        <script src="https://player.vimeo.com/api/player.js" async></script>
       </div>
     </>,
     document.getElementById("portal")

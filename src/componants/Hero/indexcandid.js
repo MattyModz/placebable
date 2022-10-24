@@ -1,7 +1,10 @@
 import React from "react";
 import Navcandid from "../Header/headercandidates";
 import Image from "next/image";
+import { useState } from "react";
+import Modal from "../Modal/Modal";
 function Indexcandid() {
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <header className="relative flex items-center  justify-center w-full overflow-hidden px-4 bg-black  ">
@@ -38,9 +41,9 @@ function Indexcandid() {
                   </div>
                   <div
                     className="flex underline justify-center text-xl py-6 text-[#FFF6E9]"
-                    // onClick={() => {
-                    //   setShowModal(true);
-                    // }}
+                    onClick={() => {
+                      setShowModal(true);
+                    }}
                   >
                     {" "}
                     Watch the full video
@@ -58,11 +61,11 @@ function Indexcandid() {
           muted
           class="absolute z-10 w-auto min-w-full  max-w-none"
         >
-          <source src="/Landing page.mp4" type="video/mp4" />
+          <source src="/Candidate.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </header>
-      {/* <Modal open={showModal} onClose={() => setShowModal(false)}></Modal> */}
+      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
     </>
   );
 }

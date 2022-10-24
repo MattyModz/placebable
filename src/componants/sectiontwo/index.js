@@ -6,7 +6,7 @@ function Sectiontwo() {
     <div className=" bg-hero bg-cover">
       <section className=" pb-2   text-[#FFF6E9] lg:px-4 px-4">
         <div className=" container overflow-hidden">
-          <div className="max-w-6xl">
+          <div className="max-w-6xl py-2">
             <Image src={"/lines/index/broken.svg"} width={800} height={350} />
           </div>
           <div className="lg:flex lg:items-center  ">
