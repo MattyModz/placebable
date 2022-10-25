@@ -1,6 +1,8 @@
 import { getClient, sanityClient, usePreviewSubscription } from "../../sanity";
 import React from "react";
 import PortableText from "react-portable-text";
+import Nav from "../../src/componants/Header/nav";
+import Contactform from "../../src/componants/Contact";
 function filterDataToSingleItem(data, preview) {
   if (!Array.isArray(data)) {
     return data;
@@ -30,38 +32,51 @@ function Policys({ data, preview }) {
   const policy = filterDataToSingleItem(previewData, preview);
 
   return (
-    <main className=" mx-auto bg-body-dark text-white ">
-      {/* {preview && <Link href="/api/exit-preview">Preview Mode Activated!</Link>} */}
-      <article className="container flex justify-center font-inter text-2xl lg:text-6xl py-8">
-        {policy?.title && <h1>{policy.title}</h1>}
+    <>
+      <div className=" flex items-center   justify-center w-full  overflow-hidden px-4 bg-[#303030]  ">
+        <div className=" w-full z-30   h-full ">
+          <Nav />
+          <main className=" mx-auto   text-white ">
+            {/* {preview && <Link href="/api/exit-preview">Preview Mode Activated!</Link>} */}
+            <article className=" justify-center font-inter text-2xl lg:text-7xl  ">
+              <div className="flex justify-center  text-6xl py-8  font-bold">
+                {policy?.title && <h1>{policy.title}</h1>}
+              </div>
 
-        <PortableText
-          className="p-24 container"
-          dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
-          projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
-          content={policy?.body}
-          serializers={{
-            h1: (props: any) => (
-              <h1 className="text-6xl font-bold my-5" {...props} />
-            ),
-            h2: (props: any) => (
-              <h2 className="text-4xl font-bold my-5" {...props} />
-            ),
-            h3: (props: any) => (
-              <h2 className="text-3xl font-bold my-5" {...props} />
-            ),
-            li: ({ children }: any) => (
-              <li className="ml-4 list-disc"> {children} </li>
-            ),
-            link: ({ href, children }: any) => (
-              <a href={href} className="text-blue-400 hover:underline">
-                {children}
-              </a>
-            ),
-          }}
-        />
-      </article>
-    </main>
+              <PortableText
+                className=" container "
+                dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
+                projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
+                content={policy?.body}
+                serializers={{
+                  h1: (props: any) => (
+                    <h1 className="text-6xl font-bold my-5" {...props} />
+                  ),
+                  h2: (props: any) => (
+                    <h2 className="text-4xl font-bold my-5" {...props} />
+                  ),
+                  h3: (props: any) => (
+                    <h2 className="text-3xl font-bold my-5" {...props} />
+                  ),
+                  li: ({ children }: any) => (
+                    <li className="ml-4 list-disc"> {children} </li>
+                  ),
+                  link: ({ href, children }: any) => (
+                    <a href={href} className="text-blue-400 hover:underline">
+                      {children}
+                    </a>
+                  ),
+                }}
+              />
+            </article>
+            <div id="5">
+              {" "}
+              <Contactform />
+            </div>
+          </main>
+        </div>
+      </div>
+    </>
   );
 }
 

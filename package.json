@@ -1,5 +1,5 @@
 {
-  "name": "MCPLanding",
+  "name": "Placeable",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
@@ -33,7 +33,8 @@
     "react-hook-form": "^7.35.0",
     "react-rough-notation": "^1.0.3",
     "sass": "^1.54.9",
-    "sharp": "^0.31.0"
+    "sharp": "^0.31.0",
+    "react-portable-text": "^0.4.3"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",

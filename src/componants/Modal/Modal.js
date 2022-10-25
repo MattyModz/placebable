@@ -20,20 +20,6 @@ const OVERLAY_STYLES = {
   zIndex: 1000,
 };
 
-const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive">
-    <iframe
-      width="853"
-      height="480"
-      src={`https://www.youtube.com/embed/${embedId}`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    />
-  </div>
-);
-
 export default function Modal({
   open,
 
@@ -46,15 +32,26 @@ export default function Modal({
       <div className="" style={OVERLAY_STYLES} />
       <div
         style={MODAL_STYLES}
-        className="bg-black/50 rounded-xl fixed w-full h-full text-white"
+        className="bg-black/50 rounded-xl fixed w-full h-full text-white h-screen"
       >
-        <div className="justify-end p-4 mt-2">
+        <div className=" p-4 mt-2">
           <button className="" onClick={onClose}>
             X
           </button>
         </div>
-        <div className="grid border content-center px-24"></div>
-        <YoutubeEmbed embedId="rokGy0huYEA" className="p-8" />
+        <div className=" h-full grid content-center relative">
+          <div className=" flex justify-center overflow-hidden relative">
+            <iframe
+              width="853"
+              height="480"
+              src={`https://www.youtube.com/embed/3LKskVWLKcQ`}
+              frame="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
+          </div>
+        </div>
       </div>
     </>,
     document.getElementById("portal")
