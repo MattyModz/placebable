@@ -34,7 +34,7 @@ export default function Modal({
         style={MODAL_STYLES}
         className="bg-black/50 rounded-xl fixed w-full h-full text-white h-screen"
       >
-        <div className=" p-4 mt-2">
+        <div className=" p-4 mt-3">
           <button className="" onClick={onClose}>
             X
           </button>
