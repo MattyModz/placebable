@@ -1,5 +1,5 @@
 import React from "react";
-// import Nav from "./nav";
+import Nav from "./nav";
 // import Script from "next/script";
 const Header = () => {
   return (
@@ -19,6 +19,7 @@ const Header = () => {
           content="width=device-width, initial-scale=1, maximum-scale=1"
         ></meta>
       </head>
+      <div className=" "> </div>
     </>
   );
 };

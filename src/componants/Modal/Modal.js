@@ -20,6 +20,20 @@ const OVERLAY_STYLES = {
   zIndex: 1000,
 };
 
+const YoutubeEmbed = ({ embedId }) => (
+  <div className="video-responsive">
+    <iframe
+      width="853"
+      height="480"
+      src={`https://www.youtube.com/embed/${embedId}`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+  </div>
+);
+
 export default function Modal({
   open,
 
@@ -39,8 +53,8 @@ export default function Modal({
             X
           </button>
         </div>
-        <div className="relative"></div>
-        <script src="https://player.vimeo.com/api/player.js" async></script>
+        <div className="grid border content-center px-24"></div>
+        <YoutubeEmbed embedId="rokGy0huYEA" className="p-8" />
       </div>
     </>,
     document.getElementById("portal")

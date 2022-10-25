@@ -5,19 +5,19 @@ import Image from "next/image";
 // import Card2 from "./cardpurp";
 function Sectionsix({}) {
   return (
-    <div className="bg-[#1E1E1E]  lg:h-full lg:p-32 p-4 ">
+    <div className="bg-[#303030]  lg:h-full lg:p-32 p-4 ">
       <div className="grid   ">
-        <div id="1" className="lg:flex justify-center  hidden   ">
+        <div id="1" className="lg:flex justify-center  py-4 hidden   ">
           <Image
             src={"/icons/clients/howit/all.svg"}
             width={1100}
             height={700}
           />
-          <div className="absolute py-8  w-full lg:flex justify-end px-4 container hidden  ">
+          <div className="absolute   w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
             <Image
               src={"/icons/clients/howit/how.svg"}
-              width={500}
+              width={400}
               height={250}
             />
           </div>
@@ -33,7 +33,7 @@ function Sectionsix({}) {
           discovery call
         </div>
       </div>
-      <div className="lg:hidden md:flex justify-center mb-4">
+      <div className="lg:hidden md:flex justify-center mb-4 py-8">
         {" "}
         <Image src={"/icons/clients/howit/how.svg"} width={500} height={250} />
       </div>

@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 function Sectionfour() {
   return (
-    <section className="  bg-[#FFF6E9]  lg:p-32 pb-8 ">
+    <section className="  bg-[#FFF6E9]  lg:p-32 pb-8 py-8">
       <div className="grid   ">
         <div id="2" className="lg:flex justify-center py-8 hidden   ">
           <Image src={"/p2/TopBackground.svg"} width={1200} height={700} />

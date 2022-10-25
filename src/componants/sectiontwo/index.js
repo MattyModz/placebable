@@ -3,10 +3,10 @@ import Image from "next/image";
 // import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
-    <div className=" bg-hero bg-cover">
+    <div className=" bg-hero bg-cover pb-24">
       <section className=" pb-2   text-[#FFF6E9] lg:px-4 px-4">
         <div className=" container overflow-hidden">
-          <div className="max-w-6xl py-2">
+          <div className="max-w-6xl py-6">
             <Image src={"/lines/index/broken.svg"} width={800} height={350} />
           </div>
           <div className="lg:flex lg:items-center  ">
@@ -68,7 +68,7 @@ function Sectiontwo() {
               </div>
             </div>
           </div>
-          <div className="flex justify-end  px-4">
+          <div className="flex justify-end py-8 px-4">
             <div>
               <div className="flex justify-end">
                 <a href="#3">

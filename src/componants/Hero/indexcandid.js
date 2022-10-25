@@ -10,12 +10,12 @@ function Indexcandid() {
       <header className="relative flex items-center  justify-center w-full overflow-hidden px-4 bg-black  ">
         <div className=" relative w-full z-30   h-full ">
           <Navcandid />
-          <section className="container      ">
+          <section className="container   ">
             <div className="grid grid-rows-2 ">
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image src={"/p3/hero/head.svg"} width={900} height={500} />
               </div>
-              <div className="  w-full   py-6  lg:flex">
+              <div className="  w-full  items-center  lg:-mt-24  lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}

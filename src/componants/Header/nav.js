@@ -6,7 +6,7 @@ export default function Nav() {
 
   const [Menu, showMenu] = useState(false);
   return (
-    <nav className=" w-full select-none shadow-sm container ">
+    <nav className=" w-full select-none shadow-sm container  ">
       <div className="flex items-center justify-between h-20  py-2 container md:h-24 sm:box-content">
         <div className="flex items-center ">
           <a
@@ -17,7 +17,7 @@ export default function Nav() {
               <Link href={"/"} passHref>
                 <div className="">
                   <Image
-                    src={"/Logo.svg"}
+                    src={"/Logogreen.svg"}
                     width={150}
                     height={200}
                     alt="Logo"

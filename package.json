@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/node": "18.11.5",
     "autoprefixer": "^10.4.11",
     "eslint": "^8.23.1",
     "eslint-config-google": "^0.14.0",
