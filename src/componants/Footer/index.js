@@ -36,7 +36,7 @@ function Footer() {
           <div className="flex justify-end px-8">
             <div className="mr-4">
               {" "}
-              <Link href={"/privacy"} passHref>
+              <Link href={"policy/privacy-policy"} passHref>
                 Privacy
               </Link>
             </div>

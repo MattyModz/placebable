@@ -30,14 +30,13 @@ function Policys({ data, preview }) {
   });
 
   const policy = filterDataToSingleItem(previewData, preview);
-
+  console.log(data);
   return (
     <>
       <div className=" flex items-center   justify-center w-full  overflow-hidden px-4 bg-[#303030]  ">
         <div className=" w-full z-30   h-full ">
           <Nav />
           <main className=" mx-auto   text-white ">
-            {/* {preview && <Link href="/api/exit-preview">Preview Mode Activated!</Link>} */}
             <article className=" justify-center font-inter text-2xl lg:text-7xl  ">
               <div className="flex justify-center  text-6xl py-8  font-bold">
                 {policy?.title && <h1>{policy.title}</h1>}
@@ -106,7 +105,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params, preview = false }) => {
   const query = `*[_type == "policy" && slug.current == $slug]{
- _id,
+
 
  title,
  body,

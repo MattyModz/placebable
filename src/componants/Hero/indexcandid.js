@@ -15,7 +15,7 @@ function Indexcandid() {
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image src={"/p3/hero/head.svg"} width={900} height={500} />
               </div>
-              <div className="  w-full  items-center  lg:-mt-24  lg:flex">
+              <div className="  w-full  items-end  py-8  lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}
@@ -26,11 +26,9 @@ function Indexcandid() {
                     </a>
                   </div>
                   <div className="  text-xl">
-                    <div className="w-1/2 py-4 text-[#FFF6E9] underline">
+                    <div className="w-1/2   text-[#FFF6E9] underline">
                       {" "}
-                      <a href="#2">
-                        Discover why its time to give Placeable a shot
-                      </a>
+                      <a href="#2">Discover Placeable</a>
                     </div>
                   </div>
                 </div>

@@ -19,7 +19,7 @@ function Indexclient() {
                   height={500}
                 />
               </div>
-              <div className="  w-full  items-center  lg:-mt-24  lg:flex">
+              <div className="  w-full  items-end  py-8 lg:flex">
                 {" "}
                 <div className="lg:w-1/3 ">
                   {" "}
@@ -30,9 +30,9 @@ function Indexclient() {
                     </a>
                   </div>
                   <div className="  text-xl">
-                    <div className="w-1/2 py-4 text-[#FFF6E9] underline">
+                    <div className="w-1/2 py-6  text-[#FFF6E9] underline">
                       {" "}
-                      <a href="#2">Discover what Placeable can offer instead</a>
+                      <a href="#2">Discover Placeable</a>
                     </div>
                   </div>
                 </div>

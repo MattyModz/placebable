@@ -42,13 +42,14 @@ export default function Modal({
         <div className=" h-full grid content-center relative">
           <div className=" flex justify-center overflow-hidden relative">
             <iframe
-              width="853"
-              height="480"
+              width="1253"
+              height="680"
               src={`https://www.youtube.com/embed/3LKskVWLKcQ`}
               frame="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               title="Embedded youtube"
+              className="rounded-xl"
             />
           </div>
         </div>
