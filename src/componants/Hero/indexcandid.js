@@ -3,11 +3,12 @@ import Navcandid from "../Header/headercandidates";
 import Image from "next/image";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
+
 function Indexcandid() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <header className="relative flex items-center  justify-center w-full overflow-hidden px-4 bg-black  ">
+      <header className="relative flex items-center  justify-center w-full overflow-hidden px-4 bg-black   ">
         <div className=" relative w-full z-30   h-full ">
           <Navcandid />
           <section className="container   ">
@@ -15,7 +16,7 @@ function Indexcandid() {
               <div className="   lg:w-1/2 justify-start flex ">
                 <Image src={"/p3/hero/head.svg"} width={900} height={500} />
               </div>
-              <div className="  w-full  items-end  py-8  lg:flex">
+              <div className="  w-full  items-center  py-8  lg:flex">
                 {" "}
                 <div className="lg:w-1/3">
                   {" "}
@@ -63,7 +64,11 @@ function Indexcandid() {
           Your browser does not support the video tag.
         </video>
       </header>
-      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
+      <Modal
+        content={"https://www.youtube.com/embed/ESopbDO73Ss"}
+        open={showModal}
+        onClose={() => setShowModal(false)}
+      ></Modal>
     </>
   );
 }

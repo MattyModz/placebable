@@ -3,15 +3,21 @@ import { AnimatePresence } from "framer-motion";
 // import Index from "../src/componants/Footer/index";
 import Header from "../src/componants/Header/header";
 import Footer from "../src/componants/Footer/index";
+import ContextProvider from "../Context/Context";
+import ContextProviderform from "../Context/Contextform";
 function MyApp({ Component, pageProps, router }) {
   return (
     <div>
-      <Header />
-      <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} key={router.route} />
-      </AnimatePresence>
+      <ContextProvider>
+        <ContextProviderform>
+          <Header />
+          <AnimatePresence exitBeforeEnter>
+            <Component {...pageProps} key={router.route} />
+          </AnimatePresence>
 
-      <Footer />
+          <Footer />
+        </ContextProviderform>
+      </ContextProvider>
     </div>
   );
 }

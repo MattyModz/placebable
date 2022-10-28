@@ -69,14 +69,18 @@ function Hero() {
           autoPlay
           loop
           muted
-          class="absolute z-10 absolute z-10 w-auto min-w-full  max-w-none "
+          class="absolute z-10 absolute z-10 w-auto w-full "
         >
           <source src="/Landing page.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </header>
 
-      <Modal open={showModal} onClose={() => setShowModal(false)}></Modal>
+      <Modal
+        content={"https://www.youtube.com/embed/3LKskVWLKcQ"}
+        open={showModal}
+        onClose={() => setShowModal(false)}
+      ></Modal>
     </>
   );
 }
