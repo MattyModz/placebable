@@ -5,7 +5,7 @@ function Sectionfive() {
   return (
     <div className="bg-cfund bg-cover h-full text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
       <div className=" container overflow-hidden ">
-        <div className="">
+        <div id="3" className="">
           <Image src={"/icons/clients/fund.svg"} width={800} height={300} />
         </div>
         <div className=" lg:grid grid-cols-3">

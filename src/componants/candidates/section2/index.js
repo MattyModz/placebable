@@ -5,7 +5,7 @@ function Candidfive() {
   return (
     <div className="bg-cpromise bg-cover h-full text-[#FFF6E9] lg:px-4 p-4  xl:flex ">
       <div className=" container overflow-hidden ">
-        <div className="">
+        <div id="3" className="">
           <Image src={"/p3/promise/title.svg"} width={500} height={300} />
         </div>
         <div className=" lg:grid grid-cols-3">

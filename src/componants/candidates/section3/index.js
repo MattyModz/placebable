@@ -7,9 +7,12 @@ function Candidhow({}) {
   return (
     <div className="bg-[#303030]  lg:h-full  p-4 lg:p-32 ">
       <div className="grid   ">
-        <div id="1" className="lg:flex justify-center  hidden   ">
+        <div className="lg:flex justify-center  hidden   ">
           <Image src={"/p3/howit/bgasset.svg"} width={1100} height={700} />
-          <div className="absolute   w-full lg:flex justify-end px-4 container hidden  ">
+          <div
+            id="4"
+            className="absolute   w-full lg:flex justify-end px-4 container hidden  "
+          >
             {" "}
             <Image src={"/p3/howit/title.svg"} width={400} height={250} />
           </div>
@@ -37,7 +40,7 @@ function Candidhow({}) {
           Book in a chat
         </div>
       </div>
-      <div className="lg:hidden md:flex justify-center mb-4 py-8">
+      <div className="lg:hidden md:flex justify-center mb-4  py-8">
         {" "}
         <Image src={"/icons/clients/howit/how.svg"} width={500} height={250} />
       </div>
