@@ -12,12 +12,10 @@ export default function Home() {
         {" "}
         <Hero />
       </div>
-      <div id="1">
-        {" "}
-        <Sectionone />
-      </div>
+
+      <Sectionone />
+
       <div id="2">
-        {" "}
         <Sectiontwo />
       </div>
       <div id="3">

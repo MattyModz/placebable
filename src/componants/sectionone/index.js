@@ -3,8 +3,8 @@ import React from "react";
 function Sectionone() {
   return (
     <div className="bg-[#FFF6E9] lg:p-32  ">
-      <div className=" bg-[#FFF6E9] grid items-center container ">
-        <div className="flex ">
+      <div id="1" className=" bg-[#FFF6E9] grid items-center container ">
+        <div className="flex  ">
           <div className="lg:w-1/4"></div>
           <div className="lg:w-1/2  ">
             <div className="text-center bg-JT p-12 bg-center bg-cover ">
