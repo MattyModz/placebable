@@ -15,8 +15,9 @@ function Candidates() {
       <Candidfive />
 
       <Candidhow />
-
-      <Contactform />
+      <div id="5">
+        <Contactform />
+      </div>
     </>
   );
 }
