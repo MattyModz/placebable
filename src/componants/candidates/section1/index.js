@@ -37,8 +37,8 @@ function S1candid() {
           <Image src={"/p3/say/green.svg"} width={500} height={500} />
         </div>
       </div>
-      <div className="px-4  container ">
-        <div className="flex justify-start Z-100">
+      <div className="px-4 lg:-mt-20 container ">
+        <div className="flex justify-start -100">
           <a href="#3">
             <img src={"/icons/S3Arrow.svg"} height={50} width={50} />
           </a>
