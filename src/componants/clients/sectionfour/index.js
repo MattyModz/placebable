@@ -5,8 +5,8 @@ import Image from "next/image";
 function Sectionfour() {
   return (
     <section className="  bg-[#FFF6E9]  lg:p-32 pb-8 py-8">
-      <div className="grid   ">
-        <div id="2" className="lg:flex justify-center py-8 hidden   ">
+      <div id="2" className="grid   ">
+        <div className="lg:flex justify-center py-8 hidden   ">
           <Image src={"/p2/TopBackground.svg"} width={1200} height={700} />
           <div className="absolute  w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
@@ -16,7 +16,7 @@ function Sectionfour() {
       </div>
       <div className="  hidden sm:block flex justify-center">
         <div className=" hidden md:block sm:hidden lg:hidden">
-          <div className="  w-full flex justify-end  px-4 container   ">
+          <div id="2" className="  w-full flex justify-end  px-4 container   ">
             {" "}
             <Image src={"/icons/clients/sub.svg"} width={500} height={250} />
           </div>
@@ -25,7 +25,10 @@ function Sectionfour() {
           </div>
         </div>
       </div>
-      <div className="  w-full flex justify-end  px-4 container  md:hidden  ">
+      <div
+        id="2"
+        className="  w-full flex justify-end  px-4 container  md:hidden  "
+      >
         {" "}
         <Image src={"/icons/clients/sub.svg"} width={500} height={250} />
       </div>
@@ -34,7 +37,12 @@ function Sectionfour() {
         <div className=" py-8 ">
           {" "}
           <Image src={"/p2/say/green.svg"} width={500} height={500} />
-          <Image src={"/p2/say/purple.svg"} width={500} height={500} />
+          <Image
+            className="py-8"
+            src={"/p2/say/purple.svg"}
+            width={500}
+            height={500}
+          />
         </div>
       </div>
       <div className="px-4 lg:-mt-20 container">

@@ -6,13 +6,10 @@ import Image from "next/image";
 function Candidhow({}) {
   return (
     <div className="bg-[#303030]  lg:h-full  p-4 lg:p-32 ">
-      <div className="grid   ">
+      <div id="4" className="grid   ">
         <div className="lg:flex justify-center  hidden   ">
           <Image src={"/p3/howit/bgasset.svg"} width={1100} height={700} />
-          <div
-            id="4"
-            className="absolute   w-full lg:flex justify-end px-4 container hidden  "
-          >
+          <div className="absolute   w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
             <Image src={"/p3/howit/title.svg"} width={400} height={250} />
           </div>

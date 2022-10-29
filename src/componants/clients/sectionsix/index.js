@@ -6,17 +6,14 @@ import Image from "next/image";
 function Sectionsix({}) {
   return (
     <div className="bg-[#303030]  lg:h-full lg:p-32 p-4 ">
-      <div className="grid   ">
+      <div id="4" className="grid   ">
         <div className="lg:flex justify-center  py-4 hidden   ">
           <Image
             src={"/icons/clients/howit/all.svg"}
             width={1100}
             height={700}
           />
-          <div
-            id="4"
-            className="absolute    w-full lg:flex justify-end px-4 container hidden  "
-          >
+          <div className="absolute    w-full lg:flex justify-end px-4 container hidden  ">
             {" "}
             <Image
               src={"/icons/clients/howit/how.svg"}
