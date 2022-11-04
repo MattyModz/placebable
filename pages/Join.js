@@ -1,7 +1,7 @@
 import React from "react";
 // import Nav from "../Header/nav";
 // import Modal from "../Modal/Modal";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 function indexjoin() {
   return (
