@@ -38,7 +38,7 @@ function Sectionthree() {
             </div>
             <div className=" bg-gray-50 bg-join  lg:p-0 p-24 bg-cover mt-2 grid items-center text-3xl ">
               <div className="text-center">
-                <Link href={"/joinus"}>Join us</Link>
+                <a href="#5">Contact us</a>
               </div>
             </div>
           </div>

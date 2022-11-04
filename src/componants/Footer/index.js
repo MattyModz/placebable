@@ -26,8 +26,8 @@ function Footer() {
             </div>
             <div>
               {" "}
-              <Link href={"/Join"} passHref>
-                Join us
+              <Link href={"/"} passHref>
+                Home
               </Link>
             </div>
           </div>
