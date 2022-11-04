@@ -14,22 +14,22 @@ function Hero() {
           <section className=" container   h-full ">
             <div className="   container h-full grid items-stretch">
               <div className=" 2xl:text-5xl xl:text-5xl lg:4xl text-4xl">
-                <div className=" font-bold text-[#FFF6E9] ">
+                <div className=" font-bold text-[#FFF6E9] text-6xl">
                   Recruitment 2.0
                 </div>
                 <div className=" -ml-4">
                   <Image
                     src={"/lines/index/thejob.svg"}
-                    width={450}
-                    height={220}
+                    width={550}
+                    height={280}
                   />
                 </div>
               </div>
               <div className="  flex justify-end  ">
                 {" "}
-                <Image src={"/lines/index/sub.svg"} width={450} height={50} />
+                <Image src={"/lines/index/sub.svg"} width={550} height={50} />
               </div>
-              <div className="lg:flex lg:-mt-8">
+              <div className="lg:flex lg:-mt-12 pb-8">
                 <div className="lg:w-1/3">
                   {" "}
                   <div className="">

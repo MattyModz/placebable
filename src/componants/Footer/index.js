@@ -14,20 +14,20 @@ function Footer() {
           <div className="flex justify-between">
             <div>
               {" "}
-              <Link href={"/clientss"} passHref>
+              <Link href={"/clients"} passHref>
                 Client
               </Link>
             </div>
             <div>
               {" "}
-              <Link href={"/candidatess"} passHref>
+              <Link href={"/candidates"} passHref>
                 Candidate
               </Link>
             </div>
             <div>
               {" "}
-              <Link href={"/joinus"} passHref>
-                Join Us
+              <Link href={"/Join"} passHref>
+                Join us
               </Link>
             </div>
           </div>

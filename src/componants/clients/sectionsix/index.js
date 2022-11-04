@@ -27,11 +27,13 @@ function Sectionsix({}) {
         <div>
           <Image src={"/Phone.svg"} height={50} width={50} />{" "}
         </div>
-        <div className="underline  font-medium text-[#FFF6E9]">
-          Schedule your
-          <br />
-          discovery call
-        </div>
+        <a href="#5">
+          <div className="underline  font-medium text-[#FFF6E9]">
+            Schedule your
+            <br />
+            discovery call
+          </div>
+        </a>
       </div>
       <div className="lg:hidden md:flex justify-center mb-4 py-8">
         {" "}
