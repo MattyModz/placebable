@@ -17,17 +17,17 @@ function Hero() {
                 <div className=" font-bold text-[#FFF6E9] text-6xl">
                   Recruitment 2.0
                 </div>
-                <div className=" -ml-4">
+                <div className=" -ml-4 py-2">
                   <Image
                     src={"/lines/index/thejob.svg"}
                     width={550}
-                    height={280}
+                    height={250}
                   />
                 </div>
               </div>
               <div className="  flex justify-end  ">
                 {" "}
-                <Image src={"/lines/index/sub.svg"} width={550} height={50} />
+                <Image src={"/lines/index/sub.svg"} width={550} height={100} />
               </div>
               <div className="lg:flex lg:-mt-12 pb-8">
                 <div className="lg:w-1/3">

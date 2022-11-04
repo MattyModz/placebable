@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('../../public/home1.jpg')",
         candidate: "url('../../public/Candidate.jpg')",
+        candidatemob: "url('../../public/mob1.jpg')",
+        clientmob: "url('../../public/mob2.jpg')",
+        contactmob: "url('../../public/mob3.jpg')",
         clients: "url('../../public/Clients.jpg')",
         cfund: "url('../../public/icons/clients/clients.png')",
         cpromise: "url('../../public/p3/promise/bgasset.svg')",
