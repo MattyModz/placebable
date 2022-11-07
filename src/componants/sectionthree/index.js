@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Sectionthree() {
   return (
-    <div className="bg-[#303030] px-4">
+    <div className="bg-[#303030] px-4 ">
       <div className=" bg-[#303030] container">
         <div className=" lg:flex flex-row-reverse container py-16 pb-16  ">
           <div className="lg:w-4/5 container font-bold text-6xl lg:text-9xl text-white h-full ">

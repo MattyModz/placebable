@@ -3,7 +3,7 @@ import Image from "next/image";
 // import { RoughNotation } from "react-rough-notation";
 function Sectiontwo() {
   return (
-    <div className=" bg-hero bg-cover pb-24">
+    <div className=" md:bg-hero bg-candidatemob bg-cover pb-24">
       <section className=" pb-2   text-[#FFF6E9] lg:px-4 px-4">
         <div className=" container overflow-hidden">
           <div className="max-w-6xl py-6">
