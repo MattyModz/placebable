@@ -1,12 +1,17 @@
 import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
-  const { fullName, Email, Message, PhoneNumber } = req.body;
+  const { firstName, lastName, Email, Message, Subject, Phone } = req.body;
 
   const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
+    host: "smtp.office365.com", // hostname
+    secureConnection: false, // TLS requires secureConnection to be false
+    secure: false,
+    port: 587, // port for secure SMTP
+    requireTLS: true,
+    tls: {
+      ciphers: "SSLv3",
+    },
     auth: {
       user: process.env.user,
       pass: process.env.pass,
@@ -16,11 +21,13 @@ export default async function handler(req, res) {
   try {
     const emailRes = await transporter.sendMail({
       from: Email,
-      to: "support@mycontentpal.com",
-      subject: `Contact form submission from ${fullName}`,
+      to: "support@placeable.co.uk",
+      subject: `Contact form submission from ${firstName}`,
       html: `<p>You have a new contact form submission</p><br>
-       <p><strong>Name: </strong> ${fullName} </p><br>
-       <p><strong>Phone: </strong> ${PhoneNumber} </p><br>
+       <p><strong>Name: </strong> ${firstName} ${lastName} </p><br>
+       <p><strong>Phone: </strong> ${Phone} </p><br>
+              <p><strong>Subject: </strong> ${Subject} </p><br>
+       <p><strong>Message: </strong> ${Email} </p><br>
        <p><strong>Message: </strong> ${Message} </p><br>
        `,
     });
