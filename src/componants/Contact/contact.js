@@ -3,8 +3,6 @@ import axios from "axios";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import Head from "next/head";
-
 function Contact() {
   const { register, handleSubmit } = useForm();
   const [formStatus, setFormStatus] = useState(false);
